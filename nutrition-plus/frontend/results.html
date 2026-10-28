@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Planner Recommendations | Nutrition Plus</title>
+  <script>
+    (function() {
+      var savedTheme = localStorage.getItem("nutrition_plus_theme") || "dark";
+      document.documentElement.setAttribute("data-theme", savedTheme);
+    })();
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo-wrap">
+        <div class="logo-badge">🥗</div>
+        <span>Nutrition <span class="logo-text-accent">Plus</span></span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="profile.html" class="nav-link">Plan Wizard</a></li>
+        <li><a href="results.html" class="nav-link active">Daily Planner</a></li>
+        <li><a href="scanner.html" class="nav-link">📸 Food Scanner</a></li>
+        <li><a href="saved.html" class="nav-link">Saved Plans</a></li>
+        <li><a href="about.html" class="nav-link">About & Safety</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="btn-theme-toggle" onclick="window.toggleTheme && window.toggleTheme()" title="Toggle Night/Day Mode" aria-label="Toggle Night Mode">☀️</button>
+        <button id="hamburger-btn" class="hamburger-btn" aria-label="Toggle navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Top Action Bar -->
+    <section class="results-header">
+      <div class="results-meta">
+        <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.4rem; flex-wrap: wrap;">
+          <h1 style="font-size: 2rem; font-weight: 800;">Your Daily Wellness Ideas</h1>
+          <button id="excluded-count-badge" class="badge badge-warning" style="cursor: pointer; display: none;" title="Click to view full transparency exclusion log">
+            🛡️ 0 meals excluded
+          </button>
+        </div>
+        <p style="color: var(--text-muted); font-size: 0.95rem;">
+          Explainable, transparent suggestions tailored to your routine. Swap or skip any item anytime.
+        </p>
+      </div>
+
+      <div class="results-actions">
+        <a href="profile.html" class="btn btn-secondary">
+          ⚙ Edit Preferences
+        </a>
+        <button id="btn-regenerate-plan" class="btn btn-secondary">
+          ↻ Regenerate Plan
+        </button>
+        <button id="btn-save-plan" class="btn btn-primary">
+          💾 Save Plan
+        </button>
+      </div>
+    </section>
+
+    <!-- Physical Transformation & Energy Focus Card (Dynamically populated) -->
+    <section id="transformation-summary-box" style="display: none;"></section>
+
+    <!-- MEALS SECTION -->
+    <section class="planner-section">
+      <div class="planner-section-title">
+        <span>🥗 Nourishment & Meal Ideas</span>
+      </div>
+      <p class="planner-section-desc">
+        Filtered for your allergies and eating pattern, then ranked by cuisine match, budget, and cook time.
+      </p>
+
+      <div class="reco-grid" id="meals-grid" aria-live="polite">
+        <!-- Meal cards rendered dynamically -->
+      </div>
+    </section>
+
+    <!-- MOVEMENT SECTION -->
+    <section class="planner-section">
+      <div class="planner-section-title">
+        <span>🏃 Movement & Physical Activity</span>
+      </div>
+      <p class="planner-section-desc">
+        Light to moderate functional movement matching your available equipment and target minutes.
+      </p>
+
+      <div class="reco-grid" id="workouts-grid" aria-live="polite">
+        <!-- Workout cards rendered dynamically -->
+      </div>
+    </section>
+  </main>
+
+  <!-- RECIPE & INSTRUCTIONS MODAL -->
+  <div class="modal-backdrop" id="recipe-modal" role="dialog" aria-modal="true" aria-labelledby="modal-recipe-title">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-recipe-title">Recipe Details</h3>
+        <button class="modal-close-btn" aria-label="Close modal">✕</button>
+      </div>
+      <div class="modal-body" id="modal-recipe-body">
+        <!-- Rendered dynamically -->
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary modal-close-btn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXCLUDED BREAKDOWN TRANSPARENCY MODAL -->
+  <div class="modal-backdrop" id="excluded-modal" role="dialog" aria-modal="true" aria-labelledby="excluded-modal-title">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title" id="excluded-modal-title">Safety Exclusions Breakdown</h3>
+        <button class="modal-close-btn" aria-label="Close modal">✕</button>
+      </div>
+      <div class="modal-body" id="excluded-modal-body">
+        <!-- Rendered dynamically -->
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary modal-close-btn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Persistent Mandatory Disclaimer Footer -->
+  <footer class="disclaimer-banner">
+    <div class="container disclaimer-content">
+      <div class="disclaimer-text">
+        <span class="disclaimer-badge">IMPORTANT</span>
+        <span>General wellness ideas, not medical advice. Check ingredient labels and cross-contact information. Catalog values are sample estimates.</span>
+      </div>
+      <div>
+        <a href="about.html" style="color: var(--primary); text-decoration: none; font-weight: 600;">Safety Guidelines</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/results.js"></script>
+</body>
+</html>

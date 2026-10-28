@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Planner Recommendations | Nutrition Plus</title>
+  <script>
+    (function() {
+      var savedTheme = localStorage.getItem("nutrition_plus_theme") || "dark";
+      document.documentElement.setAttribute("data-theme", savedTheme);
+    })();
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo-wrap">
+        <div class="logo-badge">🥗</div>
+        <span>Nutrition <span class="logo-text-accent">Plus</span></span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="profile.html" class="nav-link">Plan Wizard</a></li>
+        <li><a href="results.html" class="nav-link active">Daily Planner</a></li>
+        <li><a href="scanner.html" class="nav-link">📸 Food Scanner</a></li>
+        <li><a href="saved.html" class="nav-link">Saved Plans</a></li>
+        <li><a href="about.html" class="nav-link">About & Safety</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="btn-theme-toggle" onclick="window.toggleTheme && window.toggleTheme()" title="Toggle Night/Day Mode" aria-label="Toggle Night Mode">☀️</button>
+        <button id="hamburger-btn" class="hamburger-btn" aria-label="Toggle navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Top Action Bar -->
+    <section class="results-header">
+      <div class="results-meta">
+        <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.4rem; flex-wrap: wrap;">
+          <h1 style="font-size: 2rem; font-weight: 800;">Your Daily Wellness Ideas</h1>
+          <button id="excluded-count-badge" class="badge badge-warning" style="cursor: pointer; display: none;" title="Click to view full transparency exclusion log">
+            🛡️ 0 meals excluded
+          </button>
+        </div>
+        <p style="color: var(--text-muted); font-size: 0.95rem;">
+          Explainable, transparent suggestions tailored to your routine. Swap or skip any item anytime.
+        </p>
+      </div>
+
+      <div class="results-actions">
+        <a href="profile.html" class="btn btn-secondary">
+          ⚙ Edit Preferences
+        </a>
+        <button id="btn-regenerate-plan" class="btn btn-secondary">
+          ↻ Regenerate Plan
+        </button>
+        <button id="btn-save-plan" class="btn btn-primary">
+          💾 Save Plan
+        </button>
+      </div>
+    </section>
+
+    <!-- Physical Transformation & Energy Focus Card (Dynamically populated) -->
+    <section id="transformation-summary-box" style="display: none;"></section>
+
+    <!-- Specific Weight Gaining / Caloric Surplus Strategy Card -->
+    <section id="weight-gain-strategy-box" style="display: none; margin-bottom: 2rem;"></section>
+
+    <!-- MEALS SECTION -->
+    <section class="planner-section">
+      <div class="planner-section-title">
+        <span>🥗 Nourishment & Meal Ideas</span>
+      </div>
+      <p class="planner-section-desc">
+        Filtered for your allergies and eating pattern, then ranked by cuisine match, budget, and cook time.
+      </p>
+
+      <div class="reco-grid" id="meals-grid" aria-live="polite">
+        <!-- Meal cards rendered dynamically -->
+      </div>
+    </section>
+
+    <!-- MOVEMENT SECTION -->
+    <section class="planner-section">
+      <div class="planner-section-title">
+        <span>🏃 Movement & Physical Activity</span>
+      </div>
+      <p class="planner-section-desc">
+        Light to moderate functional movement matching your available equipment and target minutes. Click <strong>"🎬 Watch Dummy Model Demo"</strong> on any workout to see the animated mannequin!
+      </p>
+
+      <div class="reco-grid" id="workouts-grid" aria-live="polite">
+        <!-- Workout cards rendered dynamically -->
+      </div>
+    </section>
+
+    <!-- 7-DAY BODY-PART WORKOUT SPLIT & DAILY SCHEDULE -->
+    <section class="planner-section" id="workout-split-section" style="margin-top: 3.5rem; padding-top: 2rem; border-top: 2px solid var(--border);">
+      <div class="planner-section-title" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+        <span style="font-size: 1.8rem; font-weight: 800;">📅 7-Day Body-Part Workout Split Planner</span>
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <label for="split-date-picker" style="font-size: 0.88rem; font-weight: 600; color: var(--text-muted);">Select Calendar Date:</label>
+          <input type="date" id="split-date-picker" class="form-control" style="width: auto; padding: 0.4rem 0.8rem; font-size: 0.88rem;">
+        </div>
+      </div>
+      <p class="planner-section-desc">
+        Every day targets an assigned body part. View all exercises tailored for <strong>Build Muscle (Hypertrophy)</strong> or <strong>Weight Loss (Fat Burn)</strong> for both <strong>Gym</strong> and <strong>Home</strong> workouts with animated model demos.
+      </p>
+
+      <!-- Day Selector Pills (Monday to Sunday) -->
+      <div class="day-split-nav" id="day-split-nav" style="display: flex; gap: 0.5rem; overflow-x: auto; padding-bottom: 0.75rem; margin-bottom: 1.5rem;">
+        <button class="btn btn-sm btn-secondary day-btn" data-day="monday">Mon: Chest & Triceps</button>
+        <button class="btn btn-sm btn-secondary day-btn" data-day="tuesday">Tue: Back & Biceps</button>
+        <button class="btn btn-sm btn-secondary day-btn" data-day="wednesday">Wed: Legs & Glutes</button>
+        <button class="btn btn-sm btn-secondary day-btn" data-day="thursday">Thu: Shoulders & Traps</button>
+        <button class="btn btn-sm btn-secondary day-btn" data-day="friday">Fri: Arms & Core</button>
+        <button class="btn btn-sm btn-secondary day-btn" data-day="saturday">Sat: Full Body Power</button>
+        <button class="btn btn-sm btn-secondary day-btn" data-day="sunday">Sun: Mobility & Rest</button>
+      </div>
+
+      <!-- Assigned Body Part Header Banner -->
+      <div id="split-assigned-banner" class="form-card" style="margin-bottom: 1.5rem; background: linear-gradient(135deg, rgba(56, 189, 248, 0.08), rgba(16, 185, 129, 0.08)); border-left: 4px solid var(--primary); padding: 1.25rem 1.5rem;">
+        <!-- Rendered dynamically -->
+      </div>
+
+      <!-- Filters Toolbar (Goal & Location) -->
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem; background: var(--bg-subtle); padding: 0.85rem 1.25rem; border-radius: var(--radius-md);">
+        <!-- Goal Filter: Build Muscle vs Weight Loss vs All -->
+        <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+          <span style="font-weight: 700; font-size: 0.88rem; color: var(--text-muted);">Goal Focus:</span>
+          <button class="btn btn-sm btn-primary split-goal-btn" data-goal="all">✨ All Goals</button>
+          <button class="btn btn-sm btn-secondary split-goal-btn" data-goal="build_muscle">🏋️ Build Muscle</button>
+          <button class="btn btn-sm btn-secondary split-goal-btn" data-goal="weight_loss">🔥 Weight Loss</button>
+        </div>
+
+        <!-- Location Filter: Gym vs Home vs Both -->
+        <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+          <span style="font-weight: 700; font-size: 0.88rem; color: var(--text-muted);">Environment:</span>
+          <button class="btn btn-sm btn-primary split-loc-btn" data-loc="all">🌐 All Workouts</button>
+          <button class="btn btn-sm btn-secondary split-loc-btn" data-loc="gym">🏢 Gym Only</button>
+          <button class="btn btn-sm btn-secondary split-loc-btn" data-loc="home">🏠 Home Only</button>
+        </div>
+      </div>
+
+      <!-- Daily Assigned Exercises Grid -->
+      <div class="reco-grid" id="split-workouts-grid" aria-live="polite">
+        <!-- Rendered dynamically -->
+      </div>
+    </section>
+  </main>
+
+  <!-- RECIPE & INSTRUCTIONS MODAL -->
+  <div class="modal-backdrop" id="recipe-modal" role="dialog" aria-modal="true" aria-labelledby="modal-recipe-title">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-recipe-title">Recipe Details</h3>
+        <button class="modal-close-btn" aria-label="Close modal">✕</button>
+      </div>
+      <div class="modal-body" id="modal-recipe-body">
+        <!-- Rendered dynamically -->
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary modal-close-btn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ANIMATED DUMMY MODEL VIDEO DEMO MODAL -->
+  <div class="modal-backdrop" id="exercise-demo-modal" role="dialog" aria-modal="true" aria-labelledby="demo-exercise-title">
+    <div class="modal-dialog" style="max-width: 720px; width: 95%;">
+      <div class="modal-header">
+        <div>
+          <div style="display: flex; gap: 0.5rem; margin-bottom: 0.25rem;">
+            <span class="badge badge-primary" id="demo-exercise-bodypart">CHEST</span>
+            <span class="badge badge-success" id="demo-exercise-equipment">GYM / HOME</span>
+          </div>
+          <h3 class="modal-title" id="demo-exercise-title">Barbell Bench Press</h3>
+        </div>
+        <button class="modal-close-btn" id="btn-demo-close" aria-label="Close modal">✕</button>
+      </div>
+      <div class="modal-body" style="padding: 1rem 1.25rem;">
+        <!-- Canvas Studio Viewport -->
+        <div style="position: relative; background: #0f172a; border-radius: var(--radius-md); overflow: hidden; margin-bottom: 1rem; border: 1px solid var(--border); box-shadow: inset 0 2px 8px rgba(0,0,0,0.4);">
+          <canvas id="dummy-model-canvas" width="640" height="360" style="display: block; width: 100%; height: auto; max-height: 380px;"></canvas>
+
+          <!-- Floating Overlays inside Canvas Viewport -->
+          <div style="position: absolute; top: 12px; left: 14px; display: flex; gap: 0.5rem; align-items: center; background: rgba(15,23,42,0.85); padding: 4px 10px; border-radius: 6px; border: 1px solid rgba(56,189,248,0.4); font-size: 0.8rem; font-family: monospace; color: #38bdf8;">
+            <span>REPS COMPLETED:</span>
+            <strong id="demo-rep-counter" style="color: #ffffff; font-size: 1rem;">0</strong>
+          </div>
+
+          <div id="demo-tempo-badge" style="position: absolute; top: 12px; right: 14px; background: rgba(15,23,42,0.85); padding: 4px 10px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.15); font-size: 0.78rem;">
+            ⬇️ Eccentric: Controlled lowering
+          </div>
+
+          <!-- Bottom Progress Bar -->
+          <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 4px; background: rgba(255,255,255,0.15);">
+            <div id="demo-tempo-fill" style="height: 100%; width: 0%; background: #38bdf8; transition: width 0.05s linear;"></div>
+          </div>
+        </div>
+
+        <!-- Video Controls Bar -->
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 1.25rem; background: var(--bg-subtle); padding: 0.6rem 0.85rem; border-radius: var(--radius-md);">
+          <div style="display: flex; gap: 0.5rem;">
+            <button id="btn-demo-play" class="btn btn-sm btn-primary">⏸️ Pause</button>
+            <button id="btn-demo-speed" class="btn btn-sm btn-secondary">1.0x Normal</button>
+            <button id="btn-demo-view" class="btn btn-sm btn-secondary">📐 Side View</button>
+          </div>
+          <div style="font-size: 0.78rem; color: var(--text-muted);">
+            ⚡ Biomechanical Dummy Simulation
+          </div>
+        </div>
+
+        <!-- Goal Prescriptions (Build Muscle vs Weight Loss) -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.75rem; margin-bottom: 1.25rem;">
+          <div style="background: rgba(16, 185, 129, 0.08); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: var(--radius-md); padding: 0.75rem 1rem;">
+            <strong style="color: #10b981; font-size: 0.85rem; display: block; margin-bottom: 0.2rem;">🏋️ For Build Muscle (Hypertrophy):</strong>
+            <span id="demo-muscle-badge" style="font-size: 0.85rem; font-weight: 600;">4 sets × 8-12 reps (Heavy, 90s rest)</span>
+          </div>
+          <div style="background: rgba(56, 189, 248, 0.08); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: var(--radius-md); padding: 0.75rem 1rem;">
+            <strong style="color: #38bdf8; font-size: 0.85rem; display: block; margin-bottom: 0.2rem;">🔥 For Weight Loss (Fat Burn):</strong>
+            <span id="demo-loss-badge" style="font-size: 0.85rem; font-weight: 600;">3 sets × 15-20 reps (Pacing, 30s rest)</span>
+          </div>
+        </div>
+
+        <!-- Form Checklist -->
+        <h4 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 0.4rem;">✅ Form & Posture Checklist:</h4>
+        <ul id="demo-form-tips" style="padding-left: 1.25rem; font-size: 0.88rem; line-height: 1.6; color: var(--text); margin-bottom: 1rem;"></ul>
+
+        <!-- Critical Mistake Tip -->
+        <div style="background: var(--bg-subtle); border-left: 3px solid var(--accent); padding: 0.6rem 0.85rem; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; font-size: 0.82rem;">
+          <strong>Trainer Note:</strong> <span id="demo-mistake-tip">Keep spine neutral and control both the lowering and pressing movements.</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary modal-close-btn" id="btn-demo-close-footer">Close Demo</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- EXCLUDED BREAKDOWN TRANSPARENCY MODAL -->
+  <div class="modal-backdrop" id="excluded-modal" role="dialog" aria-modal="true" aria-labelledby="excluded-modal-title">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title" id="excluded-modal-title">Safety Exclusions Breakdown</h3>
+        <button class="modal-close-btn" aria-label="Close modal">✕</button>
+      </div>
+      <div class="modal-body" id="excluded-modal-body">
+        <!-- Rendered dynamically -->
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary modal-close-btn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Persistent Mandatory Disclaimer Footer -->
+  <footer class="disclaimer-banner">
+    <div class="container disclaimer-content">
+      <div class="disclaimer-text">
+        <span class="disclaimer-badge">IMPORTANT</span>
+        <span>General wellness ideas, not medical advice. Check ingredient labels and cross-contact information. Catalog values are sample estimates.</span>
+      </div>
+      <div>
+        <a href="about.html" style="color: var(--primary); text-decoration: none; font-weight: 600;">Safety Guidelines</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/results.js"></script>
+</body>
+</html>

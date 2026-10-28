@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Configure Profile | Nutrition Plus</title>
+  <script>
+    (function() {
+      var savedTheme = localStorage.getItem("nutrition_plus_theme") || "dark";
+      document.documentElement.setAttribute("data-theme", savedTheme);
+    })();
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo-wrap">
+        <div class="logo-badge">🥗</div>
+        <span>Nutrition <span class="logo-text-accent">Plus</span></span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="profile.html" class="nav-link active">Plan Wizard</a></li>
+        <li><a href="results.html" class="nav-link">Daily Planner</a></li>
+        <li><a href="scanner.html" class="nav-link">📸 Food Scanner</a></li>
+        <li><a href="saved.html" class="nav-link">Saved Plans</a></li>
+        <li><a href="about.html" class="nav-link">About & Safety</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="btn-theme-toggle" onclick="window.toggleTheme && window.toggleTheme()" title="Toggle Night/Day Mode" aria-label="Toggle Night Mode">☀️</button>
+        <button id="hamburger-btn" class="hamburger-btn" aria-label="Toggle navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="wizard-header">
+      <h1 style="font-size: 2rem; font-weight: 800; margin-bottom: 0.3rem;">Personalise Your Wellness Plan</h1>
+      <p style="color: var(--text-muted); font-size: 0.95rem;">
+        Complete this short wizard. We strictly do not collect medical history, prescriptions, or clinical diagnoses.
+      </p>
+    </div>
+
+    <!-- Stepper Navigation -->
+    <nav class="stepper-nav" aria-label="Wizard Steps">
+      <div class="stepper-progress-bg"></div>
+      <div class="stepper-progress-fill" id="stepper-fill" style="width: 0%;"></div>
+      <div class="step-dot active" data-step="1">1</div>
+      <div class="step-dot" data-step="2">2</div>
+      <div class="step-dot" data-step="3">3</div>
+      <div class="step-dot" data-step="4">4</div>
+      <div class="step-dot" data-step="5">5</div>
+    </nav>
+
+    <!-- Multi-Step Form Card -->
+    <section class="form-card">
+      <form id="profile-wizard-form" onsubmit="return false;">
+
+        <!-- STEP 1: Basics & Transformation -->
+        <fieldset class="form-step active" id="step-1" style="border: none;">
+          <h2 class="form-step-title">Step 1: Basics & Physical Goals</h2>
+          <p class="form-step-subtitle">
+            Nutrition Plus is designed for adults 18+. Physical metrics provide general wellness context only.
+          </p>
+
+          <div class="form-group">
+            <label for="input-age" class="form-label">Your Age (Years) *</label>
+            <input type="number" id="input-age" class="form-control" min="18" max="100" value="25" required>
+            <div class="form-hint">Must be 18 or older. Under-18 requests are strictly rejected.</div>
+          </div>
+
+          <!-- Physical Transformation Metrics (User Prompt Additions) -->
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 1.25rem;">
+            <div>
+              <label for="input-height" class="form-label">Height (cm)</label>
+              <input type="number" id="input-height" class="form-control" min="100" max="250" placeholder="e.g. 172">
+              <div class="form-hint">100 - 250 cm</div>
+            </div>
+            <div>
+              <label for="input-current-weight" class="form-label">Current Weight (kg)</label>
+              <input type="number" id="input-current-weight" class="form-control" min="30" max="300" step="0.5" placeholder="e.g. 68">
+              <div class="form-hint">30 - 300 kg</div>
+            </div>
+            <div>
+              <label for="input-target-weight" class="form-label">Target Weight (kg)</label>
+              <input type="number" id="input-target-weight" class="form-control" min="30" max="300" step="0.5" placeholder="e.g. 64">
+              <div class="form-hint">Weight goal to transform</div>
+            </div>
+          </div>
+
+          <!-- Live BMI & Transformation Preview -->
+          <div id="metrics-preview-box" class="reason-box" style="display: none; margin-bottom: 1.5rem;"></div>
+
+          <div class="form-group">
+            <label class="form-label">Primary Eating Pattern *</label>
+            <div class="selection-grid">
+              <label class="selection-card selected">
+                <input type="radio" name="eating_pattern" value="vegetarian" checked>
+                <div class="selection-card-icon">🌱</div>
+                <div class="selection-card-label">Vegetarian</div>
+              </label>
+              <label class="selection-card">
+                <input type="radio" name="eating_pattern" value="vegan">
+                <div class="selection-card-icon">🥑</div>
+                <div class="selection-card-label">Vegan</div>
+              </label>
+              <label class="selection-card">
+                <input type="radio" name="eating_pattern" value="eggetarian">
+                <div class="selection-card-icon">🍳</div>
+                <div class="selection-card-label">Eggetarian</div>
+              </label>
+              <label class="selection-card">
+                <input type="radio" name="eating_pattern" value="non_veg">
+                <div class="selection-card-icon">🍗</div>
+                <div class="selection-card-label">Non-Veg</div>
+              </label>
+              <label class="selection-card">
+                <input type="radio" name="eating_pattern" value="halal">
+                <div class="selection-card-icon">🌙</div>
+                <div class="selection-card-label">Halal</div>
+              </label>
+              <label class="selection-card">
+                <input type="radio" name="eating_pattern" value="jain">
+                <div class="selection-card-icon">🪷</div>
+                <div class="selection-card-label">Jain</div>
+              </label>
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- STEP 2: Allergies & Cuisines -->
+        <fieldset class="form-step" id="step-2" style="border: none;">
+          <h2 class="form-step-title">Step 2: Safety Allergies & Cuisines</h2>
+          <p class="form-step-subtitle">
+            Safety rule: Any declared allergen is filtered out completely before ranking and never overridden.
+          </p>
+
+          <div class="form-group">
+            <label class="form-label">Known Allergens (Select all that apply)</label>
+            <div class="chip-group">
+              <label class="chip allergen-chip selected">
+                <input type="checkbox" value="none" checked>
+                <span>No Known Allergies</span>
+              </label>
+              <label class="chip allergen-chip">
+                <input type="checkbox" value="peanut">
+                <span>🥜 Peanut</span>
+              </label>
+              <label class="chip allergen-chip">
+                <input type="checkbox" value="tree_nut">
+                <span>🌰 Tree Nuts</span>
+              </label>
+              <label class="chip allergen-chip">
+                <input type="checkbox" value="milk">
+                <span>🥛 Dairy / Milk</span>
+              </label>
+              <label class="chip allergen-chip">
+                <input type="checkbox" value="egg">
+                <span>🥚 Egg</span>
+              </label>
+              <label class="chip allergen-chip">
+                <input type="checkbox" value="soy">
+                <span>🫘 Soy</span>
+              </label>
+              <label class="chip allergen-chip">
+                <input type="checkbox" value="wheat">
+                <span>🌾 Wheat / Gluten</span>
+              </label>
+              <label class="chip allergen-chip">
+                <input type="checkbox" value="fish">
+                <span>🐟 Fish</span>
+              </label>
+              <label class="chip allergen-chip">
+                <input type="checkbox" value="shellfish">
+                <span>🦐 Shellfish</span>
+              </label>
+              <label class="chip allergen-chip">
+                <input type="checkbox" value="sesame">
+                <span>🌱 Sesame</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group" style="margin-top: 2rem;">
+            <label class="form-label">Preferred Cuisines (Choose at least one) *</label>
+            <div class="chip-group">
+              <label class="chip cuisine-chip selected">
+                <input type="checkbox" value="south_indian" checked>
+                <span>🥥 South Indian</span>
+              </label>
+              <label class="chip cuisine-chip selected">
+                <input type="checkbox" value="north_indian" checked>
+                <span>🍛 North Indian</span>
+              </label>
+              <label class="chip cuisine-chip">
+                <input type="checkbox" value="continental">
+                <span>🥗 Continental</span>
+              </label>
+              <label class="chip cuisine-chip">
+                <input type="checkbox" value="mediterranean">
+                <span>🫒 Mediterranean</span>
+              </label>
+              <label class="chip cuisine-chip">
+                <input type="checkbox" value="east_asian">
+                <span>🥢 East Asian</span>
+              </label>
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- STEP 3: Practical Constraints -->
+        <fieldset class="form-step" id="step-3" style="border: none;">
+          <h2 class="form-step-title">Step 3: Practical Daily Constraints</h2>
+          <p class="form-step-subtitle">Tell us about your budget, kitchen schedule, and wellness focus.</p>
+
+          <div class="form-group">
+            <label class="form-label">Budget Tier</label>
+            <div class="selection-grid">
+              <label class="selection-card selected">
+                <input type="radio" name="budget_level" value="low" checked>
+                <div class="selection-card-icon">💵</div>
+                <div class="selection-card-label">Low / Budget Friendly</div>
+              </label>
+              <label class="selection-card">
+                <input type="radio" name="budget_level" value="medium">
+                <div class="selection-card-icon">💳</div>
+                <div class="selection-card-label">Moderate</div>
+              </label>
+              <label class="selection-card">
+                <input type="radio" name="budget_level" value="high">
+                <div class="selection-card-icon">💎</div>
+                <div class="selection-card-label">Flexible / Premium</div>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group" style="margin-top: 1.75rem;">
+            <label for="cook-time-slider" class="form-label">Maximum Cooking Prep Time</label>
+            <div class="slider-wrap">
+              <input type="range" id="cook-time-slider" class="slider-control" min="10" max="60" step="5" value="30">
+              <div class="slider-val-badge" id="cook-time-badge">30 min</div>
+            </div>
+            <div class="form-hint">Meals exceeding your limit will be penalized in ranking.</div>
+          </div>
+
+          <div class="form-group" style="margin-top: 1.75rem;">
+            <label for="select-goal" class="form-label">General Wellness Focus</label>
+            <select id="select-goal" class="form-control">
+              <option value="balanced" selected>Balanced Daily Nourishment</option>
+              <option value="more_energy">More Energy & Day Stamina</option>
+              <option value="light_meals">Light, Easy Digesting Meals</option>
+              <option value="high_protein">Higher Protein for Activity</option>
+              <option value="stay_active">Stay Active & Energetic</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <!-- STEP 4: Movement & Activity -->
+        <fieldset class="form-step" id="step-4" style="border: none;">
+          <h2 class="form-step-title">Step 4: Movement & Exercise Routine</h2>
+          <p class="form-step-subtitle">Calibrate exercise ideas matching your equipment and schedule.</p>
+
+          <div class="form-group">
+            <label class="form-label">Daily Activity Level</label>
+            <div class="selection-grid">
+              <label class="selection-card">
+                <input type="radio" name="activity_level" value="sedentary">
+                <div class="selection-card-icon">🪑</div>
+                <div class="selection-card-label">Sedentary (Desk work)</div>
+              </label>
+              <label class="selection-card selected">
+                <input type="radio" name="activity_level" value="light" checked>
+                <div class="selection-card-icon">🚶</div>
+                <div class="selection-card-label">Light (Casual strolls)</div>
+              </label>
+              <label class="selection-card">
+                <input type="radio" name="activity_level" value="moderate">
+                <div class="selection-card-icon">🏃</div>
+                <div class="selection-card-label">Moderate (Active days)</div>
+              </label>
+              <label class="selection-card">
+                <input type="radio" name="activity_level" value="active">
+                <div class="selection-card-icon">⚡</div>
+                <div class="selection-card-label">Very Active</div>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group" style="margin-top: 1.75rem;">
+            <label class="form-label">Available Equipment (Select all available)</label>
+            <div class="chip-group">
+              <label class="chip equipment-chip selected">
+                <input type="checkbox" value="none" checked>
+                <span>Zero Equipment (Bodyweight/Walk)</span>
+              </label>
+              <label class="chip equipment-chip">
+                <input type="checkbox" value="yoga_mat">
+                <span>🧘 Yoga Mat</span>
+              </label>
+              <label class="chip equipment-chip">
+                <input type="checkbox" value="dumbbells">
+                <span>🏋️ Dumbbells</span>
+              </label>
+              <label class="chip equipment-chip">
+                <input type="checkbox" value="resistance_band">
+                <span>➰ Resistance Band</span>
+              </label>
+              <label class="chip equipment-chip">
+                <input type="checkbox" value="gym">
+                <span>🏢 Full Gym Access</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group" style="margin-top: 1.75rem;">
+            <label for="workout-time-slider" class="form-label">Available Workout Time</label>
+            <div class="slider-wrap">
+              <input type="range" id="workout-time-slider" class="slider-control" min="10" max="60" step="5" value="20">
+              <div class="slider-val-badge" id="workout-time-badge">20 min</div>
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- STEP 5: Review & Confirm -->
+        <fieldset class="form-step" id="step-5" style="border: none;">
+          <h2 class="form-step-title">Step 5: Review Your Profile</h2>
+          <p class="form-step-subtitle">
+            Verify your safety preferences before generating your transparent daily recommendations.
+          </p>
+
+          <div id="review-summary-list" style="background: var(--bg-subtle); padding: 1.5rem; border-radius: var(--radius-md); margin-bottom: 1.5rem;">
+            <!-- Rendered dynamically -->
+          </div>
+
+          <div style="font-size: 0.85rem; color: var(--text-muted); display: flex; align-items: center; gap: 0.5rem;">
+            <span>🔒</span>
+            <span>Your session is anonymous. We never store personal identity, emails, or medical data.</span>
+          </div>
+        </fieldset>
+
+        <!-- Form Navigation Actions -->
+        <div class="form-actions">
+          <button type="button" class="btn btn-secondary" id="wizard-prev-btn" style="visibility: hidden;">
+            ← Back
+          </button>
+          <button type="button" class="btn btn-primary" id="wizard-next-btn">
+            Continue →
+          </button>
+          <button type="button" class="btn btn-primary btn-lg" id="wizard-submit-btn" style="display: none;">
+            ⚡ Generate My Recommendations
+          </button>
+        </div>
+
+      </form>
+    </section>
+  </main>
+
+  <footer class="disclaimer-banner">
+    <div class="container disclaimer-content">
+      <div class="disclaimer-text">
+        <span class="disclaimer-badge">IMPORTANT</span>
+        <span>General wellness ideas, not medical advice. Check ingredient labels and cross-contact information.</span>
+      </div>
+      <div><a href="about.html" style="color: var(--primary); text-decoration: none; font-weight: 600;">Safety Guidelines</a></div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/profile.js"></script>
+</body>
+</html>

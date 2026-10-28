@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nutrition Plus: Luxury rule-based personalised nutrition and fitness recommendation system for adults 18+ general wellness.">
+  <title>Nutrition Plus | AI-Based Nutrition & Fitness Recommendations</title>
+  <script>
+    // Immediate Theme Initialization (Prevents flash of light theme)
+    (function() {
+      var savedTheme = localStorage.getItem("nutrition_plus_theme") || "dark";
+      document.documentElement.setAttribute("data-theme", savedTheme);
+    })();
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo-wrap">
+        <div class="logo-badge">🥗</div>
+        <span>Nutrition <span class="logo-text-accent">Plus</span></span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="profile.html" class="nav-link">Plan Wizard</a></li>
+        <li><a href="results.html" class="nav-link">Daily Planner</a></li>
+        <li><a href="scanner.html" class="nav-link">📸 Food Scanner</a></li>
+        <li><a href="saved.html" class="nav-link">Saved Plans</a></li>
+        <li><a href="about.html" class="nav-link">About & Safety</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="btn-theme-toggle" onclick="window.toggleTheme && window.toggleTheme()" title="Toggle Night/Day Mode" aria-label="Toggle Night Mode">☀️</button>
+        <button id="hamburger-btn" class="hamburger-btn" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-pill">
+          <span style="color: var(--gold);">★</span>
+          <span>Transparent Rule-Based Intelligence</span> • 
+          <span style="color: var(--gold-light);">Adults 18+ General Wellness</span>
+        </div>
+        <h1 class="hero-title">
+          Meal & Movement Ideas That <span>Truly Elevate You</span>
+        </h1>
+        <p class="hero-subtitle">
+          Generic diets ignore your allergies, cultural cuisine tastes, cooking schedules, and budget. 
+          Experience a unified, explainable daily wellness planner with zero black-box obscurity.
+        </p>
+        <div class="hero-cta-group">
+          <a href="profile.html" class="btn btn-primary btn-lg" id="btn-hero-build">
+            ⚡ Build My Wellness Plan
+          </a>
+          <a href="scanner.html" class="btn btn-accent btn-lg">
+            📸 Scan Food with Camera
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Principles / Features Grid -->
+    <section class="container">
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h2 class="feature-title">Allergy Safety Priority</h2>
+          <p class="feature-desc">
+            Safety filters run <strong style="color: var(--gold-light);">strictly before ranking</strong>. Declared allergens (peanuts, milk, gluten, nuts) 
+            and eating patterns (vegan, vegetarian, jain, halal) are strictly excluded and can never be bypassed by feedback.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">👑</div>
+          <h2 class="feature-title">Transparent & Explainable</h2>
+          <p class="feature-desc">
+            No black-box machine learning. Every meal and workout clearly states <em style="color: var(--gold-light);">why</em> it was chosen 
+            based on your cooking time, equipment, budget, and flavor preferences.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">⇄</div>
+          <h2 class="feature-title">Dynamic Swaps & Feedback</h2>
+          <p class="feature-desc">
+            Don't fancy a suggestion? Swap it instantly with one click for the next-best safe alternative. 
+            Your likes and dislikes refine future soft preferences without altering your safety exclusions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+      <div class="container">
+        <div class="section-tag">System Architecture</div>
+        <h2 class="section-title">How Nutrition Plus Works in 3 Steps</h2>
+
+        <div class="steps-grid">
+          <div class="step-card">
+            <span class="step-number">01</span>
+            <h3 class="step-title">1. Profile & Safety Parameters</h3>
+            <p class="step-desc">
+              Tell us your age (18+), eating pattern, allergies, budget, available cooking time, equipment, 
+              and optional physical transformation targets (height, current & goal weight). We never ask for medical history.
+            </p>
+          </div>
+
+          <div class="step-card">
+            <span class="step-number">02</span>
+            <h3 class="step-title">2. Safety Filter & Ranker</h3>
+            <p class="step-desc">
+              Our deterministic rule-based engine eliminates conflicting foods, then ranks remaining meals and 
+              workouts for your breakfast, lunch, dinner, snack, and movement slots.
+            </p>
+          </div>
+
+          <div class="step-card">
+            <span class="step-number">03</span>
+            <h3 class="step-title">3. Explore Recipes & Move</h3>
+            <p class="step-desc">
+              Explore step-by-step recipes with ingredients checklists. Swap items on the fly, 
+              log your soft feedback, or scan foods using your camera to check sample calorie estimates.
+            </p>
+          </div>
+        </div>
+
+        <div style="margin-top: 3.5rem;">
+          <a href="profile.html" class="btn btn-primary btn-lg">⚡ Get Started Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scope & Boundary Card -->
+    <section class="container" style="margin-bottom: 4.5rem;">
+      <div style="background: var(--bg-card); border: 1px solid var(--gold-border); border-radius: var(--radius-lg); padding: 2.25rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1.5rem; box-shadow: var(--shadow-md);">
+        <div>
+          <span class="badge badge-warning" style="margin-bottom: 0.6rem;">Ethical & Safety Scope</span>
+          <h3 style="font-size: 1.35rem; font-weight: 800; margin-bottom: 0.35rem; color: #ffffff;">
+            Designed Exclusively for General Wellness (18+)
+          </h3>
+          <p style="color: var(--text-muted); font-size: 0.94rem; max-width: 680px; line-height: 1.6;">
+            Nutrition Plus does not collect medical history, medications, or health conditions. 
+            Nutritional estimates are sample baseline values for everyday adult lifestyle inspiration, not medical treatment.
+          </p>
+        </div>
+        <a href="about.html" class="btn btn-secondary">Learn About Safety Architecture →</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Persistent Mandatory Disclaimer Footer -->
+  <footer class="disclaimer-banner">
+    <div class="container disclaimer-content">
+      <div class="disclaimer-text">
+        <span class="disclaimer-badge">IMPORTANT</span>
+        <span>General wellness ideas, not medical advice. Check ingredient labels and cross-contact information. Catalog nutrient values are sample unverified estimates.</span>
+      </div>
+      <div>
+        <a href="about.html" style="color: var(--gold); text-decoration: none; font-weight: 700;">Safety Guidelines</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module">
+    import { initThemeToggle, initMobileNav } from "./js/utils.js";
+    initThemeToggle();
+    initMobileNav();
+  </script>
+</body>
+</html>

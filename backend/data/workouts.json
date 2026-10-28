@@ -1,0 +1,943 @@
+[
+  {
+    "id": "w_fb_01",
+    "name": "Barbell Back Squat",
+    "category": "strength",
+    "intensity": "high",
+    "duration_min": 25,
+    "equipment": [
+      "gym"
+    ],
+    "target_body_part": "full_body",
+    "workout_type": "gym",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 6-10 reps (Heavy, 90s rest)",
+    "sets_reps_loss": "4 sets × 12-15 reps (Moderate, 45s rest)",
+    "demo_model": "squat",
+    "description": "The king of lower body and core compound lifts. Overloads quads, glutes, hamstrings, and spinal erectors.",
+    "steps": [
+      "Rest barbell across upper trapezius; grasp firmly with hands outside shoulders.",
+      "Set feet shoulder-width apart with toes flared 15-30 degrees.",
+      "Take a deep diaphragmatic breath, brace core, and hinge at hips while breaking at the knees.",
+      "Descend until thighs are parallel or below parallel to the floor, knees tracking over toes.",
+      "Drive forcefully through mid-foot and heels to return to standing lockout."
+    ]
+  },
+  {
+    "id": "w_fb_02",
+    "name": "Conventional Barbell Deadlift",
+    "category": "strength",
+    "intensity": "high",
+    "duration_min": 25,
+    "equipment": [
+      "gym"
+    ],
+    "target_body_part": "full_body",
+    "workout_type": "gym",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 5-8 reps (Max hypertrophy, 2 min rest)",
+    "sets_reps_loss": "3 sets × 10-12 reps (High metabolic burn, 60s rest)",
+    "demo_model": "deadlift",
+    "description": "Premier full-body posterior chain developer recruiting glutes, hamstrings, entire back, and grip.",
+    "steps": [
+      "Stand with mid-foot directly under the bar, feet hip-width apart.",
+      "Hinge at the hips and grip the bar just outside your shins without moving the bar.",
+      "Bring shins forward to touch bar, pull chest up, flatten lower back, and pull slack out of bar.",
+      "Drive the floor away through your heels, extending knees and hips simultaneously to stand tall.",
+      "Hinge hips back under control to lower bar smoothly to the floor."
+    ]
+  },
+  {
+    "id": "w_fb_03",
+    "name": "Barbell Thruster (Squat to Overhead Press)",
+    "category": "strength",
+    "intensity": "high",
+    "duration_min": 20,
+    "equipment": [
+      "gym"
+    ],
+    "target_body_part": "full_body",
+    "workout_type": "gym",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "3 sets × 8-10 reps (Power & hypertrophy, 75s rest)",
+    "sets_reps_loss": "4 sets × 15 reps (Torches calories & cardio, 30s rest)",
+    "demo_model": "thruster",
+    "description": "Dynamic full-body compound explosive movement linking a front squat directly into an overhead push press.",
+    "steps": [
+      "Rack barbell across front deltoids with elbows high and upright torso.",
+      "Descend into a full front squat, keeping chest tall and core braced.",
+      "Drive up explosively through heels; as hips snap open, transfer leg momentum into pressing the barbell vertically overhead.",
+      "Lower barbell back smoothly to front rack position as you initiate the next repetition."
+    ]
+  },
+  {
+    "id": "w_fb_04",
+    "name": "Dumbbell Farmer's Carry & Walk",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 15,
+    "equipment": [
+      "gym",
+      "dumbbells"
+    ],
+    "target_body_part": "full_body",
+    "workout_type": "gym",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 rounds × 40 meters heavy carry (60s rest)",
+    "sets_reps_loss": "5 rounds × 50 meters brisk walk (30s rest)",
+    "demo_model": "walk",
+    "description": "Functional total-body loaded carry developing forearm grip, traps, abdominal wall stability, and work capacity.",
+    "steps": [
+      "Deadlift a pair of heavy dumbbells from the floor with a flat back.",
+      "Retract shoulder blades back and down, brace core, and gaze forward.",
+      "Take smooth, heel-to-toe measured strides without allowing dumbbells to swing.",
+      "Breathe rhythmically while maintaining rigid posture throughout the distance."
+    ]
+  },
+  {
+    "id": "w_fb_05",
+    "name": "Full-Body Calisthenics MetCon Circuit",
+    "category": "strength",
+    "intensity": "high",
+    "duration_min": 20,
+    "equipment": [
+      "none"
+    ],
+    "target_body_part": "full_body",
+    "workout_type": "home",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 rounds: 12 Pushups, 15 Squats, 10 Lunges/leg, 45s Plank",
+    "sets_reps_loss": "5 rounds: 15 Pushups, 20 Squats, 20 Mountain Climbers, 15 Burpees",
+    "demo_model": "burpee",
+    "description": "High-efficiency home circuit recruiting the whole body with zero equipment, burning maximal calories.",
+    "steps": [
+      "Perform air squats with strict depth and upright chest.",
+      "Transition immediately into floor push-ups with tucked elbows.",
+      "Move directly into alternating lunges, keeping front knee tracking straight.",
+      "Finish each round with 45 seconds of mountain climbers or plank hold. Rest 60s between rounds."
+    ]
+  },
+  {
+    "id": "w_fb_06",
+    "name": "Resistance Band Full Body Complex",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 20,
+    "equipment": [
+      "resistance_band"
+    ],
+    "target_body_part": "full_body",
+    "workout_type": "home",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 12 reps: Band Squat-to-Press, Band Row, Band Pushup",
+    "sets_reps_loss": "4 sets × 18 reps with continuous tension (30s rest)",
+    "demo_model": "thruster",
+    "description": "Continuous tension resistance band flow hitting legs, back, shoulders, and chest without weights.",
+    "steps": [
+      "Stand on resistance band loop with feet shoulder-width, holding handles at collarbones.",
+      "Squat down, then press hands overhead as you stand (Squat to Press).",
+      "Anchor band around sturdy door or feet to perform standing bent-over rows.",
+      "Wrap band across upper back and perform resisted floor push-ups."
+    ]
+  },
+  {
+    "id": "w_fb_07",
+    "name": "Dumbbell Renegade Rows to Push-Up",
+    "category": "strength",
+    "intensity": "high",
+    "duration_min": 18,
+    "equipment": [
+      "dumbbells"
+    ],
+    "target_body_part": "full_body",
+    "workout_type": "home",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "3 sets × 8 rows per arm + pushups (60s rest)",
+    "sets_reps_loss": "4 sets × 12 rows per arm + pushups (30s rest)",
+    "demo_model": "pushup",
+    "description": "Demanding hybrid compound targeting chest, lats, anti-rotational core, and shoulder stabilizers simultaneously.",
+    "steps": [
+      "Assume a plank position gripping two hex dumbbells directly beneath shoulders, feet wide for balance.",
+      "Perform one strict push-up, lowering chest between dumbbells.",
+      "At the top of the push-up, row one dumbbell to your hip, keeping hips parallel to the floor.",
+      "Lower weight and repeat row on opposite arm. That constitutes one full rep."
+    ]
+  },
+  {
+    "id": "w_ch_01",
+    "name": "Flat Barbell Bench Press",
+    "category": "strength",
+    "intensity": "high",
+    "duration_min": 25,
+    "equipment": [
+      "gym"
+    ],
+    "target_body_part": "chest",
+    "workout_type": "gym",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 8-12 reps (Progressive overload, 90s rest)",
+    "sets_reps_loss": "3 sets × 12-15 reps (Moderate load, 45s rest)",
+    "demo_model": "bench_press",
+    "description": "Fundamental chest and triceps builder delivering high mechanical tension across pectoralis major.",
+    "steps": [
+      "Lie flat on bench, eyes under bar, feet planted firmly on the floor.",
+      "Grip bar slightly wider than shoulder-width, pinch shoulder blades together, and unrack.",
+      "Lower bar under control to mid-chest with elbows at approximately 45 degrees.",
+      "Press bar up forcefully along a slight backward arc to full lockout."
+    ]
+  },
+  {
+    "id": "w_ch_02",
+    "name": "Incline Dumbbell Chest Press",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 20,
+    "equipment": [
+      "gym",
+      "dumbbells"
+    ],
+    "target_body_part": "chest",
+    "workout_type": "gym",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 10-12 reps (Upper chest focus, 75s rest)",
+    "sets_reps_loss": "3 sets × 15 reps (Pumping sets, 40s rest)",
+    "demo_model": "bench_press",
+    "description": "Targets the clavicular head (upper chest) and front deltoids with free range of motion.",
+    "steps": [
+      "Set bench to 30-degree incline; kick dumbbells up to shoulders as you lie back.",
+      "Plant feet, retract scapulae, and lower dumbbells until thumbs align with nipples.",
+      "Press up and inward along a natural arc, squeezing chest at the top without clanking dumbbells."
+    ]
+  },
+  {
+    "id": "w_ch_03",
+    "name": "Cable Tricep Rope Pushdown",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 15,
+    "equipment": [
+      "gym"
+    ],
+    "target_body_part": "chest",
+    "workout_type": "gym",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 10-12 reps (Peak lockout squeeze, 60s rest)",
+    "sets_reps_loss": "3 sets × 15-20 reps (Burnout finisher, 30s rest)",
+    "demo_model": "tricep_pushdown",
+    "description": "Isolates the lateral and long heads of the triceps with continuous cable tension.",
+    "steps": [
+      "Attach rope to high cable pulley; stand with slight forward torso lean.",
+      "Pin elbows firmly to your sides; grasp rope handles with thumbs over.",
+      "Extend elbows downward, spreading rope apart at bottom to lock out triceps.",
+      "Control the eccentric return until forearms pass 90 degrees."
+    ]
+  },
+  {
+    "id": "w_ch_04",
+    "name": "Standard Floor Push-Ups",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 15,
+    "equipment": [
+      "none"
+    ],
+    "target_body_part": "chest",
+    "workout_type": "home",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 12-20 reps (Slow 3-second descent)",
+    "sets_reps_loss": "4 sets × Max reps in 45 seconds (Tabata style)",
+    "demo_model": "pushup",
+    "description": "Foundational calisthenic pressing movement for chest, triceps, anterior deltoids, and hollow core.",
+    "steps": [
+      "Start in high plank with hands slightly wider than shoulders, body forming straight line.",
+      "Lower chest toward floor by bending elbows back at 45-degree angle.",
+      "Stop when chest hovers 1 inch above floor; keep glutes and abs tight.",
+      "Press through palms back to start, locking elbows smoothly."
+    ]
+  },
+  {
+    "id": "w_ch_05",
+    "name": "Diamond Push-Ups (Triceps Focus)",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 15,
+    "equipment": [
+      "none"
+    ],
+    "target_body_part": "chest",
+    "workout_type": "home",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "3 sets × 8-15 reps (Strict triceps hypertrophy)",
+    "sets_reps_loss": "3 sets × 15-20 reps or knee variation",
+    "demo_model": "diamond_pushup",
+    "description": "Close-grip push-up variation that dramatically shifts mechanical load onto the triceps brachii.",
+    "steps": [
+      "Place thumbs and index fingers touching together directly beneath mid-chest to form a diamond shape.",
+      "Lower chest down to touch the back of your hands, keeping elbows close to torso.",
+      "Press upward explosively through triceps to complete lockout."
+    ]
+  },
+  {
+    "id": "w_ch_06",
+    "name": "Chair / Couch Tricep Dips",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 15,
+    "equipment": [
+      "none"
+    ],
+    "target_body_part": "chest",
+    "workout_type": "home",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 12-15 reps (Full range of motion)",
+    "sets_reps_loss": "4 sets × 20 reps (High rep fat burn)",
+    "demo_model": "tricep_dip",
+    "description": "Effective bodyweight tricep exercise using any sturdy chair, couch, or bench.",
+    "steps": [
+      "Sit on edge of sturdy chair, palms placed beside hips gripping the edge.",
+      "Slide hips off edge, extending legs straight ahead (or knees bent 90 degrees for beginner).",
+      "Lower hips downward by bending elbows until upper arms are parallel to floor (90 degrees).",
+      "Push through heels of hands to return to starting position."
+    ]
+  },
+  {
+    "id": "w_bk_01",
+    "name": "Barbell Bent-Over Row",
+    "category": "strength",
+    "intensity": "high",
+    "duration_min": 25,
+    "equipment": [
+      "gym"
+    ],
+    "target_body_part": "back",
+    "workout_type": "gym",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 8-12 reps (Heavy back thickness)",
+    "sets_reps_loss": "3 sets × 15 reps (Metabolic pull)",
+    "demo_model": "bent_row",
+    "description": "Mass builder for latissimus dorsi, rhomboids, middle trapezius, and rear deltoids.",
+    "steps": [
+      "Hinge forward at hips at 45-degree angle with flat spine, holding barbell with overhand grip.",
+      "Pull barbell toward your lower ribs/belly button, driving elbows back toward ceiling.",
+      "Squeeze shoulder blades together forcefully at the peak contraction for 1 second.",
+      "Lower bar under control to full arm hang without rounding the spine."
+    ]
+  },
+  {
+    "id": "w_bk_02",
+    "name": "Wide-Grip Lat Pulldown",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 20,
+    "equipment": [
+      "gym"
+    ],
+    "target_body_part": "back",
+    "workout_type": "gym",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 10-12 reps (Focus on back width)",
+    "sets_reps_loss": "3 sets × 15 reps (Continuous tempo)",
+    "demo_model": "lat_pulldown",
+    "description": "Builds wide V-taper lats while reinforcing shoulder depression and scapular retraction.",
+    "steps": [
+      "Grip lat pulldown bar with overhand grip slightly wider than shoulders; secure thighs under pads.",
+      "Lean torso back approximately 10-15 degrees with chest puffed out.",
+      "Pull bar down smoothly to upper clavicle by pulling elbows down and inward.",
+      "Resist the weight on the way up to achieve a deep stretch across the lats."
+    ]
+  },
+  {
+    "id": "w_bk_03",
+    "name": "Standing Dumbbell Bicep Curls",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 15,
+    "equipment": [
+      "gym",
+      "dumbbells"
+    ],
+    "target_body_part": "back",
+    "workout_type": "gym",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 10-12 reps (Supinated peak squeeze)",
+    "sets_reps_loss": "3 sets × 15-20 reps (Arm tone & pump)",
+    "demo_model": "bicep_curl",
+    "description": "Classic bicep builder targeting long and short heads with wrist supination.",
+    "steps": [
+      "Stand tall holding dumbbells at sides, palms facing inward (neutral grip).",
+      "Keep elbows pinned to ribs; curl dumbbells upward while rotating palms to face shoulders.",
+      "Squeeze biceps hard at the peak for 1 second.",
+      "Lower weights slowly through a 3-second negative descent to full arm extension."
+    ]
+  },
+  {
+    "id": "w_bk_04",
+    "name": "Resistance Band Bent-Over Row",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 15,
+    "equipment": [
+      "resistance_band"
+    ],
+    "target_body_part": "back",
+    "workout_type": "home",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 12-15 reps (Peak squeeze hold)",
+    "sets_reps_loss": "4 sets × 20 reps (High rep fat burn)",
+    "demo_model": "bent_row",
+    "description": "Home back developer utilizing elastic resistance curves that maximize peak contraction tension.",
+    "steps": [
+      "Stand on center of band loop with feet hip-width apart.",
+      "Hinge forward 45 degrees, keeping back neutral and core tight.",
+      "Pull handles toward hips, driving elbows back and retracting shoulder blades.",
+      "Hold peak tension for 1 count before slowly returning to start."
+    ]
+  },
+  {
+    "id": "w_bk_05",
+    "name": "Prone Superman Holds & Retractions",
+    "category": "strength",
+    "intensity": "low",
+    "duration_min": 12,
+    "equipment": [
+      "none"
+    ],
+    "target_body_part": "back",
+    "workout_type": "home",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "3 sets × 12 reps with 3-sec pause",
+    "sets_reps_loss": "3 sets × 15 reps continuous flow",
+    "demo_model": "superman",
+    "description": "Zero-equipment posterior chain builder strengthening erectors, glutes, rear delts, and rhomboids.",
+    "steps": [
+      "Lie face down on floor with arms extended overhead and legs straight.",
+      "Simultaneously lift chest, arms, and thighs 3-5 inches off floor.",
+      "Pull elbows back toward ribs in a W-shape to squeeze scapulae together.",
+      "Hold for 2-3 seconds, then lower under control."
+    ]
+  },
+  {
+    "id": "w_bk_06",
+    "name": "Resistance Band Standing Bicep Curls",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 15,
+    "equipment": [
+      "resistance_band"
+    ],
+    "target_body_part": "back",
+    "workout_type": "home",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 12-15 reps with slow 3s eccentric",
+    "sets_reps_loss": "4 sets × 20 reps fast tempo",
+    "demo_model": "bicep_curl",
+    "description": "Home bicep isolation providing escalating peak resistance as arms reach full flexion.",
+    "steps": [
+      "Step onto middle of resistance band with feet hip-width apart.",
+      "Grasp handles with palms forward and elbows pinned to ribcage.",
+      "Curl band upward toward shoulders, resisting any elbow drift.",
+      "Lower slowly against the band tension."
+    ]
+  },
+  {
+    "id": "w_lg_01",
+    "name": "Romanian Deadlift (RDL)",
+    "category": "strength",
+    "intensity": "high",
+    "duration_min": 25,
+    "equipment": [
+      "gym",
+      "dumbbells"
+    ],
+    "target_body_part": "legs",
+    "workout_type": "gym",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 8-12 reps (Hamstring & glute hypertrophy)",
+    "sets_reps_loss": "3 sets × 15 reps (Metabolic burn)",
+    "demo_model": "deadlift",
+    "description": "Elite posterior chain exercise targeting hamstrings and glute-ham tie-in through deep eccentric stretch.",
+    "steps": [
+      "Stand holding barbell or heavy dumbbells with shoulder-width grip, knees soft.",
+      "Push hips straight back as if trying to touch the wall behind you.",
+      "Lower weights along shins until you feel a deep stretch in hamstrings (keep back flat).",
+      "Drive hips forward forcefully to return to standing lockout."
+    ]
+  },
+  {
+    "id": "w_lg_02",
+    "name": "Leg Press Machine",
+    "category": "strength",
+    "intensity": "high",
+    "duration_min": 20,
+    "equipment": [
+      "gym"
+    ],
+    "target_body_part": "legs",
+    "workout_type": "gym",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 10-12 reps (Heavy quad overloading)",
+    "sets_reps_loss": "3 sets × 18-20 reps (High volume lactic burn)",
+    "demo_model": "squat",
+    "description": "Safe, heavy quadriceps and glute builder with stabilized spinal support.",
+    "steps": [
+      "Sit firmly into leg press seat with lower back pinned to backrest.",
+      "Place feet shoulder-width on platform, toes turned slightly out.",
+      "Release safety bars and lower sled until knees form 90-degree angle.",
+      "Press platform back up through midfoot without locking knees at top."
+    ]
+  },
+  {
+    "id": "w_lg_03",
+    "name": "Bodyweight Air Squats & Pulse",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 15,
+    "equipment": [
+      "none"
+    ],
+    "target_body_part": "legs",
+    "workout_type": "home",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 15-20 reps with 2-second bottom pause",
+    "sets_reps_loss": "4 sets × 25 reps continuous tempo",
+    "demo_model": "squat",
+    "description": "Essential bodyweight lower body movement strengthening quads, glutes, and hips with zero equipment.",
+    "steps": [
+      "Stand tall with feet shoulder-width apart, toes slightly flared.",
+      "Extend arms forward for counter-balance; initiate movement by sitting hips back.",
+      "Descend until hip crease is below knee level, keeping chest proud.",
+      "Push through heels to return to standing, squeezing glutes at top."
+    ]
+  },
+  {
+    "id": "w_lg_04",
+    "name": "Walking Lunges",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 18,
+    "equipment": [
+      "none",
+      "dumbbells"
+    ],
+    "target_body_part": "legs",
+    "workout_type": "home",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "3 sets × 12 steps per leg (Holding dumbbells if available)",
+    "sets_reps_loss": "4 sets × 16 steps per leg (High heart rate conditioning)",
+    "demo_model": "lunge",
+    "description": "Unilateral leg builder challenging hip stability, quadriceps, glutes, and balance.",
+    "steps": [
+      "Take a long step forward with right leg; land heel-to-toe.",
+      "Lower hips until front thigh is parallel and back knee hovers 1 inch above floor.",
+      "Push off right heel and step left foot smoothly forward into the next lunge.",
+      "Maintain an upright torso and engaged core throughout."
+    ]
+  },
+  {
+    "id": "w_lg_05",
+    "name": "Glute Bridges & Hip Thrusts",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 15,
+    "equipment": [
+      "none"
+    ],
+    "target_body_part": "legs",
+    "workout_type": "home",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 15 reps with 3-second lockout hold",
+    "sets_reps_loss": "4 sets × 20 reps (Active glute burn)",
+    "demo_model": "glute_bridge",
+    "description": "Direct gluteus maximus isolation improving pelvic alignment and relieving lower back tightness.",
+    "steps": [
+      "Lie on back with knees bent, feet flat on floor hip-width apart.",
+      "Brace core and drive through heels to elevate hips toward ceiling.",
+      "Form a straight diagonal line from knees to shoulders; squeeze glutes intensely for 2-3 seconds.",
+      "Lower hips slowly until barely skimming the floor before starting next rep."
+    ]
+  },
+  {
+    "id": "w_lg_06",
+    "name": "Standing Calf Raises",
+    "category": "strength",
+    "intensity": "low",
+    "duration_min": 12,
+    "equipment": [
+      "none",
+      "dumbbells"
+    ],
+    "target_body_part": "legs",
+    "workout_type": "home",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 15-20 reps with deep stretch at bottom",
+    "sets_reps_loss": "4 sets × 25 reps fast pumping tempo",
+    "demo_model": "calf_raise",
+    "description": "Strengthens gastrocnemius, soleus, and ankle stabilizers for running, jumping, and balance.",
+    "steps": [
+      "Stand with balls of feet on edge of a step or flat floor, lightly holding wall for balance.",
+      "Lower heels down below step level for a full calf stretch.",
+      "Press through balls of feet and big toes to elevate as high as possible.",
+      "Hold top contraction for 1 second, then lower slowly."
+    ]
+  },
+  {
+    "id": "w_sh_01",
+    "name": "Standing Military Barbell Overhead Press",
+    "category": "strength",
+    "intensity": "high",
+    "duration_min": 25,
+    "equipment": [
+      "gym"
+    ],
+    "target_body_part": "shoulders",
+    "workout_type": "gym",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 6-10 reps (Shoulder strength & mass)",
+    "sets_reps_loss": "3 sets × 12 reps (Strict form)",
+    "demo_model": "overhead_press",
+    "description": "Benchmark vertical pressing lift building thick front and lateral delts, triceps, and core rigidity.",
+    "steps": [
+      "Grip barbell just outside shoulders; rest bar across upper collarbone.",
+      "Squeeze glutes and brace abs tightly to prevent arching the lower back.",
+      "Press bar vertically in a straight path, moving head back slightly to clear chin.",
+      "Push head forward once bar clears forehead; lock elbows directly overhead."
+    ]
+  },
+  {
+    "id": "w_sh_02",
+    "name": "Dumbbell Lateral Raises",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 15,
+    "equipment": [
+      "gym",
+      "dumbbells"
+    ],
+    "target_body_part": "shoulders",
+    "workout_type": "gym",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 12-15 reps (Deltoid capping)",
+    "sets_reps_loss": "4 sets × 18-20 reps (Burnout)",
+    "demo_model": "lateral_raise",
+    "description": "Isolates lateral head of the deltoid to develop wide, sculpted shoulder breadth.",
+    "steps": [
+      "Stand with dumbbells at sides, slight forward torso tilt, elbows slightly bent.",
+      "Lead with elbows to raise weights out to sides until parallel with floor.",
+      "Avoid shrugging traps; imagine pouring water out of pitchers at the top.",
+      "Lower slowly under control through a 2-second negative."
+    ]
+  },
+  {
+    "id": "w_sh_03",
+    "name": "Pike Push-Ups (Bodyweight Shoulder Press)",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 15,
+    "equipment": [
+      "none"
+    ],
+    "target_body_part": "shoulders",
+    "workout_type": "home",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 8-12 reps (Bodyweight vertical push)",
+    "sets_reps_loss": "3 sets × 12-15 reps",
+    "demo_model": "pushup",
+    "description": "Calisthenic vertical pressing progression replicating an overhead press using bodyweight.",
+    "steps": [
+      "Start in downward dog or pushup position, walk feet toward hands until hips are elevated high in an inverted V.",
+      "Gaze toward feet; bend elbows diagonally backward to lower forehead toward floor ahead of hands.",
+      "Press through palms to return to pike position."
+    ]
+  },
+  {
+    "id": "w_sh_04",
+    "name": "Resistance Band Lateral Raises",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 15,
+    "equipment": [
+      "resistance_band"
+    ],
+    "target_body_part": "shoulders",
+    "workout_type": "home",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 12-15 reps (Strict shoulder isolation)",
+    "sets_reps_loss": "4 sets × 20 reps (High rep pump)",
+    "demo_model": "lateral_raise",
+    "description": "Provides accommodating resistance that peaks at maximum shoulder abduction.",
+    "steps": [
+      "Step on center of band with one foot, holding handles at your sides.",
+      "Raise arms out laterally to shoulder level with slight elbow bend.",
+      "Pause at peak resistance for 1 count, then resist on way down."
+    ]
+  },
+  {
+    "id": "w_ar_01",
+    "name": "Incline Dumbbell Skull Crushers",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 18,
+    "equipment": [
+      "gym",
+      "dumbbells"
+    ],
+    "target_body_part": "arms",
+    "workout_type": "gym",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 10-12 reps (Long head triceps stretch)",
+    "sets_reps_loss": "3 sets × 15 reps (Moderate load)",
+    "demo_model": "tricep_pushdown",
+    "description": "Isolates the long head of the triceps through deep eccentric stretch over the forehead.",
+    "steps": [
+      "Lie on flat or slight incline bench holding dumbbells with arms extended toward ceiling.",
+      "Keeping upper arms stationary and vertical, bend elbows to lower dumbbells beside your temples.",
+      "Contract triceps forcefully to extend forearms back to starting position."
+    ]
+  },
+  {
+    "id": "w_ar_02",
+    "name": "Hanging Knee / Leg Raises",
+    "category": "strength",
+    "intensity": "high",
+    "duration_min": 15,
+    "equipment": [
+      "gym"
+    ],
+    "target_body_part": "core",
+    "workout_type": "gym",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 10-12 reps (Strict, no swing)",
+    "sets_reps_loss": "3 sets × 15-20 reps (Core definition)",
+    "demo_model": "bicycle_crunch",
+    "description": "Advanced core exercise targeting lower rectus abdominis and hip flexor control.",
+    "steps": [
+      "Hang from pull-up bar with overhand grip, shoulders engaged.",
+      "Tilt pelvis upward and curl knees/legs up toward chest without swinging.",
+      "Hold top contraction for 1 count, then lower with a strict 3-second descent."
+    ]
+  },
+  {
+    "id": "w_ar_03",
+    "name": "Forearm Plank with Hip Dips",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 15,
+    "equipment": [
+      "none",
+      "yoga_mat"
+    ],
+    "target_body_part": "core",
+    "workout_type": "home",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "4 sets × 45-60 seconds static hold or 16 dips",
+    "sets_reps_loss": "4 sets × 20 rotational hip dips (Fat burn & obliques)",
+    "demo_model": "plank",
+    "description": "Anti-extension core staple engaging deep transverse abdominis, obliques, and shoulders.",
+    "steps": [
+      "Rest on forearms and toes with elbows beneath shoulders, body in a rigid plank line.",
+      "Pull navel into spine and squeeze glutes.",
+      "Slowly rotate hips to tap floor on the right side, return to center, then tap left side.",
+      "Breathe steadily throughout the movement."
+    ]
+  },
+  {
+    "id": "w_ar_04",
+    "name": "Bicycle Crunches & Deadbugs",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 12,
+    "equipment": [
+      "none"
+    ],
+    "target_body_part": "core",
+    "workout_type": "home",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "3 sets × 20 alternating reps (Strict deliberate tempo)",
+    "sets_reps_loss": "4 sets × 30 alternating reps (High heart rate ab circuit)",
+    "demo_model": "bicycle_crunch",
+    "description": "Proven rotational exercise maximizing electromyographic activation across rectus abdominis and obliques.",
+    "steps": [
+      "Lie on back, hands lightly touching back of head, legs elevated with knees at 90 degrees.",
+      "Bring right elbow toward left knee while extending right leg straight out at 45 degrees.",
+      "Switch sides in a smooth pedaling motion, keeping shoulder blades lifted off floor."
+    ]
+  },
+  {
+    "id": "w_rc_01",
+    "name": "Cat-Cow & Thoracic Spine Mobility",
+    "category": "mobility",
+    "intensity": "low",
+    "duration_min": 15,
+    "equipment": [
+      "none",
+      "yoga_mat"
+    ],
+    "target_body_part": "mobility",
+    "workout_type": "both",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "3 rounds × 10 fluid cycles with deep breath",
+    "sets_reps_loss": "3 rounds × 10 fluid cycles with deep breath",
+    "demo_model": "cat_cow",
+    "description": "Decompresses spinal vertebrae, relieves lower back tension, and restores thoracic mobility.",
+    "steps": [
+      "Begin on all fours on hands and knees with wrists under shoulders and knees under hips.",
+      "Inhale as you drop belly toward floor, arching back and looking gently upward (Cow).",
+      "Exhale as you tuck tailbone, dome back toward ceiling, and tuck chin to chest (Cat).",
+      "Repeat smoothly with slow nasal breathing."
+    ]
+  },
+  {
+    "id": "w_rc_02",
+    "name": "Deep Hip Flexor & Pigeon Stretch",
+    "category": "mobility",
+    "intensity": "low",
+    "duration_min": 15,
+    "equipment": [
+      "none",
+      "yoga_mat"
+    ],
+    "target_body_part": "mobility",
+    "workout_type": "both",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "2 sets × 60-second hold per side",
+    "sets_reps_loss": "2 sets × 60-second hold per side",
+    "demo_model": "lunge",
+    "description": "Releases tight psoas, hip flexors, and piriformis muscles caused by desk sitting and heavy training.",
+    "steps": [
+      "Step into half-kneeling lunge with back knee resting comfortably on mat.",
+      "Shift hips forward gently until a stretch is felt in the front of the trailing hip.",
+      "Transition into pigeon pose by bringing front shin across mat and extending back leg straight behind.",
+      "Fold torso forward over front leg for a deep glute and piriformis stretch."
+    ]
+  },
+  {
+    "id": "w_rc_03",
+    "name": "Restorative Heart-Rate Recovery Walk",
+    "category": "walk",
+    "intensity": "low",
+    "duration_min": 25,
+    "equipment": [
+      "none"
+    ],
+    "target_body_part": "mobility",
+    "workout_type": "both",
+    "goal_focus": [
+      "build_muscle",
+      "weight_loss"
+    ],
+    "sets_reps_muscle": "25-30 minutes steady leisurely walking",
+    "sets_reps_loss": "30-45 minutes brisk fat-burning walk",
+    "demo_model": "walk",
+    "description": "Promotes lymphatic circulation, accelerates lactic clearance, and activates the parasympathetic nervous system.",
+    "steps": [
+      "Walk at a comfortable conversational pace outdoors or on a flat treadmill.",
+      "Maintain upright posture with relaxed shoulders and natural arm swing.",
+      "Focus on calm nasal diaphragmatic breathing throughout the duration."
+    ]
+  }
+]

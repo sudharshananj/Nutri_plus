@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Scanner & Calorie Detection | Nutrition Plus</title>
+  <script>
+    (function() {
+      var savedTheme = localStorage.getItem("nutrition_plus_theme") || "dark";
+      document.documentElement.setAttribute("data-theme", savedTheme);
+    })();
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo-wrap">
+        <div class="logo-badge">🥗</div>
+        <span>Nutrition <span class="logo-text-accent">Plus</span></span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="profile.html" class="nav-link">Plan Wizard</a></li>
+        <li><a href="results.html" class="nav-link">Daily Planner</a></li>
+        <li><a href="scanner.html" class="nav-link active">📸 Food Scanner</a></li>
+        <li><a href="saved.html" class="nav-link">Saved Plans</a></li>
+        <li><a href="about.html" class="nav-link">About & Safety</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="btn-theme-toggle" onclick="window.toggleTheme && window.toggleTheme()" title="Toggle Night/Day Mode" aria-label="Toggle Night Mode">☀️</button>
+        <button id="hamburger-btn" class="hamburger-btn" aria-label="Toggle navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top: 2.5rem; padding-bottom: 4rem;">
+    <div style="text-align: center; max-width: 680px; margin: 0 auto 2.5rem;">
+      <span class="badge badge-primary" style="margin-bottom: 0.5rem;">Offline Heuristic Vision Engine</span>
+      <h1 style="font-size: 2.2rem; font-weight: 800; margin-bottom: 0.5rem;">
+        Camera Food Scanner & Calorie Estimator
+      </h1>
+      <p style="color: var(--text-muted); font-size: 0.95rem;">
+        Scan meals via your webcam or upload a photo to estimate sample calories, 
+        portion macros, and view healthy home cooking recipes.
+      </p>
+    </div>
+
+    <!-- Scanner Control Card -->
+    <div class="scanner-card">
+      <!-- Camera Diagnostics & Status Banner -->
+      <div id="camera-status-banner" style="display: none; margin-bottom: 1.25rem; padding: 0.85rem 1rem; border-radius: var(--radius-md); font-size: 0.88rem;"></div>
+
+      <div style="display: flex; justify-content: center; gap: 0.75rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
+        <button id="btn-start-camera" class="btn btn-primary">
+          📷 Start Live Camera
+        </button>
+        <button id="btn-virtual-camera" class="btn btn-secondary" title="Simulates a live food video stream if your physical camera is blocked or unavailable">
+          🎥 Virtual Camera Feed
+        </button>
+        <button id="btn-native-camera" class="btn btn-outline" title="Opens phone's native camera app">
+          📱 Phone Camera
+        </button>
+        <button id="btn-capture-scan" class="btn btn-accent" disabled>
+          ⚡ Capture & Scan Frame
+        </button>
+        <button id="btn-stop-camera" class="btn btn-secondary" style="display: none;">
+          ✕ Stop Camera
+        </button>
+        <input type="file" id="native-camera-input" accept="image/*" capture="environment" style="display: none;">
+      </div>
+
+      <!-- Live Viewfinder -->
+      <div class="viewfinder-wrap">
+        <video id="scanner-video" class="scanner-video" autoplay playsinline style="display: none;"></video>
+        <canvas id="virtual-video-canvas" class="scanner-video" style="display: none;"></canvas>
+        <div id="camera-placeholder" style="display: flex; flex-direction: column; align-items: center; color: #94a3b8; padding: 2rem 1rem;">
+          <div style="font-size: 3rem; margin-bottom: 0.5rem;">📷</div>
+          <p style="font-size: 0.95rem; font-weight: 600; margin-bottom: 0.2rem;">Camera is currently idle</p>
+          <p style="font-size: 0.82rem; color: var(--text-muted); max-width: 420px; text-align: center;">
+            Click <strong>"Start Live Camera"</strong>, launch the <strong>"Virtual Camera Feed"</strong>, or upload an image below.
+          </p>
+        </div>
+        <div class="scanner-overlay">
+          <div class="scanner-laser"></div>
+          <div id="scanner-hud" style="position: absolute; top: 12px; left: 14px; font-size: 0.72rem; font-family: monospace; color: #38bdf8; background: rgba(15,23,42,0.7); padding: 2px 8px; border-radius: 4px; display: none;">
+            LIVE SENSOR • 30 FPS • AF LOCKED
+          </div>
+        </div>
+      </div>
+      <canvas id="scanner-canvas" style="display: none;"></canvas>
+
+      <!-- Upload Dropzone Option -->
+      <div style="margin: 2rem 0 1rem; text-align: center;">
+        <span style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; font-weight: 600;">
+          — Or Upload Food Photo —
+        </span>
+      </div>
+
+      <div class="upload-dropzone" id="upload-dropzone">
+        <div style="font-size: 2rem; margin-bottom: 0.4rem;">📁</div>
+        <strong style="display: block; font-size: 1rem; margin-bottom: 0.2rem;">Click to upload or drag & drop food image</strong>
+        <span style="font-size: 0.82rem; color: var(--text-muted);">Supports PNG, JPG, WEBP</span>
+        <input type="file" id="food-image-input" accept="image/*" style="display: none;">
+      </div>
+
+      <!-- Quick Sample Buttons for Instant Evaluator Demo -->
+      <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border);">
+        <label style="display: block; font-weight: 600; font-size: 0.88rem; margin-bottom: 0.6rem; color: var(--text-muted);">
+          🚀 Quick Demo Presets (Test without uploading):
+        </label>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+          <button class="btn btn-secondary btn-sm btn-preset-test" data-hint="Vegetable Poha">🍋 Poha</button>
+          <button class="btn btn-secondary btn-sm btn-preset-test" data-hint="Steamed Idli with Sambar">🥥 Idli Sambar</button>
+          <button class="btn btn-secondary btn-sm btn-preset-test" data-hint="Fresh Green Salad Bowl">🥗 Green Salad</button>
+          <button class="btn btn-secondary btn-sm btn-preset-test" data-hint="Moong Dal Cheela">🥞 Dal Cheela</button>
+          <button class="btn btn-secondary btn-sm btn-preset-test" data-hint="Grilled Lemon Herb Chicken">🍗 Grilled Chicken</button>
+          <button class="btn btn-secondary btn-sm btn-preset-test" data-hint="Fruit & Oatmeal Chia Bowl">🥣 Fruit Oats</button>
+          <button class="btn btn-secondary btn-sm btn-preset-test" data-hint="Paneer Tikka with Peppers">🧀 Paneer Tikka</button>
+          <button class="btn btn-secondary btn-sm btn-preset-test" data-hint="Crisp Apple with Peanut Butter">🍎 Apple & PB</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scan Results Card -->
+    <div id="scan-result-card" class="form-card" style="display: none; max-width: 780px;">
+      <!-- Populated dynamically via scanner.js -->
+    </div>
+  </main>
+
+  <!-- Recipe Viewer Modal -->
+  <div class="modal-backdrop" id="recipe-modal" role="dialog" aria-modal="true" aria-labelledby="modal-recipe-title">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-recipe-title">Recipe Details</h3>
+        <button class="modal-close-btn" aria-label="Close modal">✕</button>
+      </div>
+      <div class="modal-body" id="modal-recipe-body"></div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary modal-close-btn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="disclaimer-banner">
+    <div class="container disclaimer-content">
+      <div class="disclaimer-text">
+        <span class="disclaimer-badge">IMPORTANT</span>
+        <span>General wellness ideas, not medical advice. Check ingredient labels and cross-contact information. Visual calorie estimation is sample-based for general wellness awareness, not clinical nutrition.</span>
+      </div>
+      <div><a href="about.html" style="color: var(--primary); text-decoration: none; font-weight: 600;">Safety Guidelines</a></div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/scanner.js"></script>
+</body>
+</html>

@@ -1,0 +1,2335 @@
+[
+  {
+    "id": "m001",
+    "name": "Vegetable Poha",
+    "cuisine": "south_indian",
+    "meal_type": "breakfast",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "jain"
+    ],
+    "allergens": [
+      "peanut"
+    ],
+    "ingredients": [
+      "1.5 cups flattened rice (thick poha)",
+      "1/4 cup boiled green peas",
+      "1 medium diced potato",
+      "2 tbsp roasted peanuts",
+      "1 green chilli, chopped",
+      "8 curry leaves",
+      "1/2 tsp mustard seeds",
+      "1/4 tsp turmeric powder",
+      "1 tbsp cold-pressed groundnut or sunflower oil",
+      "Salt to taste",
+      "1 tbsp fresh lemon juice",
+      "2 tbsp fresh coriander leaves"
+    ],
+    "prep_time_min": 10,
+    "cook_time_min": 10,
+    "cost_level": "low",
+    "goal_tags": [
+      "balanced",
+      "light_meals",
+      "more_energy",
+      "weight_loss"
+    ],
+    "sample_calories": 250,
+    "sample_protein_g": 6.2,
+    "sample_carbs_g": 42.0,
+    "sample_fat_g": 7.0,
+    "sample_fiber_g": 3.8,
+    "description": "Traditional light breakfast of flattened rice gently tempered with mustard, turmeric, crunchy peanuts, and green peas.",
+    "recipe_steps": [
+      "Rinse flattened rice in a colander under running water for 30 seconds until softened; drain completely and rest for 5 minutes.",
+      "Heat 1 tbsp oil in a non-stick pan over medium heat; add mustard seeds and let them splutter.",
+      "Add curry leaves, chopped green chillies, and diced potatoes; cook covered for 4 minutes until potatoes are fork-tender.",
+      "Add green peas, roasted peanuts, turmeric powder, and salt; stir well.",
+      "Gently fold in the rinsed poha. Cover and steam on very low flame for 2 to 3 minutes.",
+      "Turn off the heat, drizzle fresh lemon juice, and garnish with chopped coriander before serving hot."
+    ],
+    "chef_tips": "Do not soak poha in water or it will turn mushy. A gentle rinse in a colander is the secret to fluffy grains."
+  },
+  {
+    "id": "m002",
+    "name": "Steamed Idli with Sambar & Tomato Chutney",
+    "cuisine": "south_indian",
+    "meal_type": "breakfast",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [],
+    "ingredients": [
+      "4 steamed fermented rice and black gram idlis",
+      "1 cup toor dal sambar with drumstick and carrots",
+      "2 tbsp fresh roasted tomato and red chilli chutney",
+      "1/4 tsp asafoetida (hing)",
+      "1 sprig curry leaves"
+    ],
+    "prep_time_min": 5,
+    "cook_time_min": 15,
+    "cost_level": "low",
+    "goal_tags": [
+      "balanced",
+      "light_meals",
+      "more_energy",
+      "weight_loss"
+    ],
+    "sample_calories": 280,
+    "sample_protein_g": 9.0,
+    "sample_carbs_g": 54.0,
+    "sample_fat_g": 2.5,
+    "sample_fiber_g": 5.0,
+    "description": "Naturally fermented, gut-friendly steamed rice cakes served with protein-rich lentil vegetable sambar.",
+    "recipe_steps": [
+      "Grease idli molds lightly and pour fermented rice-urad dal batter into each depression.",
+      "Steam in an idli cooker or steamer over medium-high heat for 10-12 minutes until a toothpick inserted comes out clean.",
+      "Simmer the pre-cooked toor dal with mixed vegetables, tamarind extract, and freshly grounded sambar powder for 8 minutes.",
+      "Prepare tomato chutney by sautéing tomatoes, cumin, and dry red chillies, then blending to a smooth dip.",
+      "Serve hot steamed idlis floating in a bowl of warm aromatic sambar with chutney on the side."
+    ],
+    "chef_tips": "Steaming preserves nutrients and requires zero added cooking oil, making this exceptionally easy on digestion."
+  },
+  {
+    "id": "m003",
+    "name": "Moong Dal Cheela (Savory Lentil Crepe)",
+    "cuisine": "north_indian",
+    "meal_type": "breakfast",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [],
+    "ingredients": [
+      "1 cup yellow moong dal (soaked 2 hours)",
+      "1 green chilli",
+      "1/2 inch ginger piece",
+      "1/4 tsp cumin seeds",
+      "1/4 tsp turmeric",
+      "1/2 cup finely chopped capsicum and coriander",
+      "1 tsp olive or sunflower oil for cooking",
+      "Pink rock salt to taste"
+    ],
+    "prep_time_min": 15,
+    "cook_time_min": 10,
+    "cost_level": "low",
+    "goal_tags": [
+      "balanced",
+      "build_muscle",
+      "high_protein",
+      "light_meals",
+      "weight_loss"
+    ],
+    "sample_calories": 260,
+    "sample_protein_g": 14.5,
+    "sample_carbs_g": 36.0,
+    "sample_fat_g": 5.0,
+    "sample_fiber_g": 6.2,
+    "description": "High-protein golden crepes made from blended yellow split lentils with fresh herbs and bell peppers.",
+    "recipe_steps": [
+      "Drain soaked moong dal and blend with ginger, green chilli, cumin seeds, and 3-4 tbsp water to a smooth pouring consistency.",
+      "Transfer batter to a bowl; whisk in turmeric, salt, and finely chopped capsicum.",
+      "Heat a cast iron skillet or non-stick tawa over medium flame; grease lightly with drops of oil.",
+      "Pour a ladle of batter and spread in concentric circles from the center outwards into a medium-thin crepe.",
+      "Cook for 2-3 minutes until golden brown crisp on the edges, flip and cook the other side for 1 minute.",
+      "Fold into a semi-circle and serve warm with mint-coriander dip."
+    ],
+    "chef_tips": "Soak the yellow moong dal in warm water for 20 minutes if pressed for time."
+  },
+  {
+    "id": "m004",
+    "name": "Ragi Dosa with Coconut Mint Chutney",
+    "cuisine": "south_indian",
+    "meal_type": "breakfast",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal"
+    ],
+    "allergens": [],
+    "ingredients": [
+      "1 cup finger millet (ragi) flour",
+      "1/2 cup rice flour",
+      "1/2 cup water",
+      "1 green chilli finely minced",
+      "1 small onion chopped",
+      "1 sprig curry leaves",
+      "1 tsp cumin seeds",
+      "1 tsp sesame oil or sunflower oil",
+      "Salt to taste"
+    ],
+    "prep_time_min": 10,
+    "cook_time_min": 10,
+    "cost_level": "low",
+    "goal_tags": [
+      "balanced",
+      "more_energy",
+      "stay_active",
+      "weight_loss"
+    ],
+    "sample_calories": 270,
+    "sample_protein_g": 7.0,
+    "sample_carbs_g": 48.0,
+    "sample_fat_g": 4.5,
+    "sample_fiber_g": 7.5,
+    "description": "Calcium and iron-rich finger millet crisp crepes seasoned with onions, cumin, and fresh herbs.",
+    "recipe_steps": [
+      "In a mixing bowl, combine ragi flour, rice flour, chopped onion, green chilli, curry leaves, cumin seeds, and salt.",
+      "Add water gradually while whisking to make a thin, buttermilk-like runny batter.",
+      "Rest the batter for 5-10 minutes.",
+      "Heat a tawa on high until very hot; splash water droplets to check.",
+      "Pour batter from the outer perimeter moving inwards without spreading with a ladle.",
+      "Drizzle 1/2 tsp oil along edges and cook on medium flame for 3 minutes until crisp, then flip for 30 seconds."
+    ],
+    "chef_tips": "Ragi is rich in dietary fiber and slow-burning carbohydrates that support sustained morning stamina."
+  },
+  {
+    "id": "m005",
+    "name": "Greek Vegetable Omelette with Whole Wheat Toast",
+    "cuisine": "mediterranean",
+    "meal_type": "breakfast",
+    "diet_tags": [
+      "eggetarian",
+      "halal"
+    ],
+    "allergens": [
+      "egg",
+      "milk",
+      "wheat"
+    ],
+    "ingredients": [
+      "2 whole eggs",
+      "1 egg white",
+      "1/4 cup baby spinach",
+      "4 cherry tomatoes, halved",
+      "1 tbsp crumbled feta cheese",
+      "4 kalamata olives, pitted and sliced",
+      "1 slice 100% whole wheat sourdough bread",
+      "1/2 tsp dried oregano",
+      "1 tsp extra virgin olive oil",
+      "Black pepper and sea salt"
+    ],
+    "prep_time_min": 8,
+    "cook_time_min": 7,
+    "cost_level": "medium",
+    "goal_tags": [
+      "balanced",
+      "build_muscle",
+      "high_protein",
+      "more_energy",
+      "weight_loss"
+    ],
+    "sample_calories": 340,
+    "sample_protein_g": 22.0,
+    "sample_carbs_g": 18.0,
+    "sample_fat_g": 18.0,
+    "sample_fiber_g": 3.2,
+    "description": "Mediterranean-inspired fluffy egg omelette folded with baby spinach, juicy cherry tomatoes, kalamata olives, and tangy feta.",
+    "recipe_steps": [
+      "In a bowl, whisk whole eggs, egg white, oregano, black pepper, and a pinch of salt until frothy.",
+      "Heat olive oil in a non-stick skillet over medium-low flame.",
+      "Sauté spinach and cherry tomatoes for 1 minute until spinach just wilts.",
+      "Pour the whisked eggs evenly over the vegetables. Cook undisturbed for 2 minutes until base sets.",
+      "Scatter crumbled feta and sliced olives over one half; fold the omelette gently.",
+      "Toast whole wheat bread until golden brown and serve alongside the warm omelette."
+    ],
+    "chef_tips": "Whisking vigorously introduces micro air pockets that give the omelette a souffle-like velvety texture."
+  },
+  {
+    "id": "m006",
+    "name": "Cinnamon Apple Chia Oatmeal Bowl",
+    "cuisine": "continental",
+    "meal_type": "breakfast",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [
+      "tree_nut"
+    ],
+    "ingredients": [
+      "1/2 cup rolled oats",
+      "1 cup almond milk or oat milk",
+      "1 tbsp chia seeds",
+      "1/2 diced red apple",
+      "1/4 tsp ground Ceylon cinnamon",
+      "1 tbsp chopped walnuts",
+      "1 tsp pure maple syrup"
+    ],
+    "prep_time_min": 5,
+    "cook_time_min": 8,
+    "cost_level": "medium",
+    "goal_tags": [
+      "balanced",
+      "light_meals",
+      "more_energy",
+      "weight_loss"
+    ],
+    "sample_calories": 310,
+    "sample_protein_g": 8.5,
+    "sample_carbs_g": 49.0,
+    "sample_fat_g": 9.5,
+    "sample_fiber_g": 8.0,
+    "description": "Warm rolled oats simmered in plant milk with omega-rich chia seeds, spiced apple cubes, and toasted walnuts.",
+    "recipe_steps": [
+      "Bring almond milk to a gentle simmer in a small saucepan over medium heat.",
+      "Add rolled oats, chia seeds, and cinnamon powder; stir well to avoid clumping.",
+      "Lower heat to medium-low and simmer for 5-6 minutes, stirring occasionally until thick and creamy.",
+      "Transfer to a breakfast bowl; top with diced fresh apple, toasted walnuts, and a drizzle of maple syrup."
+    ],
+    "chef_tips": "Chia seeds absorb liquid and form a gentle soluble fiber gel that keeps you feeling satisfied for hours."
+  },
+  {
+    "id": "m007",
+    "name": "Besan & Vegetable Masala Scramble",
+    "cuisine": "north_indian",
+    "meal_type": "breakfast",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [],
+    "ingredients": [
+      "3/4 cup gram flour (besan)",
+      "1 cup water",
+      "1/4 cup finely chopped bell peppers and tomatoes",
+      "1 green chilli",
+      "1/4 tsp turmeric",
+      "1/4 tsp carom seeds (ajwain)",
+      "1 tsp mustard oil or olive oil",
+      "Fresh coriander leaves"
+    ],
+    "prep_time_min": 8,
+    "cook_time_min": 10,
+    "cost_level": "low",
+    "goal_tags": [
+      "balanced",
+      "build_muscle",
+      "high_protein",
+      "weight_loss"
+    ],
+    "sample_calories": 240,
+    "sample_protein_g": 12.0,
+    "sample_carbs_g": 29.0,
+    "sample_fat_g": 6.5,
+    "sample_fiber_g": 5.5,
+    "description": "Egg-free protein scramble prepared from spiced chickpea flour with carom seeds and colorful crunchy peppers.",
+    "recipe_steps": [
+      "Whisk chickpea flour with water, turmeric, and salt until lump-free.",
+      "Heat oil in a skillet, add ajwain and chopped green chilli; let them sizzle for 20 seconds.",
+      "Sauté chopped bell peppers and tomatoes for 2 minutes.",
+      "Pour the chickpea batter into the pan and continuously stir with a spatula over medium-low heat.",
+      "The batter will thicken and crumble into soft scramble curds over 4-5 minutes.",
+      "Garnish with coriander and serve warm."
+    ],
+    "chef_tips": "Carom seeds (ajwain) enhance aromatic depth while assisting natural legume digestion."
+  },
+  {
+    "id": "m008",
+    "name": "Japanese Tofu & Miso Breakfast Soup with Brown Rice",
+    "cuisine": "east_asian",
+    "meal_type": "breakfast",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal"
+    ],
+    "allergens": [
+      "soy",
+      "sesame"
+    ],
+    "ingredients": [
+      "100g firm organic silken tofu, cubed",
+      "1.5 cups vegetable dashi or mushroom broth",
+      "1.5 tbsp white miso paste (fermented soybean)",
+      "1/2 sheet nori seaweed, snipped",
+      "2 tbsp sliced spring onions",
+      "1/2 cup pre-cooked warm brown rice",
+      "1/2 tsp toasted sesame oil"
+    ],
+    "prep_time_min": 7,
+    "cook_time_min": 8,
+    "cost_level": "medium",
+    "goal_tags": [
+      "balanced",
+      "light_meals",
+      "more_energy",
+      "weight_loss"
+    ],
+    "sample_calories": 260,
+    "sample_protein_g": 13.0,
+    "sample_carbs_g": 35.0,
+    "sample_fat_g": 6.0,
+    "sample_fiber_g": 4.0,
+    "description": "Comforting probiotic-rich fermented soybean soup with tender tofu cubes, nori, scallions, and warm brown rice.",
+    "recipe_steps": [
+      "Heat vegetable broth in a pot until hot but not boiling.",
+      "Ladle 3 tbsp hot broth into a small bowl, whisk miso paste into it until completely dissolved.",
+      "Add diced tofu cubes and snipped nori to the pot; simmer gently for 3 minutes.",
+      "Remove pot from flame; stir the dissolved miso back into the pot (never boil miso directly).",
+      "Ladle soup over a small scoop of warm brown rice, drizzle sesame oil, and top with fresh spring onions."
+    ],
+    "chef_tips": "Do not boil miso paste directly; adding it off the boil preserves the beneficial live probiotic cultures."
+  },
+  {
+    "id": "m009",
+    "name": "Boiled Egg Salad with Avocado Toast",
+    "cuisine": "continental",
+    "meal_type": "breakfast",
+    "diet_tags": [
+      "eggetarian",
+      "halal"
+    ],
+    "allergens": [
+      "egg",
+      "wheat"
+    ],
+    "ingredients": [
+      "2 large organic eggs, hard-boiled",
+      "1/2 ripe avocado, mashed",
+      "1 thick slice whole-grain artisanal sourdough bread",
+      "1 tsp lemon juice",
+      "1/4 tsp red pepper chilli flakes",
+      "Pinch of pink sea salt and crushed black pepper",
+      "Handful of microgreens"
+    ],
+    "prep_time_min": 10,
+    "cook_time_min": 5,
+    "cost_level": "medium",
+    "goal_tags": [
+      "build_muscle",
+      "high_protein",
+      "more_energy",
+      "stay_active",
+      "weight_loss"
+    ],
+    "sample_calories": 350,
+    "sample_protein_g": 18.0,
+    "sample_carbs_g": 24.0,
+    "sample_fat_g": 20.0,
+    "sample_fiber_g": 6.5,
+    "description": "Hearty whole-grain toast layered with creamy lemon-seasoned avocado, sliced boiled eggs, and peppery microgreens.",
+    "recipe_steps": [
+      "Toast whole-grain sourdough bread in a toaster until crisp and deeply golden.",
+      "In a bowl, mash avocado with lemon juice, salt, and black pepper.",
+      "Peel hard-boiled eggs and slice cleanly with a sharp knife.",
+      "Spread mashed avocado generously over the toasted bread.",
+      "Arrange egg slices over avocado; sprinkle red chilli flakes and microgreens."
+    ],
+    "chef_tips": "Avocado provides heart-healthy monounsaturated fats that facilitate absorption of fat-soluble vitamins A, D, and E from eggs."
+  },
+  {
+    "id": "m010",
+    "name": "Spinach & Paneer Paratha with Mint Curd",
+    "cuisine": "north_indian",
+    "meal_type": "breakfast",
+    "diet_tags": [
+      "vegetarian",
+      "eggetarian",
+      "halal"
+    ],
+    "allergens": [
+      "milk",
+      "wheat"
+    ],
+    "ingredients": [
+      "3/4 cup whole wheat flour (atta)",
+      "1/2 cup blanched and pureed spinach",
+      "50g grated fresh low-fat paneer",
+      "1/4 tsp ajwain",
+      "1/4 tsp garam masala",
+      "1/2 cup fresh low-fat curd (yogurt)",
+      "1 tsp ghee or oil for roasting",
+      "Salt to taste"
+    ],
+    "prep_time_min": 15,
+    "cook_time_min": 10,
+    "cost_level": "medium",
+    "goal_tags": [
+      "build_muscle",
+      "high_protein",
+      "more_energy",
+      "weight_loss"
+    ],
+    "sample_calories": 360,
+    "sample_protein_g": 16.0,
+    "sample_carbs_g": 44.0,
+    "sample_fat_g": 11.5,
+    "sample_fiber_g": 5.0,
+    "description": "Vibrant emerald paratha kneaded with fresh spinach puree, stuffed with spiced low-fat paneer, served with cooling mint curd.",
+    "recipe_steps": [
+      "Knead whole wheat flour with pureed spinach, ajwain, and a pinch of salt into a soft dough; rest for 10 minutes.",
+      "Season grated paneer with salt, green chilli, and garam masala.",
+      "Roll a small dough ball into a 4-inch disc, place 2 tbsp paneer filling in center, seal edges, and roll into a 7-inch paratha.",
+      "Cook on a hot skillet; apply 1/2 tsp ghee and roast both sides until golden speckles appear.",
+      "Serve warm with fresh curd beaten with chopped mint leaves."
+    ],
+    "chef_tips": "Kneading spinach directly into the dough infuses natural folate and chlorophyll throughout every bite."
+  },
+  {
+    "id": "m011",
+    "name": "Mediterranean Chickpea & Quinoa Harvest Bowl",
+    "cuisine": "mediterranean",
+    "meal_type": "lunch",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [],
+    "ingredients": [
+      "3/4 cup cooked organic quinoa",
+      "3/4 cup boiled chickpeas",
+      "1 cup diced cucumber, cherry tomatoes, and bell peppers",
+      "2 tbsp chopped parsley and fresh mint",
+      "1 tbsp extra virgin cold-pressed olive oil",
+      "1 tbsp fresh lemon juice",
+      "1/2 tsp sumac or oregano",
+      "Pinch of sea salt"
+    ],
+    "prep_time_min": 12,
+    "cook_time_min": 0,
+    "cost_level": "medium",
+    "goal_tags": [
+      "balanced",
+      "build_muscle",
+      "high_protein",
+      "stay_active"
+    ],
+    "sample_calories": 390,
+    "sample_protein_g": 15.0,
+    "sample_carbs_g": 56.0,
+    "sample_fat_g": 10.0,
+    "sample_fiber_g": 11.0,
+    "description": "Wholesome gluten-free grain and pulse salad tossed with crunchy crisp garden vegetables, lemon, and extra virgin olive oil.",
+    "recipe_steps": [
+      "In a wide salad bowl, combine cooked quinoa and tender boiled chickpeas.",
+      "Toss in diced cucumbers, sweet cherry tomatoes, and colorful bell peppers.",
+      "In a small glass jar, shake olive oil, lemon juice, sumac, oregano, and salt into an emulsion dressing.",
+      "Pour dressing over the bowl and toss lightly to coat every grain.",
+      "Garnish with chopped fresh flat-leaf parsley and mint."
+    ],
+    "chef_tips": "Combining quinoa (a complete plant protein) with chickpeas provides all nine essential amino acids."
+  },
+  {
+    "id": "m012",
+    "name": "Yellow Dal Tadka with Steamed Brown Rice & Bhindi Masala",
+    "cuisine": "north_indian",
+    "meal_type": "lunch",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal"
+    ],
+    "allergens": [],
+    "ingredients": [
+      "1 cup cooked yellow toor and masoor dal",
+      "3/4 cup steamed long-grain brown rice",
+      "1 cup stir-fried okra (bhindi) with onions and cumin",
+      "1 tsp cumin seeds",
+      "1 green chilli slit",
+      "1/4 tsp turmeric",
+      "1 tsp sunflower oil",
+      "Fresh coriander and lemon wedge"
+    ],
+    "prep_time_min": 10,
+    "cook_time_min": 15,
+    "cost_level": "low",
+    "goal_tags": [
+      "balanced",
+      "build_muscle",
+      "more_energy"
+    ],
+    "sample_calories": 420,
+    "sample_protein_g": 16.5,
+    "sample_carbs_g": 72.0,
+    "sample_fat_g": 6.5,
+    "sample_fiber_g": 9.5,
+    "description": "Classic Indian homestyle lunch of garlic-cumin tempered yellow lentils paired with fiber-rich brown rice and crisp okra stir-fry.",
+    "recipe_steps": [
+      "Pressure cook or boil toor and masoor dal with turmeric and salt until tender.",
+      "Heat oil in a small pan; crackle cumin seeds, slit green chillies, and ginger.",
+      "Pour the fragrant tadka over the dal and simmer for 3 minutes.",
+      "Sauté sliced okra with cumin, coriander powder, and onion slices in 1/2 tsp oil until crisp and tender.",
+      "Serve warm dal over a mound of steamed brown rice with bhindi masala on the side."
+    ],
+    "chef_tips": "Dry the okra thoroughly with a kitchen towel before slicing to prevent sliminess during cooking."
+  },
+  {
+    "id": "m013",
+    "name": "Grilled Lemon Herb Chicken with Roasted Sweet Potatoes",
+    "cuisine": "continental",
+    "meal_type": "lunch",
+    "diet_tags": [
+      "non_veg",
+      "halal"
+    ],
+    "allergens": [],
+    "ingredients": [
+      "140g lean chicken breast fillets",
+      "1 medium sweet potato, cubed",
+      "1 cup steamed broccoli florets",
+      "1 tbsp extra virgin olive oil",
+      "1 tbsp lemon juice & 1 tsp lemon zest",
+      "1 tsp dried rosemary and thyme",
+      "1/2 tsp garlic powder",
+      "Crushed black pepper and sea salt"
+    ],
+    "prep_time_min": 12,
+    "cook_time_min": 18,
+    "cost_level": "high",
+    "goal_tags": [
+      "build_muscle",
+      "high_protein",
+      "more_energy",
+      "stay_active",
+      "weight_gain"
+    ],
+    "sample_calories": 450,
+    "sample_protein_g": 38.0,
+    "sample_carbs_g": 36.0,
+    "sample_fat_g": 12.0,
+    "sample_fiber_g": 6.0,
+    "description": "Tender grilled skinless chicken breast marinated in fresh citrus and herbs, balanced with sweet potato cubes and steamed greens.",
+    "recipe_steps": [
+      "Pound chicken breast to even 1/2-inch thickness; marinate with olive oil, lemon juice, lemon zest, herbs, garlic powder, salt, and pepper for 10 minutes.",
+      "Toss sweet potato cubes with a few drops of oil and bake at 200°C for 18 minutes or pan-roast until caramelized and tender.",
+      "Heat a grill pan on medium-high; grill chicken fillets for 5-6 minutes per side until internal temperature reaches 74°C.",
+      "Steam broccoli florets for 3 minutes until vibrant green yet crisp.",
+      "Rest chicken for 3 minutes to retain juices, slice and serve with sweet potato and broccoli."
+    ],
+    "chef_tips": "Letting the cooked chicken rest for 3 minutes before slicing allows moisture to redistribute through the muscle fibers."
+  },
+  {
+    "id": "m014",
+    "name": "Tofu Teriyaki Stir-Fry with Jasmine Rice",
+    "cuisine": "east_asian",
+    "meal_type": "lunch",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal"
+    ],
+    "allergens": [
+      "soy",
+      "sesame",
+      "wheat"
+    ],
+    "ingredients": [
+      "130g extra firm organic tofu, pressed and cubed",
+      "1 cup mixed florets (broccoli, snow peas, sliced carrots)",
+      "3/4 cup cooked jasmine or brown rice",
+      "1.5 tbsp low-sodium soy sauce or tamari",
+      "1 tsp grated ginger",
+      "1 tsp maple syrup or rice vinegar",
+      "1 tsp toasted sesame seeds",
+      "1 tsp sesame oil"
+    ],
+    "prep_time_min": 12,
+    "cook_time_min": 12,
+    "cost_level": "medium",
+    "goal_tags": [
+      "balanced",
+      "build_muscle",
+      "high_protein",
+      "light_meals",
+      "weight_gain",
+      "weight_loss"
+    ],
+    "sample_calories": 410,
+    "sample_protein_g": 20.0,
+    "sample_carbs_g": 52.0,
+    "sample_fat_g": 12.5,
+    "sample_fiber_g": 5.5,
+    "description": "Pan-seared golden tofu cubes glazed in a savory ginger-teriyaki glaze, tossed with crunchy vegetables over fragrant rice.",
+    "recipe_steps": [
+      "Press tofu with a paper towel for 10 minutes to extract excess moisture; cut into 1-inch cubes.",
+      "Heat sesame oil in a wok; pan-sear tofu cubes until all sides are golden brown (about 6 minutes); remove.",
+      "In the same wok, flash fry sliced carrots, snow peas, and broccoli for 3 minutes.",
+      "Whisk low-sodium soy sauce, ginger, rice vinegar, and maple syrup; pour into the wok.",
+      "Return tofu to wok, toss in glaze for 1 minute until sticky and fragrant.",
+      "Serve over warm rice, sprinkled with toasted sesame seeds."
+    ],
+    "chef_tips": "Pressing the tofu beforehand ensures a crisp exterior that absorbs the savory teriyaki glaze without becoming soggy."
+  },
+  {
+    "id": "m015",
+    "name": "South Indian Curd Rice with Pomegranate & Cucumber",
+    "cuisine": "south_indian",
+    "meal_type": "lunch",
+    "diet_tags": [
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [
+      "milk"
+    ],
+    "ingredients": [
+      "3/4 cup soft-cooked rice (sona masoori)",
+      "3/4 cup fresh thick probiotic curd (yogurt)",
+      "1/4 cup finely diced cooling cucumber",
+      "2 tbsp fresh ruby pomegranate arils",
+      "1/2 tsp mustard seeds",
+      "1 green chilli finely slit",
+      "1 sprig curry leaves",
+      "1/4 tsp grated ginger",
+      "1 tsp sunflower oil",
+      "Salt to taste"
+    ],
+    "prep_time_min": 10,
+    "cook_time_min": 5,
+    "cost_level": "low",
+    "goal_tags": [
+      "balanced",
+      "light_meals",
+      "weight_loss"
+    ],
+    "sample_calories": 320,
+    "sample_protein_g": 10.0,
+    "sample_carbs_g": 52.0,
+    "sample_fat_g": 6.5,
+    "sample_fiber_g": 3.0,
+    "description": "Cooling, creamy traditional South Indian rice blended with fresh curd, spiced with mustard tempering and sweet pomegranate.",
+    "recipe_steps": [
+      "Mash warm soft-cooked rice gently with the back of a spoon.",
+      "Mix in fresh curd, diced cucumber, and salt until smooth and creamy.",
+      "Heat 1 tsp oil in a tadka ladle; add mustard seeds and curry leaves until they crackle.",
+      "Add ginger and green chilli; sauté for 15 seconds.",
+      "Pour tadka over curd rice and mix gently.",
+      "Top with fresh pomegranate seeds for a sweet, juicy burst of flavor."
+    ],
+    "chef_tips": "Perfect for warm days or when digestion needs a soothing, gut-friendly lunch."
+  },
+  {
+    "id": "m016",
+    "name": "Grilled Fish Fillet with Lemon Butter Asparagus",
+    "cuisine": "mediterranean",
+    "meal_type": "lunch",
+    "diet_tags": [
+      "non_veg",
+      "halal"
+    ],
+    "allergens": [
+      "fish",
+      "milk"
+    ],
+    "ingredients": [
+      "140g fresh white fish fillet (cod, tilapia, or sea bass)",
+      "8 spears fresh asparagus, trimmed",
+      "1/2 cup cooked brown rice or baby potatoes",
+      "1 tbsp butter or olive oil",
+      "1 tbsp fresh lemon juice & zest",
+      "1 tsp minced fresh dill or parsley",
+      "Pinch of garlic powder, sea salt, and crushed peppercorn"
+    ],
+    "prep_time_min": 10,
+    "cook_time_min": 12,
+    "cost_level": "high",
+    "goal_tags": [
+      "build_muscle",
+      "high_protein",
+      "light_meals",
+      "stay_active",
+      "weight_loss"
+    ],
+    "sample_calories": 380,
+    "sample_protein_g": 34.0,
+    "sample_carbs_g": 24.0,
+    "sample_fat_g": 13.0,
+    "sample_fiber_g": 4.0,
+    "description": "Pan-grilled white fish fillet seasoned with fresh dill, cracked peppercorns, and lemon, served with tender asparagus spears.",
+    "recipe_steps": [
+      "Pat fish fillet dry with paper towels; season both sides with salt, pepper, garlic powder, and lemon zest.",
+      "Heat a skillet over medium-high heat with 1/2 tbsp butter and a few drops of oil.",
+      "Place fish skin-side down; sear for 4 minutes until golden, flip and cook 3 minutes until opaque and flaky.",
+      "In the same pan, toss asparagus spears with remaining butter and lemon juice for 3-4 minutes until tender-crisp.",
+      "Plate fish and asparagus alongside brown rice, garnished with fresh dill."
+    ],
+    "chef_tips": "Drying fish thoroughly prevents steaming and guarantees a delicate, golden-brown sear."
+  },
+  {
+    "id": "m017",
+    "name": "Paneer Tikka with Mint Chutney & Whole Wheat Roti",
+    "cuisine": "north_indian",
+    "meal_type": "lunch",
+    "diet_tags": [
+      "vegetarian",
+      "eggetarian",
+      "halal"
+    ],
+    "allergens": [
+      "milk",
+      "wheat"
+    ],
+    "ingredients": [
+      "120g fresh low-fat cottage cheese (paneer), cubed",
+      "1/2 cup bell pepper cubes and red onions",
+      "2 whole wheat rotis (chapatis)",
+      "2 tbsp hung curd",
+      "1 tsp roasted gram flour (besan)",
+      "1/2 tsp kasuri methi",
+      "1/2 tsp chaat masala and Kashmiri red chilli powder",
+      "1 tsp mustard oil"
+    ],
+    "prep_time_min": 15,
+    "cook_time_min": 12,
+    "cost_level": "medium",
+    "goal_tags": [
+      "build_muscle",
+      "high_protein",
+      "more_energy",
+      "weight_gain"
+    ],
+    "sample_calories": 440,
+    "sample_protein_g": 23.0,
+    "sample_carbs_g": 46.0,
+    "sample_fat_g": 16.0,
+    "sample_fiber_g": 6.5,
+    "description": "Tandoori-spiced char-grilled paneer skewers tossed with capsicum and red onions, served with soft chapatis and mint chutney.",
+    "recipe_steps": [
+      "In a bowl, mix hung curd, mustard oil, besan, Kashmiri chilli, kasuri methi, and chaat masala into a marinade.",
+      "Toss paneer cubes, capsicum, and onions gently in the marinade; coat thoroughly.",
+      "Thread onto skewers or arrange on a hot grill pan; cook for 3 minutes per side until charred on edges.",
+      "Dust with a pinch of chaat masala.",
+      "Serve warm with freshly rolled whole wheat rotis and mint coriander chutney."
+    ],
+    "chef_tips": "Mustard oil in tandoori marinades imparts that authentic smoky restaurant flavor without requiring deep frying."
+  },
+  {
+    "id": "m018",
+    "name": "Egg Fried Brown Rice with Spring Vegetables",
+    "cuisine": "east_asian",
+    "meal_type": "lunch",
+    "diet_tags": [
+      "eggetarian",
+      "halal"
+    ],
+    "allergens": [
+      "egg",
+      "soy",
+      "sesame"
+    ],
+    "ingredients": [
+      "1 cup cold cooked brown rice",
+      "2 large eggs, lightly beaten",
+      "1/2 cup finely diced carrots, green peas, and scallions",
+      "1 tbsp low-sodium soy sauce",
+      "1 tsp sesame oil",
+      "1/4 tsp white pepper powder",
+      "1 green chilli chopped"
+    ],
+    "prep_time_min": 10,
+    "cook_time_min": 8,
+    "cost_level": "low",
+    "goal_tags": [
+      "balanced",
+      "build_muscle",
+      "high_protein",
+      "more_energy"
+    ],
+    "sample_calories": 390,
+    "sample_protein_g": 17.0,
+    "sample_carbs_g": 52.0,
+    "sample_fat_g": 11.5,
+    "sample_fiber_g": 5.0,
+    "description": "Wok-tossed whole grain brown rice with fluffy scrambled eggs, sweet green peas, carrots, and toasted sesame aromatics.",
+    "recipe_steps": [
+      "Heat 1/2 tsp sesame oil in a wok on high heat; pour beaten eggs, scramble quickly into soft ribbons, and remove.",
+      "Add remaining oil to wok; stir-fry diced carrots, peas, and green chilli for 2 minutes on high flame.",
+      "Add cold cooked brown rice, breaking up any clumps with a wooden spatula.",
+      "Drizzle soy sauce and white pepper around the sides of the wok; toss vigorously for 2 minutes.",
+      "Fold in the cooked egg ribbons and chopped scallions; toss once and serve piping hot."
+    ],
+    "chef_tips": "Using refrigerated day-old rice keeps the grains firm and distinctly separated during wok stir-frying."
+  },
+  {
+    "id": "m019",
+    "name": "Jain Yellow Lentil Khichdi with Steamed Zucchini",
+    "cuisine": "north_indian",
+    "meal_type": "lunch",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [],
+    "ingredients": [
+      "1/2 cup rice",
+      "1/2 cup yellow moong dal",
+      "1 cup diced zucchini and green peas (root-free)",
+      "1/2 tsp cumin seeds",
+      "1/4 tsp turmeric powder",
+      "1/4 tsp asafoetida (hing)",
+      "1 tsp sesame oil or cold-pressed oil",
+      "Rock salt to taste"
+    ],
+    "prep_time_min": 10,
+    "cook_time_min": 15,
+    "cost_level": "low",
+    "goal_tags": [
+      "balanced",
+      "light_meals",
+      "weight_loss"
+    ],
+    "sample_calories": 340,
+    "sample_protein_g": 14.0,
+    "sample_carbs_g": 60.0,
+    "sample_fat_g": 4.5,
+    "sample_fiber_g": 6.0,
+    "description": "Strict root-vegetable-free comforting one-pot preparation of rice and split moong lentils with cumin and zucchini.",
+    "recipe_steps": [
+      "Wash rice and yellow moong dal together; drain thoroughly.",
+      "Heat ghee or oil in a pressure cooker; temper cumin seeds and asafoetida for 10 seconds.",
+      "Add diced zucchini, green peas, turmeric powder, and rock salt.",
+      "Add the rinsed rice and dal, followed by 3.5 cups of water.",
+      "Pressure cook on medium heat for 3 whistles; let steam release naturally.",
+      "Whisk gently with a ladle for a velvety comfort-food texture."
+    ],
+    "chef_tips": "A gentle wholesome meal strictly complying with traditional Jain dietary guidelines with no onion, garlic, or root tubers."
+  },
+  {
+    "id": "m020",
+    "name": "Mediterranean Falafel Mezze Salad with Hummus",
+    "cuisine": "mediterranean",
+    "meal_type": "lunch",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "ingredients": [
+      "4 baked herb chickpea falafels",
+      "3 tbsp authentic creamy tahini hummus",
+      "1.5 cups mixed salad greens, cucumbers, and kalamata olives",
+      "1/2 whole wheat pita pocket (optional)",
+      "1 tbsp extra virgin olive oil and lemon juice dressing",
+      "1/2 tsp sumac seasoning"
+    ],
+    "prep_time_min": 15,
+    "cook_time_min": 12,
+    "cost_level": "medium",
+    "goal_tags": [
+      "balanced",
+      "build_muscle",
+      "high_protein",
+      "stay_active",
+      "weight_gain"
+    ],
+    "sample_calories": 420,
+    "sample_protein_g": 16.0,
+    "sample_carbs_g": 50.0,
+    "sample_fat_g": 16.0,
+    "sample_fiber_g": 10.0,
+    "description": "Crispy oven-baked herb falafels nestled on leafy salad greens, served with rich tahini hummus and lemon-olive oil dressing.",
+    "recipe_steps": [
+      "Bake herb chickpea falafels on a parchment-lined tray at 190°C for 15 minutes until golden and crisp.",
+      "Spread creamy tahini hummus along one side of a wide salad bowl.",
+      "Assemble crisp mixed lettuce, cucumbers, cherry tomatoes, and kalamata olives.",
+      "Arrange the warm baked falafels on top of the greens.",
+      "Drizzle with cold-pressed olive oil, lemon juice, and a dusting of tangy sumac."
+    ],
+    "chef_tips": "Baking falafels instead of deep-frying reduces excessive saturated fats while delivering a satisfying crunch."
+  },
+  {
+    "id": "m021",
+    "name": "Slow-Simmered Chicken Soup with Carrots and Barley",
+    "cuisine": "continental",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "non_veg",
+      "halal"
+    ],
+    "allergens": [
+      "wheat"
+    ],
+    "ingredients": [
+      "120g skinless diced chicken breast",
+      "1/3 cup pearled barley",
+      "1 medium carrot sliced",
+      "1 celery stalk chopped",
+      "2.5 cups rich aromatic chicken or vegetable broth",
+      "1 bay leaf and 1 sprig fresh thyme",
+      "Sea salt and freshly cracked black pepper"
+    ],
+    "prep_time_min": 10,
+    "cook_time_min": 25,
+    "cost_level": "medium",
+    "goal_tags": [
+      "balanced",
+      "build_muscle",
+      "high_protein",
+      "light_meals",
+      "weight_loss"
+    ],
+    "sample_calories": 360,
+    "sample_protein_g": 32.0,
+    "sample_carbs_g": 38.0,
+    "sample_fat_g": 5.0,
+    "sample_fiber_g": 6.5,
+    "description": "Restorative, soothing clear broth simmered with tender lean chicken, fiber-dense pearled barley, and aromatic sweet garden vegetables.",
+    "recipe_steps": [
+      "In a heavy soup pot, bring chicken broth to a gentle rolling boil.",
+      "Add pearled barley, sliced carrots, celery, bay leaf, and fresh thyme.",
+      "Lower heat to medium-low, cover and simmer for 15 minutes until barley softens.",
+      "Add diced chicken breast; simmer gently for another 10 minutes until chicken is tender and thoroughly cooked.",
+      "Discard bay leaf; adjust seasoning with sea salt and cracked black pepper.",
+      "Ladle steaming hot into deep bowls and garnish with fresh parsley."
+    ],
+    "chef_tips": "Barley releases wholesome beta-glucan fibers that naturally thicken the broth without needing cream or cornstarch."
+  },
+  {
+    "id": "m022",
+    "name": "Methi Matar Malai (Low-Fat) with Phulkas",
+    "cuisine": "north_indian",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegetarian",
+      "eggetarian",
+      "halal"
+    ],
+    "allergens": [
+      "milk",
+      "wheat"
+    ],
+    "ingredients": [
+      "1 cup fresh fenugreek leaves (methi), washed and chopped",
+      "1/2 cup sweet green peas",
+      "2 whole wheat phulkas",
+      "1/4 cup blended low-fat milk and cashew paste",
+      "1 green chilli",
+      "1/2 tsp cumin seeds",
+      "1/4 tsp garam masala",
+      "1 tsp sunflower oil"
+    ],
+    "prep_time_min": 12,
+    "cook_time_min": 15,
+    "cost_level": "medium",
+    "goal_tags": [
+      "balanced",
+      "more_energy",
+      "weight_loss"
+    ],
+    "sample_calories": 370,
+    "sample_protein_g": 12.0,
+    "sample_carbs_g": 54.0,
+    "sample_fat_g": 10.0,
+    "sample_fiber_g": 7.0,
+    "description": "Delicately spiced mild curry of sweet green peas and slightly bitter fenugreek leaves in a wholesome light cashew-milk gravy.",
+    "recipe_steps": [
+      "Sprinkle a pinch of salt on chopped methi leaves; squeeze out bitter water after 5 minutes.",
+      "Heat oil in a pan; temper cumin seeds and slit green chilli.",
+      "Add squeezed methi leaves and green peas; sauté for 3-4 minutes.",
+      "Pour in blended cashew and low-fat milk mixture; stir continuously on low heat until gently bubbling.",
+      "Season with garam masala and salt; simmer for 4 minutes until luscious.",
+      "Serve hot with freshly puffed oil-free whole wheat phulkas."
+    ],
+    "chef_tips": "Fenugreek supports glycemic balance and pairs harmoniously with sweet green peas."
+  },
+  {
+    "id": "m023",
+    "name": "Baked Herb Crusted Salmon with Green Beans",
+    "cuisine": "continental",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "non_veg",
+      "halal"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "ingredients": [
+      "130g wild salmon fillet",
+      "1 cup fresh french green beans, trimmed",
+      "1/2 cup roasted baby potatoes",
+      "1 tbsp Dijon mustard and lemon juice",
+      "1 tbsp chopped fresh parsley and dill",
+      "1 tsp olive oil",
+      "Flaky sea salt and black pepper"
+    ],
+    "prep_time_min": 10,
+    "cook_time_min": 14,
+    "cost_level": "high",
+    "goal_tags": [
+      "build_muscle",
+      "high_protein",
+      "more_energy",
+      "stay_active",
+      "weight_gain"
+    ],
+    "sample_calories": 430,
+    "sample_protein_g": 35.0,
+    "sample_carbs_g": 20.0,
+    "sample_fat_g": 21.0,
+    "sample_fiber_g": 4.5,
+    "description": "Omega-3 rich wild salmon baked to tender perfection with an aromatic herb mustard crust, paired with crisp green beans.",
+    "recipe_steps": [
+      "Preheat oven to 190°C (375°F); line a baking tray with foil.",
+      "Brush salmon top with Dijon mustard, lemon juice, and chopped herbs; season with salt and pepper.",
+      "Toss green beans with olive oil and place alongside salmon on the baking tray.",
+      "Bake for 12-14 minutes until salmon flakes easily with a fork and green beans are blistered and tender.",
+      "Drizzle with fresh lemon juice and serve with roasted baby potatoes."
+    ],
+    "chef_tips": "Rich in marine omega-3 fatty acids (EPA & DHA) which support post-workout muscle recovery and cellular wellness."
+  },
+  {
+    "id": "m024",
+    "name": "Vegetable Sambar Rice with Roasted Appalam",
+    "cuisine": "south_indian",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [],
+    "ingredients": [
+      "1 cup cooked sona masoori rice",
+      "1.5 cups aromatic sambar loaded with pumpkin, carrots, and shallots",
+      "1 roasted (oil-free) lentil appalam papad",
+      "1 tsp cold-pressed coconut oil",
+      "Curry leaves and mustard seed seasoning"
+    ],
+    "prep_time_min": 10,
+    "cook_time_min": 15,
+    "cost_level": "low",
+    "goal_tags": [
+      "balanced",
+      "light_meals",
+      "weight_loss"
+    ],
+    "sample_calories": 350,
+    "sample_protein_g": 11.0,
+    "sample_carbs_g": 65.0,
+    "sample_fat_g": 4.5,
+    "sample_fiber_g": 7.5,
+    "description": "South Indian staple comfort dinner of slow-simmered lentil stew and soft rice infused with vegetables and tempered spices.",
+    "recipe_steps": [
+      "Combine cooked rice and piping hot vegetable sambar in a pot.",
+      "Simmer together for 3-4 minutes so the rice absorbs the tangy tamarind and lentil flavours.",
+      "Temper with mustard seeds and curry leaves in 1 tsp coconut oil; pour over the dish.",
+      "Roast a lentil papad directly on the open flame or microwave for 30 seconds until crisp.",
+      "Serve warm."
+    ],
+    "chef_tips": "A light evening meal that is comforting and easy on nocturnal digestion."
+  },
+  {
+    "id": "m025",
+    "name": "Steamed Edamame & Vegetable Brown Rice Noodles",
+    "cuisine": "east_asian",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal"
+    ],
+    "allergens": [
+      "soy",
+      "sesame"
+    ],
+    "ingredients": [
+      "70g brown rice vermicelli noodles",
+      "1/2 cup shelled green edamame beans",
+      "1 cup julienned cabbage, bell peppers, and bok choy",
+      "1.5 tbsp tamari (gluten-free soy sauce)",
+      "1 tsp grated fresh ginger",
+      "1 tsp toasted sesame oil",
+      "1 tbsp chopped green scallions"
+    ],
+    "prep_time_min": 10,
+    "cook_time_min": 8,
+    "cost_level": "medium",
+    "goal_tags": [
+      "balanced",
+      "build_muscle",
+      "high_protein",
+      "light_meals",
+      "weight_loss"
+    ],
+    "sample_calories": 360,
+    "sample_protein_g": 15.0,
+    "sample_carbs_g": 55.0,
+    "sample_fat_g": 7.5,
+    "sample_fiber_g": 6.0,
+    "description": "Gluten-free brown rice noodles tossed in a wok with protein-rich young edamame beans, crunchy bok choy, and ginger tamari.",
+    "recipe_steps": [
+      "Soak brown rice noodles in boiling water for 4 minutes; drain and rinse with cold water.",
+      "Heat sesame oil in a wok; toss grated ginger, julienned cabbage, and bok choy over high heat for 2 minutes.",
+      "Add shelled edamame and pour in tamari sauce.",
+      "Add noodles to the wok; toss gently with tongs for 2 minutes until evenly coated and heated through.",
+      "Garnish with sliced scallions and serve hot."
+    ],
+    "chef_tips": "Edamame is a whole soy food providing a complete amino acid profile without cholesterol."
+  },
+  {
+    "id": "m026",
+    "name": "Grilled Paneer & Roasted Vegetable Couscous",
+    "cuisine": "mediterranean",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegetarian",
+      "eggetarian",
+      "halal"
+    ],
+    "allergens": [
+      "milk",
+      "wheat"
+    ],
+    "ingredients": [
+      "100g low-fat paneer cubes",
+      "1/2 cup whole wheat couscous (steamed)",
+      "1 cup roasted zucchini, bell peppers, and red onion",
+      "1 tbsp extra virgin olive oil",
+      "1 tbsp lemon juice",
+      "1/2 tsp dried oregano and mint",
+      "Pinch of sea salt"
+    ],
+    "prep_time_min": 12,
+    "cook_time_min": 12,
+    "cost_level": "medium",
+    "goal_tags": [
+      "balanced",
+      "build_muscle",
+      "high_protein",
+      "stay_active",
+      "weight_gain"
+    ],
+    "sample_calories": 420,
+    "sample_protein_g": 20.0,
+    "sample_carbs_g": 48.0,
+    "sample_fat_g": 15.0,
+    "sample_fiber_g": 6.5,
+    "description": "Fluffy whole grain couscous tossed with Mediterranean roasted vegetables and golden pan-grilled cottage cheese cubes.",
+    "recipe_steps": [
+      "Pour boiling water over whole wheat couscous in a bowl, cover with a plate, and steam for 5 minutes; fluff with a fork.",
+      "Toss diced zucchini, bell peppers, and onions with 1/2 tsp olive oil, oregano, and salt; roast or sauté until caramelized.",
+      "Pan-sear paneer cubes on a non-stick griddle for 2 minutes per side until golden brown.",
+      "Combine warm couscous with roasted vegetables and paneer.",
+      "Drizzle with lemon juice and remaining olive oil before serving."
+    ],
+    "chef_tips": "Couscous steams in just 5 minutes without needing active stovetop cooking."
+  },
+  {
+    "id": "m027",
+    "name": "Lauki (Bottle Gourd) & Chana Dal Curry with Multigrain Roti",
+    "cuisine": "north_indian",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [
+      "wheat"
+    ],
+    "ingredients": [
+      "1.5 cups diced tender bottle gourd (lauki)",
+      "1/3 cup chana dal (soaked 1 hour)",
+      "2 multigrain rotis",
+      "1/2 tsp cumin seeds",
+      "1/4 tsp turmeric",
+      "1/2 tsp coriander powder",
+      "1 tsp oil",
+      "Salt and fresh coriander"
+    ],
+    "prep_time_min": 10,
+    "cook_time_min": 15,
+    "cost_level": "low",
+    "goal_tags": [
+      "balanced",
+      "light_meals",
+      "weight_loss"
+    ],
+    "sample_calories": 330,
+    "sample_protein_g": 13.0,
+    "sample_carbs_g": 54.0,
+    "sample_fat_g": 5.0,
+    "sample_fiber_g": 8.5,
+    "description": "Light, highly hydrating bottle gourd stewed with split Bengal gram dal, mild cumin, and served with rustic multigrain chapatis.",
+    "recipe_steps": [
+      "Heat oil in a pressure cooker; splutter cumin seeds.",
+      "Add diced lauki, soaked chana dal, turmeric powder, coriander powder, and salt.",
+      "Add 1 cup water, close the lid, and cook for 3 whistles on medium flame.",
+      "Release pressure naturally; simmer open for 2 minutes to achieve desired consistency.",
+      "Serve warm with hot multigrain rotis."
+    ],
+    "chef_tips": "Bottle gourd has high water content and low caloric density, making it ideal for a relaxing evening meal."
+  },
+  {
+    "id": "m028",
+    "name": "Grilled Prawns with Garlic Herb Cauliflower Rice",
+    "cuisine": "mediterranean",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "non_veg",
+      "halal"
+    ],
+    "allergens": [
+      "shellfish"
+    ],
+    "ingredients": [
+      "140g cleaned wild tiger prawns/shrimp",
+      "1.5 cups riced cauliflower florets",
+      "1 tbsp extra virgin olive oil",
+      "2 cloves garlic, finely minced",
+      "1 tbsp lemon juice",
+      "1 tbsp fresh chopped parsley",
+      "Crushed red pepper flakes and sea salt"
+    ],
+    "prep_time_min": 10,
+    "cook_time_min": 8,
+    "cost_level": "high",
+    "goal_tags": [
+      "build_muscle",
+      "high_protein",
+      "light_meals",
+      "stay_active",
+      "weight_loss"
+    ],
+    "sample_calories": 290,
+    "sample_protein_g": 32.0,
+    "sample_carbs_g": 10.0,
+    "sample_fat_g": 12.0,
+    "sample_fiber_g": 4.2,
+    "description": "Succulent garlic-herb grilled prawns served atop a fluffy, aromatic base of low-carb sautéed cauliflower rice.",
+    "recipe_steps": [
+      "Toss cleaned prawns with 1/2 tbsp olive oil, half the minced garlic, lemon juice, salt, and red pepper flakes.",
+      "Sauté remaining garlic in olive oil in a pan; add riced cauliflower and sauté for 4-5 minutes until tender-crisp.",
+      "In a separate skillet or grill, sear prawns on high heat for 1.5 to 2 minutes per side until pink and opaque.",
+      "Season cauliflower rice with salt and freshly chopped parsley.",
+      "Serve hot prawns placed gracefully over the warm cauliflower rice."
+    ],
+    "chef_tips": "Prawns cook in under 4 minutes; remove from flame as soon as they turn opaque to keep them tender."
+  },
+  {
+    "id": "m029",
+    "name": "Creamy Tuscan White Bean & Tomato Stew",
+    "cuisine": "mediterranean",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [],
+    "ingredients": [
+      "1.5 cups boiled cannellini or navy white beans",
+      "1 cup crushed san marzano tomatoes",
+      "1 cup baby spinach leaves",
+      "1 tbsp extra virgin olive oil",
+      "1/2 tsp dried basil and rosemary",
+      "Sea salt and freshly ground black pepper",
+      "1 slice whole grain bread (optional)"
+    ],
+    "prep_time_min": 8,
+    "cook_time_min": 14,
+    "cost_level": "low",
+    "goal_tags": [
+      "balanced",
+      "build_muscle",
+      "high_protein",
+      "light_meals",
+      "weight_loss"
+    ],
+    "sample_calories": 340,
+    "sample_protein_g": 16.0,
+    "sample_carbs_g": 52.0,
+    "sample_fat_g": 6.5,
+    "sample_fiber_g": 12.0,
+    "description": "Rustic Italian comfort stew of creamy white cannellini beans simmered with rich tomatoes, fragrant herbs, and wilted baby spinach.",
+    "recipe_steps": [
+      "Heat olive oil in a saucepan; add rosemary and basil to bloom aromatics.",
+      "Pour in crushed tomatoes; simmer for 5 minutes until reduced slightly.",
+      "Add boiled cannellini beans with 1/4 cup of their cooking liquid; season with salt and pepper.",
+      "Simmer on medium-low for 6-8 minutes until rich and thick.",
+      "Stir in baby spinach leaves until just wilted.",
+      "Ladle into a warm bowl and finish with a drizzle of virgin olive oil."
+    ],
+    "chef_tips": "Cannellini beans are packed with prebiotic soluble fiber that supports gut flora and metabolic health."
+  },
+  {
+    "id": "m030",
+    "name": "Steamed Vegetable Momos with Spicy Tomato Sesame Dip",
+    "cuisine": "east_asian",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [
+      "sesame",
+      "wheat"
+    ],
+    "ingredients": [
+      "6 freshly steamed vegetable dumplings (cabbage, carrot, mushroom filling)",
+      "2 tbsp roasted tomato, garlic, and toasted sesame seed chutney",
+      "1 cup clear vegetable broth on the side",
+      "Pinch of Sichuan pepper and Himalayan salt"
+    ],
+    "prep_time_min": 15,
+    "cook_time_min": 10,
+    "cost_level": "medium",
+    "goal_tags": [
+      "balanced",
+      "light_meals",
+      "weight_loss"
+    ],
+    "sample_calories": 290,
+    "sample_protein_g": 8.0,
+    "sample_carbs_g": 50.0,
+    "sample_fat_g": 5.0,
+    "sample_fiber_g": 4.5,
+    "description": "Delicate steamed Himalayan dumplings stuffed with finely minced vegetables, served with a zesty tomato sesame dip and warm broth.",
+    "recipe_steps": [
+      "Roll thin wrappers from whole wheat or unbleached flour dough.",
+      "Stuff with finely grated cabbage, carrots, ginger, and a pinch of salt; pleat tightly.",
+      "Place momos in a greased steamer basket.",
+      "Steam over boiling water for 10 minutes until skins become translucent and non-sticky.",
+      "Serve warm with freshly pounded spicy tomato-sesame dip."
+    ],
+    "chef_tips": "Steaming preserves the delicate crunch and water-soluble vitamins of the minced vegetable filling."
+  },
+  {
+    "id": "m031",
+    "name": "Roasted Masala Makhana (Foxnuts)",
+    "cuisine": "north_indian",
+    "meal_type": "snack",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [],
+    "ingredients": [
+      "2 cups organic lotus seeds (phool makhana)",
+      "1 tsp cold-pressed olive or groundnut oil",
+      "1/4 tsp turmeric powder",
+      "1/4 tsp chaat masala",
+      "Pinch of Himalayan pink salt"
+    ],
+    "prep_time_min": 2,
+    "cook_time_min": 6,
+    "cost_level": "low",
+    "goal_tags": [
+      "balanced",
+      "light_meals",
+      "stay_active",
+      "weight_loss"
+    ],
+    "sample_calories": 140,
+    "sample_protein_g": 4.0,
+    "sample_carbs_g": 24.0,
+    "sample_fat_g": 3.0,
+    "sample_fiber_g": 3.0,
+    "description": "Crunchy, low-calorie popped lotus seeds roasted with turmeric, chaat masala, and pink rock salt.",
+    "recipe_steps": [
+      "Heat oil in a heavy-bottomed kadai or skillet over low heat.",
+      "Add makhana and roast continuously on low flame for 5-6 minutes until crispy.",
+      "Turn off the heat; immediately sprinkle turmeric, chaat masala, and pink salt.",
+      "Toss thoroughly so spices adhere to the warm seeds.",
+      "Allow to cool slightly for maximum crunch."
+    ],
+    "chef_tips": "Makhana is low in sodium and high in magnesium, making it an ideal post-movement light snack."
+  },
+  {
+    "id": "m032",
+    "name": "Sprouted Moong & Pomegranate Chaat",
+    "cuisine": "north_indian",
+    "meal_type": "snack",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [],
+    "ingredients": [
+      "1 cup steamed green moong sprouts",
+      "3 tbsp sweet pomegranate arils",
+      "1/4 cup finely chopped cucumber and tomatoes",
+      "1 green chilli finely minced",
+      "1 tbsp fresh lemon juice",
+      "1/2 tsp roasted cumin powder",
+      "Rock salt and fresh coriander"
+    ],
+    "prep_time_min": 8,
+    "cook_time_min": 2,
+    "cost_level": "low",
+    "goal_tags": [
+      "balanced",
+      "build_muscle",
+      "high_protein",
+      "more_energy",
+      "weight_loss"
+    ],
+    "sample_calories": 160,
+    "sample_protein_g": 9.5,
+    "sample_carbs_g": 28.0,
+    "sample_fat_g": 1.0,
+    "sample_fiber_g": 5.5,
+    "description": "Refreshing raw sprout salad bursting with tangy lemon juice, crunchy cucumber, sweet ruby pomegranate, and mint.",
+    "recipe_steps": [
+      "Steam green moong sprouts for 2 minutes to soften them slightly while keeping them crisp.",
+      "In a bowl, combine warm sprouts, cucumber, tomatoes, and pomegranate seeds.",
+      "Season with roasted cumin powder, black salt, and minced green chilli.",
+      "Squeeze fresh lemon juice, toss well, and finish with chopped coriander."
+    ],
+    "chef_tips": "Sprouting enhances protein bioavailability and multiplies vitamin C content significantly."
+  },
+  {
+    "id": "m033",
+    "name": "Greek Yogurt Parfait with Mixed Berries & Almonds",
+    "cuisine": "continental",
+    "meal_type": "snack",
+    "diet_tags": [
+      "vegetarian",
+      "eggetarian",
+      "halal"
+    ],
+    "allergens": [
+      "milk",
+      "tree_nut"
+    ],
+    "ingredients": [
+      "3/4 cup strained low-fat unsweetened Greek yogurt",
+      "1/3 cup fresh blueberries and strawberries",
+      "1 tbsp sliced toasted almonds",
+      "1 tsp raw unprocessed honey",
+      "1/4 tsp pure vanilla extract"
+    ],
+    "prep_time_min": 5,
+    "cook_time_min": 0,
+    "cost_level": "medium",
+    "goal_tags": [
+      "build_muscle",
+      "high_protein",
+      "more_energy",
+      "stay_active",
+      "weight_loss"
+    ],
+    "sample_calories": 190,
+    "sample_protein_g": 16.0,
+    "sample_carbs_g": 18.0,
+    "sample_fat_g": 5.5,
+    "sample_fiber_g": 2.5,
+    "description": "Thick protein-rich strained yogurt layered with antioxidant-packed berries, raw honey, and crisp toasted almonds.",
+    "recipe_steps": [
+      "Stir vanilla extract into thick Greek yogurt.",
+      "In a glass or bowl, place half the yogurt.",
+      "Add a layer of mixed fresh berries.",
+      "Top with remaining yogurt, sliced almonds, and a drizzle of honey.",
+      "Enjoy immediately chilled."
+    ],
+    "chef_tips": "Strained Greek yogurt delivers twice the protein of regular curd and keeps you satiated between meals."
+  },
+  {
+    "id": "m034",
+    "name": "Boiled Chickpea Sundal with Grated Coconut",
+    "cuisine": "south_indian",
+    "meal_type": "snack",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [],
+    "ingredients": [
+      "1 cup boiled tender chickpeas (chana)",
+      "1 tbsp freshly grated coconut",
+      "1/2 tsp mustard seeds",
+      "1 dry red chilli",
+      "1 sprig curry leaves",
+      "1/4 tsp asafoetida (hing)",
+      "1 tsp coconut oil",
+      "Salt to taste"
+    ],
+    "prep_time_min": 5,
+    "cook_time_min": 5,
+    "cost_level": "low",
+    "goal_tags": [
+      "balanced",
+      "build_muscle",
+      "high_protein",
+      "more_energy",
+      "weight_loss"
+    ],
+    "sample_calories": 180,
+    "sample_protein_g": 8.5,
+    "sample_carbs_g": 26.0,
+    "sample_fat_g": 4.5,
+    "sample_fiber_g": 6.0,
+    "description": "South Indian temple-style seasoned chickpeas tempered with fragrant coconut oil, mustard seeds, curry leaves, and fresh grated coconut.",
+    "recipe_steps": [
+      "Heat coconut oil in a pan; add mustard seeds and let them crackle.",
+      "Add dry red chilli, curry leaves, and asafoetida.",
+      "Add boiled chickpeas and salt; toss for 2-3 minutes over medium heat.",
+      "Turn off flame, fold in fresh grated coconut, and serve warm."
+    ],
+    "chef_tips": "Coconut oil and curry leaves provide an authentic South Indian aroma with minimal added fat."
+  },
+  {
+    "id": "m035",
+    "name": "Steamed Edamame Pods with Sea Salt",
+    "cuisine": "east_asian",
+    "meal_type": "snack",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [
+      "soy"
+    ],
+    "ingredients": [
+      "1.5 cups whole green edamame pods (in shell)",
+      "1/2 tsp coarse sea salt or Himalayan pink salt",
+      "1/4 tsp toasted sesame seeds"
+    ],
+    "prep_time_min": 2,
+    "cook_time_min": 5,
+    "cost_level": "medium",
+    "goal_tags": [
+      "build_muscle",
+      "high_protein",
+      "light_meals",
+      "stay_active",
+      "weight_loss"
+    ],
+    "sample_calories": 150,
+    "sample_protein_g": 13.0,
+    "sample_carbs_g": 11.0,
+    "sample_fat_g": 6.0,
+    "sample_fiber_g": 5.0,
+    "description": "Warm, tender young whole soybean pods steamed fresh and sprinkled with coarse flaky sea salt.",
+    "recipe_steps": [
+      "Bring 2 cups of water to a boil in a pot with a steamer basket.",
+      "Add whole edamame pods; cover and steam for 5 minutes.",
+      "Drain well and transfer to a serving bowl.",
+      "Sprinkle coarse sea salt and sesame seeds over warm pods.",
+      "Squeeze beans directly from pods into mouth and discard shells."
+    ],
+    "chef_tips": "Fun to eat, nutrient-dense, and naturally packed with plant protein and fiber."
+  },
+  {
+    "id": "m036",
+    "name": "Apple Slices with Natural Peanut Butter",
+    "cuisine": "continental",
+    "meal_type": "snack",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [
+      "peanut"
+    ],
+    "ingredients": [
+      "1 crisp medium apple (Honeycrisp or Gala), cored and sliced",
+      "1.5 tbsp 100% natural roasted peanut butter (no added sugar/hydrogenated oil)",
+      "Pinch of ground cinnamon"
+    ],
+    "prep_time_min": 4,
+    "cook_time_min": 0,
+    "cost_level": "low",
+    "goal_tags": [
+      "more_energy",
+      "stay_active",
+      "weight_loss"
+    ],
+    "sample_calories": 210,
+    "sample_protein_g": 6.0,
+    "sample_carbs_g": 26.0,
+    "sample_fat_g": 11.0,
+    "sample_fiber_g": 4.8,
+    "description": "Crunchy fresh apple wedges paired with wholesome stone-ground peanut butter dusted with aromatic cinnamon.",
+    "recipe_steps": [
+      "Wash and core the apple; slice into 12 even wedges.",
+      "Spoon natural peanut butter into a small ramekin.",
+      "Dust cinnamon over peanut butter.",
+      "Dip apple wedges and enjoy immediately."
+    ],
+    "chef_tips": "Pairing soluble fiber from apples with healthy fats in peanut butter blunts glucose spikes and sustains focus."
+  },
+  {
+    "id": "m037",
+    "name": "Cucumber & Carrot Sticks with Roasted Garlic Hummus",
+    "cuisine": "mediterranean",
+    "meal_type": "snack",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [
+      "sesame"
+    ],
+    "ingredients": [
+      "1 cup English cucumber and sweet carrot batons",
+      "3 tbsp authentic roasted garlic and tahini chickpea hummus",
+      "1/2 tsp extra virgin olive oil drizzle",
+      "Pinch of paprika"
+    ],
+    "prep_time_min": 6,
+    "cook_time_min": 0,
+    "cost_level": "low",
+    "goal_tags": [
+      "balanced",
+      "light_meals",
+      "weight_loss"
+    ],
+    "sample_calories": 160,
+    "sample_protein_g": 6.0,
+    "sample_carbs_g": 18.0,
+    "sample_fat_g": 7.5,
+    "sample_fiber_g": 5.0,
+    "description": "Hydrating, crisp vegetable sticks served with smooth tahini-infused roasted garlic chickpea dip.",
+    "recipe_steps": [
+      "Cut peeled carrots and cucumbers into 3-inch finger batons.",
+      "Ladle hummus into a shallow bowl, drizzle with olive oil and dust with paprika.",
+      "Arrange vegetable sticks around the dip and serve chilled."
+    ],
+    "chef_tips": "Pre-cut veggies kept in a jar of water in the fridge stay crunchy for up to 3 days."
+  },
+  {
+    "id": "m038",
+    "name": "Roasted Masala Peanuts with Onions and Lime",
+    "cuisine": "south_indian",
+    "meal_type": "snack",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal"
+    ],
+    "allergens": [
+      "peanut"
+    ],
+    "ingredients": [
+      "1/2 cup dry-roasted unsalted peanuts",
+      "2 tbsp finely diced red onion",
+      "2 tbsp finely diced tomatoes",
+      "1 green chilli finely chopped",
+      "1 tbsp fresh lime juice",
+      "1/2 tsp chaat masala",
+      "Fresh coriander leaves"
+    ],
+    "prep_time_min": 5,
+    "cook_time_min": 0,
+    "cost_level": "low",
+    "goal_tags": [
+      "build_muscle",
+      "high_protein",
+      "more_energy",
+      "stay_active",
+      "weight_loss"
+    ],
+    "sample_calories": 230,
+    "sample_protein_g": 10.0,
+    "sample_carbs_g": 12.0,
+    "sample_fat_g": 17.0,
+    "sample_fiber_g": 3.8,
+    "description": "Zesty street-style dry roasted peanut chaat tossed with fresh red onions, green chillies, lime juice, and coriander.",
+    "recipe_steps": [
+      "In a bowl, combine roasted peanuts with finely diced onions and tomatoes.",
+      "Add green chilli, chaat masala, and a pinch of salt.",
+      "Squeeze fresh lime juice over the mixture and toss immediately.",
+      "Garnish with chopped coriander and serve right away so peanuts stay crunchy."
+    ],
+    "chef_tips": "Toss with lime juice right before serving to keep the roasted peanuts supremely crisp."
+  },
+  {
+    "id": "m039",
+    "name": "Chia Seed & Coconut Milk Pudding with Mango",
+    "cuisine": "continental",
+    "meal_type": "snack",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [],
+    "ingredients": [
+      "2 tbsp black chia seeds",
+      "1/2 cup light coconut milk or almond milk",
+      "1/3 cup diced fresh mango or berries",
+      "1/2 tsp pure vanilla extract",
+      "1 tsp maple syrup"
+    ],
+    "prep_time_min": 5,
+    "cook_time_min": 0,
+    "cost_level": "medium",
+    "goal_tags": [
+      "balanced",
+      "light_meals",
+      "more_energy",
+      "weight_loss"
+    ],
+    "sample_calories": 170,
+    "sample_protein_g": 4.5,
+    "sample_carbs_g": 20.0,
+    "sample_fat_g": 8.0,
+    "sample_fiber_g": 7.0,
+    "description": "Silky chilled coconut milk pudding set naturally with chia seeds, topped with juicy tropical sweet mango cubes.",
+    "recipe_steps": [
+      "Whisk chia seeds, coconut milk, vanilla, and maple syrup together in a small mason jar.",
+      "Rest for 10 minutes, whisk again to break any clumps, and chill in refrigerator for at least 30 minutes (or overnight).",
+      "Top with freshly diced sweet mango cubes or seasonal berries before serving."
+    ],
+    "chef_tips": "Whisking twice within the first 10 minutes prevents seeds from sinking to the bottom of the jar."
+  },
+  {
+    "id": "m040",
+    "name": "Hard-Boiled Egg with Paprika and Sea Salt",
+    "cuisine": "continental",
+    "meal_type": "snack",
+    "diet_tags": [
+      "eggetarian",
+      "halal"
+    ],
+    "allergens": [
+      "egg"
+    ],
+    "ingredients": [
+      "1 large organic farm egg",
+      "1/4 tsp smoked Spanish paprika",
+      "Flaky sea salt and crushed black pepper"
+    ],
+    "prep_time_min": 1,
+    "cook_time_min": 9,
+    "cost_level": "low",
+    "goal_tags": [
+      "build_muscle",
+      "high_protein",
+      "light_meals",
+      "stay_active",
+      "weight_loss"
+    ],
+    "sample_calories": 78,
+    "sample_protein_g": 6.3,
+    "sample_carbs_g": 0.6,
+    "sample_fat_g": 5.3,
+    "sample_fiber_g": 0.0,
+    "description": "Pure, simple bioavailable protein: a perfectly hard-boiled egg dusted with fragrant smoked paprika and sea salt.",
+    "recipe_steps": [
+      "Lower egg gently into a pot of boiling water; simmer for 9 minutes for firm yet tender yolk.",
+      "Transfer to an ice water bath for 3 minutes to halt cooking and ease peeling.",
+      "Peel shell, slice egg in half lengthwise, and dust with smoked paprika, sea salt, and black pepper."
+    ],
+    "chef_tips": "Plunging the egg into ice water creates a temperature shock that separates the inner membrane from the shell."
+  },
+  {
+    "id": "m041",
+    "name": "Baked Tofu Bites with Sweet Chilli Soy Dip",
+    "cuisine": "east_asian",
+    "meal_type": "snack",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal"
+    ],
+    "allergens": [
+      "soy",
+      "sesame"
+    ],
+    "ingredients": [
+      "100g firm tofu cut into 1-inch cubes",
+      "1 tbsp low-sodium soy sauce",
+      "1 tsp cornstarch or rice flour",
+      "1/2 tsp sesame oil",
+      "1 tbsp sweet chilli sauce with a splash of rice vinegar"
+    ],
+    "prep_time_min": 8,
+    "cook_time_min": 15,
+    "cost_level": "low",
+    "goal_tags": [
+      "balanced",
+      "build_muscle",
+      "high_protein",
+      "stay_active",
+      "weight_loss"
+    ],
+    "sample_calories": 160,
+    "sample_protein_g": 12.0,
+    "sample_carbs_g": 12.0,
+    "sample_fat_g": 7.0,
+    "sample_fiber_g": 2.0,
+    "description": "Crispy oven-baked tofu nuggets with a delicate golden crust, served with a tangy sweet chilli dip.",
+    "recipe_steps": [
+      "Pat tofu cubes dry with a cloth; toss with soy sauce and sesame oil, then dust lightly with cornstarch.",
+      "Arrange on a baking tray lined with parchment paper.",
+      "Bake at 200°C for 15 minutes, flipping halfway until crispy and golden.",
+      "Serve warm with sweet chilli dipping sauce."
+    ],
+    "chef_tips": "Dusting tofu cubes with a touch of cornstarch creates a delightfully crisp exterior without deep frying."
+  },
+  {
+    "id": "m042",
+    "name": "Classic Dal Palak (Spinach Lentils) with Jeera Rice",
+    "cuisine": "north_indian",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [],
+    "ingredients": [
+      "1 cup cooked yellow toor and moong dal",
+      "1.5 cups chopped fresh spinach leaves",
+      "3/4 cup steamed cumin jeera rice",
+      "1/2 tsp cumin seeds",
+      "1/4 tsp turmeric and garam masala",
+      "1 tsp cold-pressed sunflower oil",
+      "Salt to taste"
+    ],
+    "prep_time_min": 10,
+    "cook_time_min": 12,
+    "cost_level": "low",
+    "goal_tags": [
+      "balanced",
+      "build_muscle",
+      "light_meals",
+      "more_energy",
+      "weight_loss"
+    ],
+    "sample_calories": 380,
+    "sample_protein_g": 15.0,
+    "sample_carbs_g": 62.0,
+    "sample_fat_g": 6.0,
+    "sample_fiber_g": 8.0,
+    "description": "Hearty iron-rich spinach stewed together with split yellow lentils, tempered with fragrant cumin seeds and served over fluffy jeera rice.",
+    "recipe_steps": [
+      "Cook dal with turmeric and salt until soft.",
+      "Heat oil in a pan, splutter cumin seeds.",
+      "Add washed and chopped spinach; cook for 3 minutes until wilted.",
+      "Pour in cooked dal, stir well, add garam masala, and simmer for 5 minutes.",
+      "Serve hot with steamed cumin-scented rice."
+    ],
+    "chef_tips": "Adding a squeeze of fresh lemon juice right before eating enhances iron absorption from the spinach."
+  },
+  {
+    "id": "m043",
+    "name": "Mediterranean Tuna & White Bean Salad",
+    "cuisine": "mediterranean",
+    "meal_type": "lunch",
+    "diet_tags": [
+      "non_veg",
+      "halal"
+    ],
+    "allergens": [
+      "fish"
+    ],
+    "ingredients": [
+      "100g canned tuna in spring water (drained)",
+      "3/4 cup boiled cannellini white beans",
+      "1/2 cup diced red onion, celery, and cherry tomatoes",
+      "1 tbsp extra virgin olive oil",
+      "1 tbsp red wine vinegar or lemon juice",
+      "Fresh chopped parsley, sea salt, and black pepper"
+    ],
+    "prep_time_min": 8,
+    "cook_time_min": 0,
+    "cost_level": "medium",
+    "goal_tags": [
+      "build_muscle",
+      "high_protein",
+      "more_energy",
+      "stay_active",
+      "weight_loss"
+    ],
+    "sample_calories": 360,
+    "sample_protein_g": 31.0,
+    "sample_carbs_g": 28.0,
+    "sample_fat_g": 11.0,
+    "sample_fiber_g": 7.0,
+    "description": "Quick, no-cook high-protein Mediterranean salad combining flaked wild tuna, tender white beans, and crunchy garden celery in lemon dressing.",
+    "recipe_steps": [
+      "Drain canned tuna and flake into bite-sized chunks with a fork.",
+      "In a bowl, combine flaked tuna, drained white beans, diced celery, red onion, and cherry tomatoes.",
+      "Whisk olive oil, red wine vinegar, salt, and black pepper into a vinaigrette.",
+      "Pour dressing over salad, toss gently, and garnish with chopped fresh parsley."
+    ],
+    "chef_tips": "A convenient zero-cooking lunch option packed with clean protein and complex dietary fiber."
+  },
+  {
+    "id": "m044",
+    "name": "Warm Roasted Tomato Basil Soup with Whole Grain Croutons",
+    "cuisine": "continental",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [
+      "wheat"
+    ],
+    "ingredients": [
+      "4 ripe vine tomatoes, halved",
+      "1/2 cup fresh Italian basil leaves",
+      "1 slice whole grain bread, toasted and cubed",
+      "1 cup vegetable broth",
+      "1 tbsp extra virgin olive oil",
+      "Sea salt and freshly ground black pepper"
+    ],
+    "prep_time_min": 10,
+    "cook_time_min": 15,
+    "cost_level": "low",
+    "goal_tags": [
+      "balanced",
+      "light_meals",
+      "weight_loss"
+    ],
+    "sample_calories": 210,
+    "sample_protein_g": 6.0,
+    "sample_carbs_g": 28.0,
+    "sample_fat_g": 8.0,
+    "sample_fiber_g": 5.0,
+    "description": "Slow-roasted vine-ripened tomatoes simmered with fresh aromatic sweet basil, puréed silky smooth with crunchy homemade whole grain croutons.",
+    "recipe_steps": [
+      "Roast halved tomatoes in a hot skillet with olive oil until skins blister and sweeten.",
+      "Transfer tomatoes and vegetable broth to a pot; simmer for 8 minutes.",
+      "Add fresh basil leaves and blend with an immersion blender until velvety.",
+      "Season with sea salt and cracked black pepper.",
+      "Toast whole grain bread cubes in a pan; float on top of hot soup."
+    ],
+    "chef_tips": "Roasting tomatoes deepens their natural sweetness and unlocks lycopene, a potent antioxidant."
+  },
+  {
+    "id": "m045",
+    "name": "Peanut Butter & Banana High-Calorie Oats Bowl",
+    "cuisine": "continental",
+    "meal_type": "breakfast",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal"
+    ],
+    "allergens": [
+      "peanut"
+    ],
+    "ingredients": [
+      "1.5 cups rolled oats",
+      "1.5 cups whole milk or soy milk",
+      "2 ripe bananas, sliced",
+      "2.5 tbsp natural creamy peanut butter",
+      "1 tbsp chia seeds",
+      "15 roasted almonds",
+      "1 tbsp organic honey or maple syrup"
+    ],
+    "prep_time_min": 10,
+    "cook_time_min": 5,
+    "cost_level": "medium",
+    "goal_tags": [
+      "weight_gain",
+      "build_muscle",
+      "high_protein",
+      "more_energy"
+    ],
+    "sample_calories": 640,
+    "sample_protein_g": 26.5,
+    "sample_carbs_g": 85.0,
+    "sample_fat_g": 22.0,
+    "sample_fiber_g": 12.0,
+    "description": "Rich calorie-dense energy bowl formulated for muscle growth and healthy weight gaining with healthy fats and complex carbs.",
+    "recipe_steps": [
+      "Simmer rolled oats in whole milk or soy milk for 4-5 minutes until thick and creamy.",
+      "Pour hot oatmeal into a serving bowl; stir in honey and 1 tbsp peanut butter.",
+      "Top with sliced ripe bananas, roasted almonds, chia seeds, and dollop remaining peanut butter on top."
+    ],
+    "chef_tips": "For an extra 100 calories, blend with 2 soaked Medjool dates or drizzle extra crushed walnuts."
+  },
+  {
+    "id": "m046",
+    "name": "Loaded Paneer & Cashew Brown Rice Pulao",
+    "cuisine": "north_indian",
+    "meal_type": "lunch",
+    "diet_tags": [
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [
+      "milk",
+      "tree_nut"
+    ],
+    "ingredients": [
+      "1.5 cups cooked brown basmati rice",
+      "150g firm paneer, diced into golden seared cubes",
+      "2 tbsp desi cow ghee",
+      "1/4 cup roasted cashew nuts",
+      "1/2 cup sweet green peas",
+      "1 whole cinnamon stick, 2 green cardamoms, 1 bay leaf",
+      "1/2 tsp roasted cumin powder",
+      "Salt to taste",
+      "Fresh chopped coriander for garnish"
+    ],
+    "prep_time_min": 12,
+    "cook_time_min": 15,
+    "cost_level": "medium",
+    "goal_tags": [
+      "weight_gain",
+      "build_muscle",
+      "high_protein",
+      "balanced"
+    ],
+    "sample_calories": 690,
+    "sample_protein_g": 32.0,
+    "sample_carbs_g": 72.0,
+    "sample_fat_g": 30.0,
+    "sample_fiber_g": 7.5,
+    "description": "Hearty North Indian aromatic brown rice dish packed with golden ghee-seared paneer cubes, roasted cashews, and sweet peas.",
+    "recipe_steps": [
+      "Heat 1 tbsp ghee in a heavy-bottomed pan; lightly sear paneer cubes until golden on all sides, then set aside.",
+      "In the same pan, heat remaining ghee, add whole spices (cinnamon, cardamom, bay leaf) and allow to release aroma.",
+      "Add green peas, cumin powder, and roasted cashews; saute for 2 minutes.",
+      "Fold in cooked brown rice and seared paneer cubes gently; sprinkle salt and 2 tbsp warm water, cover and steam for 3 minutes on low flame.",
+      "Garnish with chopped fresh coriander and serve warm."
+    ],
+    "chef_tips": "Using desi ghee provides easily absorbed short-chain fatty acids that facilitate caloric density without heavy feeling."
+  },
+  {
+    "id": "m047",
+    "name": "Whole-Wheat Chicken, Avocado & Hummus Power Wrap",
+    "cuisine": "continental",
+    "meal_type": "lunch",
+    "diet_tags": [
+      "non_veg",
+      "halal"
+    ],
+    "allergens": [
+      "wheat",
+      "sesame"
+    ],
+    "ingredients": [
+      "2 large whole-wheat flatbread tortillas",
+      "180g seasoned grilled chicken breast strips",
+      "1/2 ripe Haas avocado, sliced",
+      "3 tbsp smooth chickpea hummus (with tahini)",
+      "1 cup fresh baby spinach and sliced cucumbers",
+      "1 tbsp extra-virgin olive oil drizzle",
+      "Pinch of smoked paprika and sea salt"
+    ],
+    "prep_time_min": 10,
+    "cook_time_min": 10,
+    "cost_level": "high",
+    "goal_tags": [
+      "weight_gain",
+      "build_muscle",
+      "high_protein"
+    ],
+    "sample_calories": 670,
+    "sample_protein_g": 46.0,
+    "sample_carbs_g": 58.0,
+    "sample_fat_g": 26.0,
+    "sample_fiber_g": 10.5,
+    "description": "High-protein powerhouse wrap pairing lean grilled chicken breast with monounsaturated healthy fats from avocado and tahini hummus.",
+    "recipe_steps": [
+      "Warm the whole-wheat tortillas on a dry skillet for 20 seconds each.",
+      "Spread 1.5 tbsp hummus across each tortilla base.",
+      "Layer with fresh baby spinach, sliced cucumbers, warm grilled chicken strips, and avocado slices.",
+      "Drizzle lightly with extra virgin olive oil, sprinkle smoked paprika, roll tightly, and slice diagonally."
+    ],
+    "chef_tips": "Avocado and olive oil add healthy calories and fat-soluble vitamins (A, D, E, K) that aid post-workout recovery."
+  },
+  {
+    "id": "m048",
+    "name": "Hearty Moong Dal & Oats Khichdi with Ghee & Almonds",
+    "cuisine": "south_indian",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegetarian",
+      "eggetarian",
+      "halal",
+      "jain"
+    ],
+    "allergens": [
+      "milk",
+      "tree_nut"
+    ],
+    "ingredients": [
+      "3/4 cup yellow moong dal (split yellow lentils)",
+      "3/4 cup rolled oats",
+      "2 tbsp pure desi ghee",
+      "12 roasted almonds, coarsely crushed",
+      "1/2 tsp cumin seeds & 1/4 tsp turmeric",
+      "1/2 tsp fresh grated ginger",
+      "1 pinch asafoetida (hing)",
+      "3 cups water",
+      "Pink Himalayan salt to taste"
+    ],
+    "prep_time_min": 10,
+    "cook_time_min": 18,
+    "cost_level": "low",
+    "goal_tags": [
+      "weight_gain",
+      "build_muscle",
+      "balanced",
+      "more_energy"
+    ],
+    "sample_calories": 580,
+    "sample_protein_g": 24.0,
+    "sample_carbs_g": 78.0,
+    "sample_fat_g": 20.0,
+    "sample_fiber_g": 13.0,
+    "description": "Comforting, nutrient-dense wholesome khichdi uniting protein-rich moong dal and fiber-rich oats tempered with aromatic ghee and almonds.",
+    "recipe_steps": [
+      "Rinse moong dal and oats together under cold water; drain.",
+      "Heat 1.5 tbsp ghee in a pressure cooker or heavy pot; add cumin seeds, hing, and grated ginger.",
+      "Add turmeric powder, moong dal, oats, salt, and 3 cups of water.",
+      "Cook for 3 whistles in pressure cooker (or simmer covered 18 mins on stove) until smooth and porridge-like.",
+      "Stir in remaining ghee and top with roasted crushed almonds before serving."
+    ],
+    "chef_tips": "Extremely soothing on the digestive tract while providing a solid 580 calories and 24g of bioavailable plant protein."
+  },
+  {
+    "id": "m049",
+    "name": "Greek Yogurt, Dried Fig, Walnut & Honey Parfait",
+    "cuisine": "mediterranean",
+    "meal_type": "snack",
+    "diet_tags": [
+      "vegetarian",
+      "eggetarian",
+      "halal"
+    ],
+    "allergens": [
+      "milk",
+      "tree_nut"
+    ],
+    "ingredients": [
+      "1.5 cups thick strained whole-milk Greek yogurt",
+      "2 tbsp raw wildflower honey",
+      "4 dried Turkish figs, chopped",
+      "1/4 cup raw walnut halves, crushed",
+      "2 tbsp pumpkin seeds",
+      "1/4 cup oat granola clusters"
+    ],
+    "prep_time_min": 5,
+    "cook_time_min": 0,
+    "cost_level": "medium",
+    "goal_tags": [
+      "weight_gain",
+      "build_muscle",
+      "high_protein",
+      "more_energy"
+    ],
+    "sample_calories": 520,
+    "sample_protein_g": 28.0,
+    "sample_carbs_g": 62.0,
+    "sample_fat_g": 19.0,
+    "sample_fiber_g": 6.5,
+    "description": "Luxurious Mediterranean parfait layering protein-dense Greek yogurt with omega-3 rich walnuts, crunchy granola, and sweet dried figs.",
+    "recipe_steps": [
+      "Spoon half of the Greek yogurt into a wide bowl or mason jar.",
+      "Layer with chopped dried figs, granola, and half of the walnuts.",
+      "Add the remaining yogurt, drizzle generously with honey, and garnish with remaining walnuts and pumpkin seeds."
+    ],
+    "chef_tips": "A phenomenal pre-bedtime or post-workout snack providing slow-digesting casein protein that feeds muscles overnight."
+  },
+  {
+    "id": "m050",
+    "name": "Tofu, Sweet Potato & Quinoa Bowl with Creamy Tahini",
+    "cuisine": "continental",
+    "meal_type": "dinner",
+    "diet_tags": [
+      "vegan",
+      "vegetarian",
+      "eggetarian",
+      "halal"
+    ],
+    "allergens": [
+      "soy",
+      "sesame"
+    ],
+    "ingredients": [
+      "1.5 cups cooked fluffy quinoa",
+      "180g extra firm tofu, cubed and pan-crisped",
+      "1 medium roasted sweet potato, cut into chunks",
+      "1/2 cup cooked black beans",
+      "2.5 tbsp pure sesame tahini paste",
+      "1 tbsp fresh lemon juice & 1 tbsp warm water",
+      "1 tbsp extra virgin olive oil",
+      "Sea salt, garlic powder & smoked paprika"
+    ],
+    "prep_time_min": 15,
+    "cook_time_min": 15,
+    "cost_level": "medium",
+    "goal_tags": [
+      "weight_gain",
+      "build_muscle",
+      "high_protein",
+      "balanced"
+    ],
+    "sample_calories": 620,
+    "sample_protein_g": 29.0,
+    "sample_carbs_g": 82.0,
+    "sample_fat_g": 22.0,
+    "sample_fiber_g": 14.5,
+    "description": "Complete plant-based hypertrophy dinner bowl delivering complete amino acids from quinoa, beans, and crispy tofu with rich sesame fats.",
+    "recipe_steps": [
+      "Toss tofu cubes with olive oil, smoked paprika, garlic powder, and salt; pan-sear in skillet for 8 minutes until all sides are crispy.",
+      "Whisk tahini, lemon juice, salt, and warm water in a small ramekin until smooth and pourable.",
+      "Assemble bowl with a base of warm quinoa, roasted sweet potatoes, black beans, and crispy tofu.",
+      "Drizzle generously with creamy tahini dressing and enjoy."
+    ],
+    "chef_tips": "Combining quinoa and black beans delivers all 9 essential amino acids with exceptional micronutrient density."
+  }
+]

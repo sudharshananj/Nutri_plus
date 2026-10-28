@@ -1,0 +1,323 @@
+[
+  {
+    "id": "w001",
+    "name": "Morning Sunshine Brisk Walk",
+    "category": "walk",
+    "intensity": "low",
+    "duration_min": 20,
+    "equipment": ["none"],
+    "description": "An energizing, low-impact outdoor or indoor brisk walk designed to wake up the cardiovascular system and loosen joints.",
+    "steps": [
+      "Minute 0-3: Easy warm-up stroll at a relaxed conversational pace.",
+      "Minute 3-17: Increase cadence to a brisk walking pace where breathing is elevated but you can still speak in full sentences.",
+      "Minute 17-20: Gradually slow down cadence to a relaxed walk; finish with deep diaphragmatic breaths and gentle shoulder rolls."
+    ]
+  },
+  {
+    "id": "w002",
+    "name": "Post-Meal Digestive Stroll",
+    "category": "walk",
+    "intensity": "low",
+    "duration_min": 15,
+    "equipment": ["none"],
+    "description": "A light, steady-paced post-meal movement session that supports smooth gastrointestinal digestion and gentle blood glucose clearance.",
+    "steps": [
+      "Minute 0-2: Gentle stepping in place or comfortable outdoor walking.",
+      "Minute 2-12: Steady, rhythmic walk maintaining upright posture and relaxed arm swings.",
+      "Minute 12-15: Gentle cool-down pace, finishing with slow arm sweeps overhead."
+    ]
+  },
+  {
+    "id": "w003",
+    "name": "Interval Power Walk",
+    "category": "walk",
+    "intensity": "moderate",
+    "duration_min": 25,
+    "equipment": ["none"],
+    "description": "Structured intervals alternating between comfortable pacing and fast-paced walking to boost aerobic capacity.",
+    "steps": [
+      "Minute 0-4: Warm-up walk at easy pace.",
+      "Minute 4-20: Repeat 4 cycles of: 2 minutes fast power walk (active arm pump) followed by 2 minutes steady recovery walk.",
+      "Minute 20-25: Cool-down walk followed by light calf and hamstring stretches."
+    ]
+  },
+  {
+    "id": "w004",
+    "name": "Full-Body Bodyweight Foundations",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 20,
+    "equipment": ["none"],
+    "description": "Calisthenic foundational strength circuit targeting legs, core, chest, and postural back muscles with zero equipment.",
+    "steps": [
+      "Warm-up (3 min): Arm circles, torso twists, and bodyweight hip hinges.",
+      "Circuit (14 min, 3 rounds): 12 Bodyweight air squats, 8 Incline or knee push-ups, 10 Glute bridges with 2-sec hold, 20-second Plank hold.",
+      "Rest 60 seconds between rounds.",
+      "Cool-down (3 min): Cat-cow stretch and child's pose."
+    ]
+  },
+  {
+    "id": "w005",
+    "name": "Chair & Desk Ergonomic Reset",
+    "category": "mobility",
+    "intensity": "low",
+    "duration_min": 10,
+    "equipment": ["none"],
+    "description": "Designed for sedentary workers to relieve neck tightness, open tight chest muscles, and decompress the lumbar spine.",
+    "steps": [
+      "Minute 0-2: Seated chin tucks and gentle lateral neck tilts (5 reps each side).",
+      "Minute 2-4: Seated chest opener: interlace fingers behind chair and open ribcage.",
+      "Minute 4-7: Seated spinal twists and seated figure-4 glute stretch (30 seconds per side).",
+      "Minute 7-10: Standing calf raises and wrist circles with deep exhales."
+    ]
+  },
+  {
+    "id": "w006",
+    "name": "Morning Vinyasa Mobility Flow",
+    "category": "yoga",
+    "intensity": "low",
+    "duration_min": 20,
+    "equipment": ["yoga_mat"],
+    "description": "Fluid, breath-synchronized yoga sequence to promote spinal mobility, hip flexibility, and mental calm.",
+    "steps": [
+      "Minute 0-4: Child's pose into table top, moving through 5 cycles of Cat-Cow.",
+      "Minute 4-12: 3 rounds of gentle Sun Salutation A (Mountain, Forward Fold, Halfway Lift, Plank, Cobra, Downward Dog).",
+      "Minute 12-16: Low lunge with chest opening and seated forward fold.",
+      "Minute 16-20: Supine gentle spinal twist and 2 minutes of relaxed resting breath."
+    ]
+  },
+  {
+    "id": "w007",
+    "name": "Dumbbell Upper Body Tone",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 25,
+    "equipment": ["dumbbells"],
+    "description": "Focused dumbbell strength routine developing back posture, shoulder stability, and arm tone.",
+    "steps": [
+      "Warm-up (4 min): Arm swings, wall slides, and light shoulder rotations.",
+      "Circuit (18 min, 3 rounds): 10 Dumbbell bent-over rows, 10 Dumbbell standing overhead presses, 12 Dumbbell bicep curls, 10 Overhead triceps extensions.",
+      "Rest 60 seconds between rounds.",
+      "Cool-down (3 min): Cross-body shoulder stretch and overhead triceps stretch."
+    ]
+  },
+  {
+    "id": "w008",
+    "name": "Lower Body Dumbbell Sculpt",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 30,
+    "equipment": ["dumbbells"],
+    "description": "Functional lower body resistance training targeting quadriceps, hamstrings, and glute stability.",
+    "steps": [
+      "Warm-up (5 min): Leg swings, high knees march, and unweighted bodyweight squats.",
+      "Exercise block (20 min, 3 sets each): 10 Goblet squats with dumbbell at chest, 8 Alternating reverse lunges per leg, 10 Romanian deadlifts with flat back, 15 Standing calf raises with dumbbells.",
+      "Cool-down (5 min): Standing quad stretch, seated hamstring reach, and butterfly stretch."
+    ]
+  },
+  {
+    "id": "w009",
+    "name": "Resistance Band Full Body Activation",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 20,
+    "equipment": ["resistance_band"],
+    "description": "Joint-friendly resistance band session creating continuous muscular tension without joint strain.",
+    "steps": [
+      "Warm-up (3 min): Band pull-aparts and torso twists.",
+      "Circuit (14 min, 3 rounds): 12 Banded pull-aparts for upper back, 12 Banded bicep curls, 10 Banded squats (stepping on band), 12 Lateral band walks (6 steps left, 6 right).",
+      "Cool-down (3 min): Gentle full-body stretch."
+    ]
+  },
+  {
+    "id": "w010",
+    "name": "Low-Impact Cardio Sweat",
+    "category": "cardio",
+    "intensity": "moderate",
+    "duration_min": 20,
+    "equipment": ["none"],
+    "description": "High-energy, zero-jumping aerobic workout that protects knee and ankle joints while keeping heart rate elevated.",
+    "steps": [
+      "Minute 0-3: Low-impact step jacks and arm reaches.",
+      "Minute 3-16: 4 rounds of: 40 seconds Step jacks, 40 seconds Boxer shuffle / march, 40 seconds Skater steps with arm drive, 40 seconds High knee marches with elbow drive, 40 seconds active rest.",
+      "Minute 16-20: Slow side steps, shoulder rolls, and deep calm breathing."
+    ]
+  },
+  {
+    "id": "w011",
+    "name": "High-Intensity Bodyweight HIIT",
+    "category": "cardio",
+    "intensity": "high",
+    "duration_min": 20,
+    "equipment": ["none"],
+    "description": "Challenging interval workout designed for conditioned individuals seeking to build athletic conditioning and stamina.",
+    "steps": [
+      "Warm-up (4 min): Jogging on the spot, butt kicks, arm sweeps, dynamic lunges.",
+      "Intervals (13 min): 5 rounds of: 30 seconds Mountain climbers, 15 seconds rest; 30 seconds Jump squats (or rapid air squats), 15 seconds rest; 30 seconds Burpees or modified push-up burpees, 30 seconds active rest.",
+      "Cool-down (3 min): Walking step recovery and standing quad stretch."
+    ]
+  },
+  {
+    "id": "w012",
+    "name": "Bedtime Restorative Yin Yoga",
+    "category": "yoga",
+    "intensity": "low",
+    "duration_min": 15,
+    "equipment": ["yoga_mat"],
+    "description": "Passive, deeply soothing floor postures held for extended breaths to activate the parasympathetic nervous system for restorative sleep.",
+    "steps": [
+      "Minute 0-4: Supported Child's Pose with arms extended forward, breathing deeply into ribcage.",
+      "Minute 4-8: Reclining Butterfly Pose with soles of feet together, knees relaxed open.",
+      "Minute 8-12: Legs-up-the-wall pose (or elevated on a chair/pillow) to promote circulation.",
+      "Minute 12-15: Corpse Pose (Savasana) focusing on progressive muscle relaxation from toes to crown."
+    ]
+  },
+  {
+    "id": "w013",
+    "name": "Full-Body Joint Mobility & Spine Care",
+    "category": "mobility",
+    "intensity": "low",
+    "duration_min": 15,
+    "equipment": ["yoga_mat"],
+    "description": "Comprehensive joint articular rotations covering ankles, hips, thoracic spine, shoulders, and cervical neck.",
+    "steps": [
+      "Minute 0-3: Standing ankle circles and controlled knee rotations (5 each direction).",
+      "Minute 3-7: Standing hip circles and standing spinal roll-downs.",
+      "Minute 7-11: Quadruped Thoracic spine thread-the-needle rotations (5 reps per side).",
+      "Minute 11-15: Prone Cobra extensions and kneeling hip flexor opening."
+    ]
+  },
+  {
+    "id": "w014",
+    "name": "Core Strength & Spinal Stability",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 15,
+    "equipment": ["yoga_mat"],
+    "description": "Evidence-backed core endurance routine emphasizing anti-extension and anti-rotation stability to support spine longevity.",
+    "steps": [
+      "Minute 0-2: Pelvic tilts and bird-dog warm-up.",
+      "Circuit (10 min, 3 sets): 10 Bird-Dogs per side (pause 2 sec at top), 8 Dead-bugs with controlled exhalation, 30-second Forearm plank with neutral neck, 20-second Side plank per side.",
+      "Minute 12-15: Child's pose and gentle prone cobra stretch."
+    ]
+  },
+  {
+    "id": "w015",
+    "name": "Resistance Band Glute & Hip Strengthening",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 20,
+    "equipment": ["resistance_band", "yoga_mat"],
+    "description": "Targeted hip abductor and glute activation routine to improve gait biomechanics and reduce lower back compensation.",
+    "steps": [
+      "Minute 0-3: Unweighted glute bridges and standing hip hinges.",
+      "Circuit (14 min, 3 rounds): 12 Banded clamshells per side (band above knees), 12 Banded glute bridges with 2-second squeeze, 15 Banded lateral monster walks, 10 Banded fire hydrants per side.",
+      "Minute 17-20: Seated figure-4 stretch and kneeling hip flexor stretch."
+    ]
+  },
+  {
+    "id": "w016",
+    "name": "Gym Machine Push-Pull Foundations",
+    "category": "strength",
+    "intensity": "high",
+    "duration_min": 35,
+    "equipment": ["gym"],
+    "description": "Structured resistance gym machine workout utilizing chest press, lat pulldown, leg press, and seated cable rows.",
+    "steps": [
+      "Warm-up (5 min): 5 minutes easy rowing machine or stationary cycle.",
+      "Exercise 1: Leg Press (3 sets x 10 reps, 90 sec rest).",
+      "Exercise 2: Seated Chest Press Machine (3 sets x 10 reps, 60 sec rest).",
+      "Exercise 3: Lat Pulldown with neutral grip (3 sets x 10 reps, 60 sec rest).",
+      "Exercise 4: Seated Cable Row (3 sets x 12 reps, 60 sec rest).",
+      "Cool-down (5 min): Treadmill slow walk and static lat and chest stretches."
+    ]
+  },
+  {
+    "id": "w017",
+    "name": "Gym Dumbbell Full Body Circuit",
+    "category": "strength",
+    "intensity": "high",
+    "duration_min": 40,
+    "equipment": ["gym", "dumbbells"],
+    "description": "Comprehensive gym dumbbell session targeting major compound movement patterns: squat, hinge, push, pull, and carry.",
+    "steps": [
+      "Warm-up (5 min): Incline treadmill walk followed by dynamic leg swings.",
+      "Circuit (30 min, 4 sets): 10 Dumbbell Bulgarian split squats (or standard split squats) per leg, 10 Dumbbell flat bench presses, 10 Dumbbell Romanian deadlifts, 10 Dumbbell one-arm rows per side, 40-meter Dumbbell farmer's walk.",
+      "Cool-down (5 min): Full-body mat stretching."
+    ]
+  },
+  {
+    "id": "w018",
+    "name": "Athletic Agility & Footwork Drill",
+    "category": "cardio",
+    "intensity": "high",
+    "duration_min": 25,
+    "equipment": ["none"],
+    "description": "Dynamic movement session building quick foot coordination, lateral quickness, and cardiovascular stamina.",
+    "steps": [
+      "Warm-up (5 min): High knees, butt kicks, arm circles, lateral lunges.",
+      "Drills (16 min, 4 rounds): 45 seconds Fast feet in place, 15 seconds rest; 45 seconds Lateral line hops (imaginary line), 15 seconds rest; 45 seconds 4-point agility shuffle, 15 seconds rest; 45 seconds Squat thrusts (no push-up), 45 seconds rest.",
+      "Cool-down (4 min): Walking lap and hamstring reach."
+    ]
+  },
+  {
+    "id": "w019",
+    "name": "Gentle Chair Yoga for Beginners",
+    "category": "yoga",
+    "intensity": "low",
+    "duration_min": 15,
+    "equipment": ["none"],
+    "description": "Safe, supportive yoga modifications utilizing a sturdy chair for balance, posture, and gentle stretching.",
+    "steps": [
+      "Minute 0-3: Seated centering breath; rhythmic shoulder rolls.",
+      "Minute 3-7: Seated Cat-Cow and seated side bends with arm overhead.",
+      "Minute 7-11: Seated Warrior I and supported standing chair squats.",
+      "Minute 11-15: Seated hamstring stretch and relaxing hands-to-heart breath."
+    ]
+  },
+  {
+    "id": "w020",
+    "name": "Express 10-Minute Lunchtime Core & Posture",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 10,
+    "equipment": ["yoga_mat"],
+    "description": "Time-efficient midday sequence to activate dormant glutes and abdominal muscles between work blocks.",
+    "steps": [
+      "Minute 0-2: Bird-Dog (5 per side with 2-sec hold).",
+      "Minute 2-5: Glute Bridge hold with alternating march (10 per leg).",
+      "Minute 5-8: Forearm plank (3 intervals of 30 seconds with 15 seconds rest).",
+      "Minute 8-10: Prone swimmer arms and child's pose decompression."
+    ]
+  },
+  {
+    "id": "w021",
+    "name": "Outdoor Park Bench Calisthenics",
+    "category": "strength",
+    "intensity": "moderate",
+    "duration_min": 25,
+    "equipment": ["none"],
+    "description": "Utilizes a park bench or sturdy ledge to perform functional pushing, pulling, and step-up exercises outdoors.",
+    "steps": [
+      "Warm-up (5 min): 5 minutes brisk walking or jogging to the park.",
+      "Circuit (16 min, 3 rounds): 10 Incline push-ups on bench back, 12 Bench step-ups (alternating lead leg), 10 Bench triceps dips (knees bent), 15 Bench seated knee-tucks.",
+      "Cool-down (4 min): Easy walk home and calf stretch against the curb."
+    ]
+  },
+  {
+    "id": "w022",
+    "name": "Gentle Foam Rolling & Myofascial Release",
+    "category": "mobility",
+    "intensity": "low",
+    "duration_min": 20,
+    "equipment": ["yoga_mat"],
+    "description": "Self-myofascial release targeting thoracic spine, glutes, quadriceps, and calves to ease muscle stiffness.",
+    "steps": [
+      "Minute 0-4: Gentle thoracic extension roll (do not roll lower back).",
+      "Minute 4-8: Glute and piriformis rolling (seated figure-4 on the floor).",
+      "Minute 8-13: Quadriceps and IT band gentle pressure sweeps.",
+      "Minute 13-17: Calf slow roll and ankle dorsiflexion rocks.",
+      "Minute 17-20: Rest flat on mat with slow, diaphragmatic belly breaths."
+    ]
+  }
+]
