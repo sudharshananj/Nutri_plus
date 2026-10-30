@@ -193,7 +193,7 @@
       </div>
       <div class="modal-body" style="padding: 1rem 1.25rem;">
         <!-- Canvas Studio Viewport -->
-        <div style="position: relative; background: #0f172a; border-radius: var(--radius-md); overflow: hidden; margin-bottom: 1rem; border: 1px solid var(--border); box-shadow: inset 0 2px 8px rgba(0,0,0,0.4);">
+        <div style="position: relative; background: #0f172a; border-radius: var(--radius-md); overflow: hidden; margin-bottom: 0.85rem; border: 1px solid var(--border); box-shadow: inset 0 2px 8px rgba(0,0,0,0.4);">
           <canvas id="dummy-model-canvas" width="640" height="360" style="display: block; width: 100%; height: auto; max-height: 380px;"></canvas>
 
           <!-- Floating Overlays inside Canvas Viewport -->
@@ -206,21 +206,32 @@
             ⬇️ Eccentric: Controlled lowering
           </div>
 
+          <!-- Drag-to-Rotate 360° Angle HUD -->
+          <div style="position: absolute; bottom: 12px; left: 14px; background: rgba(15,23,42,0.88); padding: 4px 10px; border-radius: 6px; border: 1px solid rgba(212,175,55,0.4); font-size: 0.76rem; color: var(--gold-light); display: flex; align-items: center; gap: 0.4rem; pointer-events: none;">
+            <span>🖱️ Drag canvas to rotate 360°</span> • <strong id="demo-angle-display">90° (Side Profile)</strong>
+          </div>
+
           <!-- Bottom Progress Bar -->
           <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 4px; background: rgba(255,255,255,0.15);">
-            <div id="demo-tempo-fill" style="height: 100%; width: 0%; background: #38bdf8; transition: width 0.05s linear;"></div>
+            <div id="demo-tempo-fill" style="height: 100%; width: 0%; background: #e11d48; transition: width 0.05s linear;"></div>
           </div>
         </div>
 
-        <!-- Video Controls Bar -->
-        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 1.25rem; background: var(--bg-subtle); padding: 0.6rem 0.85rem; border-radius: var(--radius-md);">
-          <div style="display: flex; gap: 0.5rem;">
+        <!-- Video & Multi-Angle Controls Bar -->
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 1.25rem; background: var(--bg-subtle); padding: 0.65rem 0.95rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+          <div style="display: flex; gap: 0.45rem; align-items: center; flex-wrap: wrap;">
             <button id="btn-demo-play" class="btn btn-sm btn-primary">⏸️ Pause</button>
             <button id="btn-demo-speed" class="btn btn-sm btn-secondary">1.0x Normal</button>
-            <button id="btn-demo-view" class="btn btn-sm btn-secondary">📐 Side View</button>
+            <div style="width: 1px; height: 18px; background: var(--border-subtle); margin: 0 0.2rem;"></div>
+            <button id="btn-view-front" class="btn btn-sm btn-secondary" title="View from Front (0°)">👤 Front</button>
+            <button id="btn-view-iso" class="btn btn-sm btn-secondary" title="View from 3/4 Perspective (45°)">↗️ 3/4</button>
+            <button id="btn-view-side" class="btn btn-sm btn-secondary" title="View from Side Profile (90°)">📐 Side</button>
+            <button id="btn-view-back" class="btn btn-sm btn-secondary" title="View from Back Dorsal (180°)">🛡️ Back</button>
+            <button id="btn-view-spin" class="btn btn-sm btn-outline" title="Smooth 360° Auto-Rotate">🔄 Auto-Spin</button>
+            <button id="btn-demo-view" class="btn btn-sm btn-secondary" style="display: none;">Cycle View</button>
           </div>
-          <div style="font-size: 0.78rem; color: var(--text-muted);">
-            ⚡ Biomechanical Dummy Simulation
+          <div style="font-size: 0.78rem; color: var(--gold); font-weight: 700;">
+            🔥 Muscle Heatmap Active
           </div>
         </div>
 
