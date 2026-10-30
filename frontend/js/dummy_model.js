@@ -138,15 +138,15 @@ export class DummyModelPlayer {
 
   setWorkout(workout) {
     this.activeWorkout = workout;
-    this.currentModel = workout.demo_model || "squat";
+    this.currentModel = resolveExerciseModel(workout);
 
     // Set most intuitive default starting angle for each exercise
     if (["bicep_curl", "lateral_raise", "calf_raise", "bicycle_crunch"].includes(this.currentModel)) {
       this.yawAngle = 0; // Front
-    } else if (["lat_pulldown"].includes(this.currentModel)) {
-      this.yawAngle = 180; // Back to showcase lat development
-    } else if (["overhead_press", "bent_row"].includes(this.currentModel)) {
-      this.yawAngle = 45; // 3/4 view
+    } else if (["lat_pulldown", "superman"].includes(this.currentModel)) {
+      this.yawAngle = 180; // Back to showcase lat and spinal erector development
+    } else if (["overhead_press", "bent_row", "thruster"].includes(this.currentModel)) {
+      this.yawAngle = 45; // 3/4 perspective
     } else {
       this.yawAngle = 90; // Side profile
     }
@@ -154,6 +154,7 @@ export class DummyModelPlayer {
     this.repCount = 0;
     this.lastPhase = 0;
     this.startTime = performance.now();
+    this.isPlaying = true;
     this.updateAngleDisplay();
   }
 
@@ -1234,6 +1235,50 @@ export class DummyModelPlayer {
     ctx.stroke();
     ctx.restore();
   }
+// Dynamic Exercise Model Resolver - guarantees correct kinematics even if backend defaults to squat
+export function resolveExerciseModel(workout) {
+  if (!workout) return "squat";
+  const rawModel = (workout.demo_model || "").trim().toLowerCase();
+  
+  const KNOWN_MODELS = [
+    "bench_press", "pushup", "diamond_pushup", "deadlift", "bicep_curl",
+    "overhead_press", "lunge", "lat_pulldown", "bent_row", "tricep_dip",
+    "tricep_pushdown", "lateral_raise", "plank", "calf_raise", "glute_bridge",
+    "superman", "bicycle_crunch", "thruster", "burpee", "cat_cow", "walk"
+  ];
+  if (KNOWN_MODELS.includes(rawModel)) {
+    return rawModel;
+  }
+
+  // Inspect workout name and description to resolve correct biomechanical model
+  const name = (workout.name || "").toLowerCase();
+  const desc = (workout.description || "").toLowerCase();
+  const text = `${name} ${desc}`;
+
+  if (text.includes("bench press") || text.includes("chest press") || text.includes("incline press")) return "bench_press";
+  if (text.includes("diamond push")) return "diamond_pushup";
+  if (text.includes("push-up") || text.includes("push up") || text.includes("pushup")) return "pushup";
+  if (text.includes("deadlift") || text.includes("rdl") || text.includes("romanian")) return "deadlift";
+  if (text.includes("bicep") || text.includes("curl")) return "bicep_curl";
+  if (text.includes("overhead press") || text.includes("military press") || text.includes("shoulder press") || text.includes("pike push")) return "overhead_press";
+  if (text.includes("lat pull") || text.includes("pulldown") || text.includes("pull-up") || text.includes("pullup")) return "lat_pulldown";
+  if (text.includes("bent-over row") || text.includes("bent row") || text.includes("renegade row") || text.includes("rowing") || text.includes("row")) return "bent_row";
+  if (text.includes("lunge") || text.includes("split squat") || text.includes("pigeon stretch") || text.includes("hip flexor")) return "lunge";
+  if (text.includes("chair dip") || text.includes("bench dip") || text.includes("tricep dip") || text.includes("dips")) return "tricep_dip";
+  if (text.includes("skull crusher") || text.includes("tricep rope") || text.includes("pushdown") || text.includes("tricep extension")) return "tricep_pushdown";
+  if (text.includes("lateral raise") || text.includes("side raise") || text.includes("deltoid raise")) return "lateral_raise";
+  if (text.includes("plank")) return "plank";
+  if (text.includes("calf") || text.includes("calves")) return "calf_raise";
+  if (text.includes("glute bridge") || text.includes("hip thrust") || text.includes("bridge")) return "glute_bridge";
+  if (text.includes("superman") || text.includes("prone extension")) return "superman";
+  if (text.includes("bicycle") || text.includes("crunch") || text.includes("deadbug") || text.includes("leg raise") || text.includes("knee raise")) return "bicycle_crunch";
+  if (text.includes("thruster") || text.includes("clean and press")) return "thruster";
+  if (text.includes("burpee") || text.includes("metcon") || text.includes("hiit")) return "burpee";
+  if (text.includes("cat-cow") || text.includes("cat cow") || text.includes("vinyasa") || text.includes("yoga") || text.includes("mobility") || text.includes("spine care") || text.includes("foam roll")) return "cat_cow";
+  if (text.includes("walk") || text.includes("stroll") || text.includes("farmer") || text.includes("cardio sweat") || text.includes("agility")) return "walk";
+  if (text.includes("squat") || text.includes("leg press") || text.includes("air squat")) return "squat";
+
+  return rawModel || "walk";
 }
 
 // Global modal launcher helper for application pages

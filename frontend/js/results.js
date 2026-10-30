@@ -712,15 +712,19 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Animated Dummy Model Demo Triggers (Works for both daily reco workouts and split workouts)
     document.querySelectorAll(".btn-watch-demo").forEach((btn) => {
-      btn.addEventListener("click", () => {
+      btn.onclick = (e) => {
+        e.preventDefault();
+        e.stopPropagation();
         const workoutId = btn.dataset.id;
-        // Search in split workouts or daily workouts
-        let found = allCatalogWorkouts.find((w) => w.id === workoutId);
-        if (!found) found = currentPlan.workouts.find((w) => w.id === workoutId);
+        // Search in split catalog workouts or daily workouts
+        let found = (allCatalogWorkouts || []).find((w) => w.id === workoutId);
+        if (!found && currentPlan && currentPlan.workouts) {
+          found = currentPlan.workouts.find((w) => w.id === workoutId);
+        }
         if (found) {
           openExerciseDemoModal(found);
         }
-      });
+      };
     });
 
     // Checkbox Mark Done

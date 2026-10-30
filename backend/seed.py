@@ -81,6 +81,18 @@ def seed_catalog(conn: sqlite3.Connection):
                 )
             )
 
+        # Legacy workout demo_model mapping to prevent squat default
+        LEGACY_MODELS = {
+            "w001": "walk", "w002": "walk", "w003": "walk", "w004": "pushup",
+            "w005": "cat_cow", "w006": "cat_cow", "w007": "bicep_curl", "w008": "squat",
+            "w009": "thruster", "w010": "walk", "w011": "burpee", "w012": "cat_cow",
+            "w013": "cat_cow", "w014": "plank", "w015": "glute_bridge", "w016": "bench_press",
+            "w017": "overhead_press", "w018": "walk", "w019": "cat_cow", "w020": "plank",
+            "w021": "tricep_dip", "w022": "cat_cow"
+        }
+        for wid, model in LEGACY_MODELS.items():
+            cursor.execute("UPDATE workouts SET demo_model = ? WHERE id = ?", (model, wid))
+
     conn.commit()
 
 
