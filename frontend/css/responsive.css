@@ -1,7 +1,28 @@
 /* ==========================================================================
-   Nutrition Plus - Responsive Media Queries
-   Breakpoints: 900px (Tablets / Laptops), 640px (Mobile Phones)
+   Nutrition Plus - Responsive Breakpoints & Adaptive Rules
+   Breakpoints: 1024px (Laptops/Tablets Landscape), 768px (Tablets Portrait), 640px (Mobile)
    ========================================================================== */
+
+/* Laptops & Tablets Landscape (< 1024px) */
+@media (max-width: 1024px) {
+  .hero-layout-grid {
+    grid-template-columns: 1fr;
+    gap: 2.75rem;
+  }
+
+  .hero-title {
+    font-size: 2.9rem;
+  }
+
+  .trust-bar {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .sim-preview-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
 /* Tablet & Smaller Screens (< 900px) */
 @media (max-width: 900px) {
@@ -12,10 +33,6 @@
   .steps-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
-  }
-
-  .hero-title {
-    font-size: 2.2rem;
   }
 
   .reco-grid {
@@ -31,17 +48,17 @@
 /* Mobile Screens (< 640px) */
 @media (max-width: 640px) {
   .container {
-    padding: 0 1rem;
+    padding: 0 1.15rem;
   }
 
   /* Mobile Navbar Collapsible Drawer */
   .hamburger-btn {
-    display: block;
+    display: flex;
   }
 
   .nav-links {
     position: fixed;
-    top: 4.5rem;
+    top: 4.8rem;
     left: 0;
     right: 0;
     background: var(--bg-card);
@@ -50,7 +67,10 @@
     padding: 1.5rem 1rem;
     gap: 0.75rem;
     display: none;
-    box-shadow: var(--shadow-lg);
+    box-shadow: var(--shadow-xl);
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
   }
 
   .nav-links.mobile-open {
@@ -60,20 +80,37 @@
   .nav-link {
     width: 100%;
     text-align: center;
-    padding: 0.75rem 1rem;
+    padding: 0.85rem 1rem;
+    justify-content: center;
   }
 
   /* Hero Section */
   .hero {
-    padding: 3rem 0 2rem;
+    padding: 3.5rem 0 2.5rem;
   }
 
   .hero-title {
-    font-size: 1.9rem;
+    font-size: 2.2rem;
   }
 
   .hero-subtitle {
-    font-size: 1rem;
+    font-size: 1.05rem;
+    margin-bottom: 2rem;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.85rem;
+  }
+
+  .hero-cta-group .btn {
+    width: 100%;
+  }
+
+  .trust-bar {
+    grid-template-columns: 1fr;
+    padding: 1.25rem;
   }
 
   .features-grid {
@@ -81,14 +118,19 @@
     gap: 1.25rem;
   }
 
+  .macro-rings-wrap {
+    flex-wrap: wrap;
+    gap: 1.25rem;
+  }
+
   /* Form & Stepper */
   .form-card {
-    padding: 1.5rem 1rem;
+    padding: 1.75rem 1.25rem;
   }
 
   .form-actions {
     flex-direction: column-reverse;
-    gap: 0.75rem;
+    gap: 0.85rem;
   }
 
   .form-actions .btn {
@@ -100,13 +142,25 @@
   }
 
   .step-dot {
-    width: 1.9rem;
-    height: 1.9rem;
-    font-size: 0.75rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 0.82rem;
   }
 
   .selection-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Matrix Table horizontal scroll on mobile */
+  .matrix-table-wrap {
+    overflow-x: auto;
+  }
+
+  .matrix-table th,
+  .matrix-table td {
+    padding: 0.95rem 1.15rem;
+    font-size: 0.85rem;
+    white-space: nowrap;
   }
 
   /* Planner Results */

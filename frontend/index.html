@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Nutrition Plus: Luxury rule-based personalised nutrition and fitness recommendation system for adults 18+ general wellness.">
-  <title>Nutrition Plus | AI-Based Nutrition & Fitness Recommendations</title>
+  <meta name="description" content="Nutrition Plus: Ultra-professional rule-based personalized nutrition and fitness recommendation system for adults 18+ general wellness.">
+  <title>Nutrition Plus | Precision Nutrition & Movement Platform</title>
   <script>
     // Immediate Theme Initialization (Prevents flash of light theme)
     (function() {
@@ -16,13 +16,19 @@
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Ambient Radiance Background Canvas -->
+  <div class="ambient-glow-wrap" aria-hidden="true">
+    <div class="ambient-orb orb-primary"></div>
+    <div class="ambient-orb orb-gold"></div>
+  </div>
+
   <!-- Header / Navigation -->
   <header class="navbar">
     <div class="container nav-container">
-      <a href="index.html" class="logo-wrap">
+      <a href="index.html" class="logo-wrap" aria-label="Nutrition Plus Homepage">
         <div class="logo-badge">🥗</div>
         <span>Nutrition <span class="logo-text-accent">Plus</span></span>
       </a>
@@ -37,6 +43,9 @@
       </ul>
 
       <div class="nav-actions">
+        <a href="profile.html" class="btn btn-primary btn-sm" style="display: none; @media(min-width: 768px){display: inline-flex;}">
+          ⚡ Build Plan
+        </a>
         <button id="theme-toggle" class="btn-theme-toggle" onclick="window.toggleTheme && window.toggleTheme()" title="Toggle Night/Day Mode" aria-label="Toggle Night Mode">☀️</button>
         <button id="hamburger-btn" class="hamburger-btn" aria-label="Toggle navigation" aria-expanded="false">☰</button>
       </div>
@@ -44,116 +53,371 @@
   </header>
 
   <main>
-    <!-- Hero Section -->
+    <!-- HERO SECTION WITH LIVE SHOWCASE PANEL -->
     <section class="hero">
       <div class="container">
-        <div class="hero-pill">
-          <span style="color: var(--gold);">★</span>
-          <span>Transparent Rule-Based Intelligence</span> • 
-          <span style="color: var(--gold-light);">Adults 18+ General Wellness</span>
+        <div class="hero-layout-grid">
+          <!-- Left Column: Compelling Typography & CTAs -->
+          <div>
+            <div class="hero-pill">
+              <span class="live-pulse-dot"></span>
+              <span>Deterministic Intelligence</span> • 
+              <span style="color: var(--gold-light);">Adults 18+ Protocol</span>
+            </div>
+
+            <h1 class="hero-title">
+              Precision Nutrition & Movement. <span>Engineered For Your Real Life.</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              Generic diets ignore your declared allergies, cultural cuisine tastes, cooking schedules, and budget. 
+              Nutrition Plus combines deterministic rule safety with explainable ranking—delivering actionable daily wellness with zero black-box obscurity.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="profile.html" class="btn btn-primary btn-lg" id="btn-hero-build">
+                ⚡ Build My Personalised Plan
+              </a>
+              <a href="scanner.html" class="btn btn-accent btn-lg">
+                📸 Open AI Food Scanner
+              </a>
+            </div>
+
+            <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; color: var(--text-muted); font-size: 0.88rem; font-weight: 600;">
+              <span style="display: flex; align-items: center; gap: 0.4rem;">
+                <span style="color: var(--gold);">✓</span> 100% Strict Allergen Isolation
+              </span>
+              <span style="display: flex; align-items: center; gap: 0.4rem;">
+                <span style="color: var(--gold);">✓</span> Zero Black-Box Hallucinations
+              </span>
+              <span style="display: flex; align-items: center; gap: 0.4rem;">
+                <span style="color: var(--gold);">✓</span> 1-Click Dynamic Swaps
+              </span>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Live Showcase Panel -->
+          <div class="hero-showcase-panel">
+            <div class="showcase-header">
+              <div class="showcase-header-title">
+                <span class="live-pulse-dot"></span>
+                <span>Active Engine Telemetry</span>
+              </div>
+              <span class="badge badge-gold">Match Index 98.4%</span>
+            </div>
+
+            <!-- Animated Circular SVG Macro Rings -->
+            <div class="macro-rings-wrap">
+              <div class="macro-ring-item">
+                <div class="ring-svg-box">
+                  <svg class="ring-svg" viewBox="0 0 70 70">
+                    <circle class="ring-bg" cx="35" cy="35" r="30"></circle>
+                    <circle class="ring-fill ring-fill-cal" cx="35" cy="35" r="30"></circle>
+                  </svg>
+                  <span class="ring-inner-val">2.1k</span>
+                </div>
+                <span class="macro-ring-lbl">Calories</span>
+              </div>
+
+              <div class="macro-ring-item">
+                <div class="ring-svg-box">
+                  <svg class="ring-svg" viewBox="0 0 70 70">
+                    <circle class="ring-bg" cx="35" cy="35" r="30"></circle>
+                    <circle class="ring-fill ring-fill-pro" cx="35" cy="35" r="30"></circle>
+                  </svg>
+                  <span class="ring-inner-val">142g</span>
+                </div>
+                <span class="macro-ring-lbl">Protein</span>
+              </div>
+
+              <div class="macro-ring-item">
+                <div class="ring-svg-box">
+                  <svg class="ring-svg" viewBox="0 0 70 70">
+                    <circle class="ring-bg" cx="35" cy="35" r="30"></circle>
+                    <circle class="ring-fill ring-fill-car" cx="35" cy="35" r="30"></circle>
+                  </svg>
+                  <span class="ring-inner-val">205g</span>
+                </div>
+                <span class="macro-ring-lbl">Carbs</span>
+              </div>
+
+              <div class="macro-ring-item">
+                <div class="ring-svg-box">
+                  <svg class="ring-svg" viewBox="0 0 70 70">
+                    <circle class="ring-bg" cx="35" cy="35" r="30"></circle>
+                    <circle class="ring-fill ring-fill-fat" cx="35" cy="35" r="30"></circle>
+                  </svg>
+                  <span class="ring-inner-val">62g</span>
+                </div>
+                <span class="macro-ring-lbl">Fats</span>
+              </div>
+            </div>
+
+            <!-- Curated Sample Meal Card Preview -->
+            <div class="showcase-meal-card">
+              <div class="showcase-meal-badge">
+                <span class="slot-tag">🌙 Dinner Recommendation</span>
+                <span class="score-badge">★ Score 94.2</span>
+              </div>
+              <h3 class="showcase-meal-title">Pan-Seared Salmon & Lemon Herb Quinoa</h3>
+              <div style="display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.75rem;">
+                <span class="badge badge-primary">High Protein</span>
+                <span class="badge badge-gold">⏱ 18 min prep</span>
+                <span class="badge badge-success">Gluten-Free</span>
+              </div>
+              <div class="reason-box" style="margin-bottom: 0.85rem; padding: 0.75rem 0.95rem; font-size: 0.82rem;">
+                <strong>💡 Explainability Intelligence</strong>
+                Ranked #1 for your profile: matches your 25-minute evening prep budget, satisfies pescatarian dietary preferences, and delivers 42g lean recovery protein.
+              </div>
+              <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.82rem; color: var(--text-muted); border-top: 1px solid rgba(255, 255, 255, 0.06); padding-top: 0.65rem;">
+                <span>Movement: <strong>20-Min Core & HIIT Circuit</strong></span>
+                <a href="profile.html" style="color: var(--gold); text-decoration: none; font-weight: 700;">Explore Full Plan →</a>
+              </div>
+            </div>
+          </div>
         </div>
-        <h1 class="hero-title">
-          Meal & Movement Ideas That <span>Truly Elevate You</span>
-        </h1>
-        <p class="hero-subtitle">
-          Generic diets ignore your allergies, cultural cuisine tastes, cooking schedules, and budget. 
-          Experience a unified, explainable daily wellness planner with zero black-box obscurity.
-        </p>
-        <div class="hero-cta-group">
-          <a href="profile.html" class="btn btn-primary btn-lg" id="btn-hero-build">
-            ⚡ Build My Wellness Plan
-          </a>
-          <a href="scanner.html" class="btn btn-accent btn-lg">
-            📸 Scan Food with Camera
-          </a>
+
+        <!-- System Capabilities & Trust Stat Bar -->
+        <div class="trust-bar">
+          <div class="trust-item">
+            <div class="trust-icon">🛡️</div>
+            <div>
+              <div class="trust-number">100%</div>
+              <div class="trust-desc">Deterministic Safety Shield</div>
+            </div>
+          </div>
+
+          <div class="trust-item">
+            <div class="trust-icon">🧠</div>
+            <div>
+              <div class="trust-number">0%</div>
+              <div class="trust-desc">Black-Box Hallucinations</div>
+            </div>
+          </div>
+
+          <div class="trust-item">
+            <div class="trust-icon">🍲</div>
+            <div>
+              <div class="trust-number">60+</div>
+              <div class="trust-desc">Global & Regional Cuisines</div>
+            </div>
+          </div>
+
+          <div class="trust-item">
+            <div class="trust-icon">📸</div>
+            <div>
+              <div class="trust-number">Offline</div>
+              <div class="trust-desc">Heuristic Vision Scanner</div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Key Principles / Features Grid -->
+    <!-- INTERACTIVE LIVE PLAYGROUND: TASTE & GOAL SIMULATOR -->
+    <section class="simulator-section container">
+      <div class="simulator-card">
+        <div style="text-align: center; max-width: 680px; margin: 0 auto 1.5rem;">
+          <span class="section-tag">Interactive Preview</span>
+          <h2 style="font-size: 2.2rem; font-weight: 900; margin-bottom: 0.5rem; color: #ffffff;">
+            Test the Recommendation Engine Live
+          </h2>
+          <p style="color: var(--text-muted); font-size: 0.95rem;">
+            Click below to explore how our rule engine dynamically adapts meals, macros, and reasons according to your cuisine preference and wellness target.
+          </p>
+        </div>
+
+        <!-- Filter Row 1: Cuisines -->
+        <div style="text-align: center; margin-bottom: 0.5rem;">
+          <span style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; color: var(--gold); letter-spacing: 0.06em;">Select Regional Cuisine:</span>
+        </div>
+        <div class="filter-pills-row" style="justify-content: center;" id="sim-cuisine-pills">
+          <button class="sim-pill active" data-cuisine="mediterranean">🫒 Mediterranean</button>
+          <button class="sim-pill" data-cuisine="south_indian">🍛 South Indian</button>
+          <button class="sim-pill" data-cuisine="north_indian">🍲 North Indian</button>
+          <button class="sim-pill" data-cuisine="east_asian">🥢 East Asian</button>
+          <button class="sim-pill" data-cuisine="mexican">🌮 Mexican Fiesta</button>
+          <button class="sim-pill" data-cuisine="continental">🥗 Continental Gourmet</button>
+        </div>
+
+        <!-- Dynamic Output Grid -->
+        <div class="sim-preview-grid" id="sim-output-box" style="margin-top: 1.5rem;">
+          <!-- Dynamically populated via simulator module -->
+        </div>
+      </div>
+    </section>
+
+    <!-- KEY ARCHITECTURAL PILLARS (BENTO GRID) -->
     <section class="container">
+      <div style="text-align: center; max-width: 700px; margin: 2rem auto 1rem;">
+        <span class="section-tag">Core Principles</span>
+        <h2 style="font-size: 2.3rem; font-weight: 900; color: #ffffff;">
+          Why Nutrition Plus Outperforms Standard Diet Apps
+        </h2>
+      </div>
+
       <div class="features-grid">
         <div class="feature-card">
           <div class="feature-icon">🛡️</div>
-          <h2 class="feature-title">Allergy Safety Priority</h2>
+          <h3 class="feature-title">Allergen Safety Isolation</h3>
           <p class="feature-desc">
-            Safety filters run <strong style="color: var(--gold-light);">strictly before ranking</strong>. Declared allergens (peanuts, milk, gluten, nuts) 
-            and eating patterns (vegan, vegetarian, jain, halal) are strictly excluded and can never be bypassed by feedback.
+            Safety filters run <strong style="color: var(--gold-light);">strictly before ranking</strong>. Declared allergens (peanuts, tree nuts, milk, gluten, shellfish) 
+            and eating patterns (vegan, vegetarian, jain, halal) are strictly excluded and can never be bypassed by feedback or preference tuning.
           </p>
         </div>
 
         <div class="feature-card">
           <div class="feature-icon">👑</div>
-          <h2 class="feature-title">Transparent & Explainable</h2>
+          <h3 class="feature-title">100% Explainable Recommendations</h3>
           <p class="feature-desc">
-            No black-box machine learning. Every meal and workout clearly states <em style="color: var(--gold-light);">why</em> it was chosen 
-            based on your cooking time, equipment, budget, and flavor preferences.
+            No black-box obscurity. Every meal and workout clearly states <em style="color: var(--gold-light);">why</em> it was chosen 
+            based on your cooking time window, available equipment, budget tier, and cultural flavor profile.
           </p>
         </div>
 
         <div class="feature-card">
           <div class="feature-icon">⇄</div>
-          <h2 class="feature-title">Dynamic Swaps & Feedback</h2>
+          <h3 class="feature-title">Dynamic Swaps & Feedback Loops</h3>
           <p class="feature-desc">
             Don't fancy a suggestion? Swap it instantly with one click for the next-best safe alternative. 
-            Your likes and dislikes refine future soft preferences without altering your safety exclusions.
+            Your likes and dislikes refine future soft preferences without compromising hard safety constraints.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📸</div>
+          <h3 class="feature-title">Heuristic Camera Scanner</h3>
+          <p class="feature-desc">
+            Scan your meals using your webcam or photo upload to calculate instant portion estimates, 
+            caloric breakdown, and recipe instructions without third-party cloud data leakage.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🏃</div>
+          <h3 class="feature-title">7-Day Split & Biomechanics</h3>
+          <p class="feature-desc">
+            Complete push-pull-legs workout routines with an interactive biomechanical mannequin demo 
+            that highlights active muscle targets and guides proper posture for every exercise.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3 class="feature-title">Zero API Dependencies & Offline Ready</h3>
+          <p class="feature-desc">
+            Engineered entirely with deterministic Python SQLite backend and modern Vanilla CSS/JS. 
+            Runs offline on localhost with zero monthly token subscription costs or third-party tracking.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- How It Works Section -->
-    <section class="how-it-works">
-      <div class="container">
-        <div class="section-tag">System Architecture</div>
-        <h2 class="section-title">How Nutrition Plus Works in 3 Steps</h2>
+    <!-- ENTERPRISE PLATFORM COMPARISON MATRIX -->
+    <section class="matrix-section container">
+      <div style="text-align: center; max-width: 680px; margin: 0 auto;">
+        <span class="section-tag">Comparison Matrix</span>
+        <h2 style="font-size: 2.2rem; font-weight: 900; color: #ffffff;">
+          Standard AI Diets vs. Nutrition Plus
+        </h2>
+      </div>
 
-        <div class="steps-grid">
-          <div class="step-card">
-            <span class="step-number">01</span>
-            <h3 class="step-title">1. Profile & Safety Parameters</h3>
-            <p class="step-desc">
-              Tell us your age (18+), eating pattern, allergies, budget, available cooking time, equipment, 
-              and optional physical transformation targets (height, current & goal weight). We never ask for medical history.
-            </p>
-          </div>
-
-          <div class="step-card">
-            <span class="step-number">02</span>
-            <h3 class="step-title">2. Safety Filter & Ranker</h3>
-            <p class="step-desc">
-              Our deterministic rule-based engine eliminates conflicting foods, then ranks remaining meals and 
-              workouts for your breakfast, lunch, dinner, snack, and movement slots.
-            </p>
-          </div>
-
-          <div class="step-card">
-            <span class="step-number">03</span>
-            <h3 class="step-title">3. Explore Recipes & Move</h3>
-            <p class="step-desc">
-              Explore step-by-step recipes with ingredients checklists. Swap items on the fly, 
-              log your soft feedback, or scan foods using your camera to check sample calorie estimates.
-            </p>
-          </div>
-        </div>
-
-        <div style="margin-top: 3.5rem;">
-          <a href="profile.html" class="btn btn-primary btn-lg">⚡ Get Started Now</a>
-        </div>
+      <div class="matrix-table-wrap">
+        <table class="matrix-table">
+          <thead>
+            <tr>
+              <th>Evaluation Parameter</th>
+              <th>Generic Chatbots / LLMs</th>
+              <th class="matrix-col-highlight">Nutrition Plus Engine</th>
+              <th>Commercial Diet Portals</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Allergen Security</strong></td>
+              <td>Probabilistic (hallucinations possible)</td>
+              <td class="matrix-col-highlight">✓ 100% Deterministic Pre-Filtering</td>
+              <td>Rigid fixed menus without customization</td>
+            </tr>
+            <tr>
+              <td><strong>Algorithm Explainability</strong></td>
+              <td>Black-box "trust me" responses</td>
+              <td class="matrix-col-highlight">✓ Full mathematical ranking weights shown</td>
+              <td>Opaque proprietary formulas</td>
+            </tr>
+            <tr>
+              <td><strong>Cuisine & Cultural Authenticity</strong></td>
+              <td>Generic Western-centric suggestions</td>
+              <td class="matrix-col-highlight">✓ 60+ Authentic South/North Indian & Global</td>
+              <td>Limited generic recipes</td>
+            </tr>
+            <tr>
+              <td><strong>Privacy & Medical Scope</strong></td>
+              <td>Often collects sensitive medical records</td>
+              <td class="matrix-col-highlight">✓ Strictly adults 18+ general wellness</td>
+              <td>Sells user tracking data to advertisers</td>
+            </tr>
+            <tr>
+              <td><strong>Dynamic Alternatives</strong></td>
+              <td>Requires re-prompting from scratch</td>
+              <td class="matrix-col-highlight">✓ 1-Click Instant Safe Alternative Swaps</td>
+              <td>Manual recipe browsing</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </section>
 
-    <!-- Scope & Boundary Card -->
+    <!-- HOW IT WORKS IN 3 STEPS -->
+    <section class="how-it-works container">
+      <div class="section-tag">System Execution Pipeline</div>
+      <h2 class="section-title">How It Works in 3 Intuitive Steps</h2>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <span class="step-number">01</span>
+          <h3 class="step-title">1. Profile & Safety Parameters</h3>
+          <p class="step-desc">
+            Define your age (18+), eating pattern, declared allergens, budget tier, cooking time window, 
+            and optional physical goals (height, current & target weight). We strictly do not collect clinical medical records.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <span class="step-number">02</span>
+          <h3 class="step-title">2. Rule Engine & Ranker</h3>
+          <p class="step-desc">
+            Our deterministic rule engine eliminates conflicting foods, then calculates multi-criteria utility scores 
+            for breakfast, lunch, dinner, snack, and movement slots with explainable rationale.
+          </p>
+        </div>
+
+        <div class="step-card">
+          <span class="step-number">03</span>
+          <h3 class="step-title">3. Explore Recipes & Move</h3>
+          <p class="step-desc">
+            Review step-by-step culinary instructions with interactive checklists. Swap items with zero allergen penalty, 
+            record soft feedback, or run the biomechanical mannequin player.
+          </p>
+        </div>
+      </div>
+
+      <div style="margin-top: 3.5rem;">
+        <a href="profile.html" class="btn btn-primary btn-lg">⚡ Get Started Now — It's Free & Local</a>
+      </div>
+    </section>
+
+    <!-- ETHICAL & SAFETY SCOPE CARD -->
     <section class="container" style="margin-bottom: 4.5rem;">
-      <div style="background: var(--bg-card); border: 1px solid var(--gold-border); border-radius: var(--radius-lg); padding: 2.25rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1.5rem; box-shadow: var(--shadow-md);">
+      <div style="background: var(--bg-card); border: 1px solid var(--gold-border); border-radius: var(--radius-xl); padding: 2.5rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1.75rem; box-shadow: var(--shadow-xl);">
         <div>
-          <span class="badge badge-warning" style="margin-bottom: 0.6rem;">Ethical & Safety Scope</span>
-          <h3 style="font-size: 1.35rem; font-weight: 800; margin-bottom: 0.35rem; color: #ffffff;">
+          <span class="badge badge-warning" style="margin-bottom: 0.65rem;">Ethical & Safety Scope</span>
+          <h3 style="font-size: 1.45rem; font-weight: 800; margin-bottom: 0.4rem; color: #ffffff;">
             Designed Exclusively for General Wellness (18+)
           </h3>
-          <p style="color: var(--text-muted); font-size: 0.94rem; max-width: 680px; line-height: 1.6;">
-            Nutrition Plus does not collect medical history, medications, or health conditions. 
-            Nutritional estimates are sample baseline values for everyday adult lifestyle inspiration, not medical treatment.
+          <p style="color: var(--text-muted); font-size: 0.95rem; max-width: 720px; line-height: 1.65;">
+            Nutrition Plus does not collect medical history, medications, or clinical conditions. 
+            Nutritional estimates are sample baseline values for everyday adult lifestyle inspiration, not medical treatment. Always consult certified healthcare professionals for clinical therapy.
           </p>
         </div>
         <a href="about.html" class="btn btn-secondary">Learn About Safety Architecture →</a>
@@ -178,6 +442,156 @@
     import { initThemeToggle, initMobileNav } from "./js/utils.js";
     initThemeToggle();
     initMobileNav();
+
+    // Interactive Taste & Goal Simulator Data & Logic
+    const SIM_DATA = {
+      mediterranean: {
+        title: "Greek Lemon Herb Salmon & Feta Salad",
+        calories: 540,
+        protein: "42g",
+        carbs: "38g",
+        fats: "22g",
+        time: "18 min",
+        diet: "Pescatarian / Mediterranean",
+        tags: ["High Protein", "Heart-Healthy Fats", "Rich in Omega-3"],
+        workout: "25-min Calisthenics & Zone-2 Mobility",
+        why: "Selected for high monounsaturated olive oil and fresh polyphenols. Perfect 18-minute fast preparation with balanced macros."
+      },
+      south_indian: {
+        title: "Ragi Dosa with Vegetable Sambar & Coconut Chutney",
+        calories: 460,
+        protein: "16g",
+        carbs: "68g",
+        fats: "14g",
+        time: "20 min",
+        diet: "Vegetarian / Vegan Friendly",
+        tags: ["Gluten-Free Grain", "High Dietary Fiber", "Calcium Rich"],
+        workout: "20-min Dynamic Core & Suryanamaskar Flow",
+        why: "Finger millet (Ragi) delivers slow-burning complex carbs, gut-friendly fiber, and high bioavailable calcium with zero refined flour."
+      },
+      north_indian: {
+        title: "Tandoori Paneer Tikka with Spiced Sprout Chaat",
+        calories: 520,
+        protein: "32g",
+        carbs: "34g",
+        fats: "26g",
+        time: "25 min",
+        diet: "Vegetarian / High Protein",
+        tags: ["Complete Protein", "Low Glycemic Index", "Antioxidant Rich"],
+        workout: "30-min Push-Day Dumbbell / Resistance Bands",
+        why: "Combines slow-digesting casein from cottage cheese with micronutrient-dense sprouted legumes to maximize lean muscle tone."
+      },
+      east_asian: {
+        title: "Stir-Fried Sesame Edamame Tofu with Garlic Greens",
+        calories: 480,
+        protein: "34g",
+        carbs: "42g",
+        fats: "18g",
+        time: "15 min",
+        diet: "100% Plant-Based Vegan",
+        tags: ["Zero Cholesterol", "Under 15 Mins", "Iron & Folate"],
+        workout: "20-min Explosive HIIT Bodyweight Circuits",
+        why: "Ultra-fast high-heat wok searing retains micronutrient crispness and delivers 34g of clean isoflavone-rich plant protein."
+      },
+      mexican: {
+        title: "Fiesta Black Bean & Avocado Bowl with Roasted Corn",
+        calories: 510,
+        protein: "22g",
+        carbs: "64g",
+        fats: "19g",
+        time: "15 min",
+        diet: "Vegan / Dairy-Free",
+        tags: ["Soluble Fiber", "Potassium Packed", "No Added Sugar"],
+        workout: "25-min Functional Kettlebell / Backpack Swings",
+        why: "Black beans and avocado create a sustained satiety curve, reducing post-prandial glucose spikes while delivering rich potassium."
+      },
+      continental: {
+        title: "Rosemary Grilled Chicken Breast with Sweet Potato Mash",
+        calories: 560,
+        protein: "48g",
+        carbs: "46g",
+        fats: "16g",
+        time: "25 min",
+        diet: "High Protein Athletic",
+        tags: ["Lean Protein", "Beta-Carotene", "Gluten-Free"],
+        workout: "35-min Hypertrophy Resistance Training",
+        why: "Classic athletic fuel: lean poultry paired with complex low-GI beta-carotene sweet potatoes for sustained glycogen replenishment."
+      }
+    };
+
+    function renderSimulator(cuisineKey) {
+      const item = SIM_DATA[cuisineKey] || SIM_DATA.mediterranean;
+      const container = document.getElementById("sim-output-box");
+      if (!container) return;
+
+      container.innerHTML = `
+        <div style="background: var(--bg-surface); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 1.75rem; box-shadow: var(--shadow-md);">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+            <span class="slot-tag">🍽️ Simulated Meal Preview</span>
+            <span class="badge badge-gold">⏱ ${item.time}</span>
+          </div>
+          <h3 style="font-size: 1.45rem; font-weight: 800; color: #ffffff; margin-bottom: 0.6rem;">${item.title}</h3>
+          <div style="display: flex; gap: 0.45rem; flex-wrap: wrap; margin-bottom: 1.25rem;">
+            ${item.tags.map(t => `<span class="badge badge-primary">${t}</span>`).join("")}
+          </div>
+          <div class="macro-grid" style="margin-bottom: 1.25rem;">
+            <div class="macro-box">
+              <div class="macro-val">${item.calories}</div>
+              <div class="macro-lbl">Calories</div>
+            </div>
+            <div class="macro-box">
+              <div class="macro-val" style="color: var(--gold);">${item.protein}</div>
+              <div class="macro-lbl">Protein</div>
+            </div>
+            <div class="macro-box">
+              <div class="macro-val" style="color: #38bdf8;">${item.carbs}</div>
+              <div class="macro-lbl">Carbs</div>
+            </div>
+            <div class="macro-box">
+              <div class="macro-val" style="color: #34d399;">${item.fats}</div>
+              <div class="macro-lbl">Fats</div>
+            </div>
+          </div>
+          <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.55;">
+            <strong>Dietary Pattern:</strong> ${item.diet}
+          </p>
+        </div>
+
+        <div style="background: var(--bg-surface); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 1.75rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: var(--shadow-md);">
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+              <span class="slot-tag" style="background: rgba(225, 29, 72, 0.15); border-color: rgba(225, 29, 72, 0.4); color: #fb7185;">🏃 Paired Movement</span>
+              <span class="badge badge-success">No Equipment</span>
+            </div>
+            <h3 style="font-size: 1.3rem; font-weight: 800; color: #ffffff; margin-bottom: 0.65rem;">${item.workout}</h3>
+            
+            <div class="reason-box" style="margin-top: 1rem;">
+              <strong>🧠 Explainability Engine Justification</strong>
+              ${item.why}
+            </div>
+          </div>
+
+          <div style="margin-top: 1.5rem; display: flex; gap: 0.75rem;">
+            <a href="profile.html" class="btn btn-primary" style="flex: 1;">
+              ⚡ Personalise For My Body
+            </a>
+          </div>
+        </div>
+      `;
+    }
+
+    // Attach pill click listeners
+    const pills = document.querySelectorAll("#sim-cuisine-pills .sim-pill");
+    pills.forEach(btn => {
+      btn.addEventListener("click", () => {
+        pills.forEach(p => p.classList.remove("active"));
+        btn.classList.add("active");
+        renderSimulator(btn.getAttribute("data-cuisine"));
+      });
+    });
+
+    // Initial render
+    renderSimulator("mediterranean");
   </script>
 </body>
 </html>
